@@ -23,13 +23,13 @@ Partial Class Frm_user_control_maintenace
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Me.page_useraccess = New Telerik.WinControls.UI.RadPageViewPage()
         Me.page_useraccount = New Telerik.WinControls.UI.RadPageViewPage()
         Me.RadGroupBox2 = New Telerik.WinControls.UI.RadGroupBox()
@@ -154,7 +154,7 @@ Partial Class Frm_user_control_maintenace
         Me.lv_useraccountlist.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_useraccountlist.Font = New System.Drawing.Font("Segoe UI", 7.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_useraccountlist.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
         Me.lv_useraccountlist.ItemSpacing = -1
         Me.lv_useraccountlist.Location = New System.Drawing.Point(5, 39)
         Me.lv_useraccountlist.Name = "lv_useraccountlist"
@@ -340,28 +340,28 @@ Partial Class Frm_user_control_maintenace
         Me.RadDropDownList1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.RadDropDownList1.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
         Me.RadDropDownList1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        RadListDataItem1.Enabled = False
-        RadListDataItem1.Text = "System Administrator"
-        RadListDataItem1.TextWrap = True
-        RadListDataItem2.Text = "Administrator"
-        RadListDataItem2.TextWrap = True
-        RadListDataItem3.Text = "Manager"
-        RadListDataItem3.TextWrap = True
-        RadListDataItem4.Text = "Finance"
-        RadListDataItem4.TextWrap = True
-        RadListDataItem5.Text = "Farm Manager"
-        RadListDataItem5.TextWrap = True
-        RadListDataItem6.Text = "Farm Supervisor"
-        RadListDataItem6.TextWrap = True
-        RadListDataItem7.Text = "Basic User"
-        RadListDataItem7.TextWrap = True
-        Me.RadDropDownList1.Items.Add(RadListDataItem1)
-        Me.RadDropDownList1.Items.Add(RadListDataItem2)
-        Me.RadDropDownList1.Items.Add(RadListDataItem3)
-        Me.RadDropDownList1.Items.Add(RadListDataItem4)
-        Me.RadDropDownList1.Items.Add(RadListDataItem5)
-        Me.RadDropDownList1.Items.Add(RadListDataItem6)
-        Me.RadDropDownList1.Items.Add(RadListDataItem7)
+        RadListDataItem8.Enabled = False
+        RadListDataItem8.Text = "System Administrator"
+        RadListDataItem8.TextWrap = True
+        RadListDataItem9.Text = "Administrator"
+        RadListDataItem9.TextWrap = True
+        RadListDataItem10.Text = "Manager"
+        RadListDataItem10.TextWrap = True
+        RadListDataItem11.Text = "Finance"
+        RadListDataItem11.TextWrap = True
+        RadListDataItem12.Text = "Farm Manager"
+        RadListDataItem12.TextWrap = True
+        RadListDataItem13.Text = "Farm Supervisor"
+        RadListDataItem13.TextWrap = True
+        RadListDataItem14.Text = "Basic User"
+        RadListDataItem14.TextWrap = True
+        Me.RadDropDownList1.Items.Add(RadListDataItem8)
+        Me.RadDropDownList1.Items.Add(RadListDataItem9)
+        Me.RadDropDownList1.Items.Add(RadListDataItem10)
+        Me.RadDropDownList1.Items.Add(RadListDataItem11)
+        Me.RadDropDownList1.Items.Add(RadListDataItem12)
+        Me.RadDropDownList1.Items.Add(RadListDataItem13)
+        Me.RadDropDownList1.Items.Add(RadListDataItem14)
         Me.RadDropDownList1.Location = New System.Drawing.Point(38, 305)
         Me.RadDropDownList1.Name = "RadDropDownList1"
         Me.RadDropDownList1.NullText = "<Required>"

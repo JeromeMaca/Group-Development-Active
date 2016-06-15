@@ -226,6 +226,7 @@
     <Compile Include="System\New Class\Trip_ticket\request_form_view.vb" />
     <Compile Include="System\New Class\Trip_ticket\schedule_form_view.vb" />
     <Compile Include="System\New Class\User Account\User_Accounts_view.vb" />
+    <Compile Include="System\New Class\User Account\user_maintenance_view.vb" />
     <Compile Include="System\New Data Maintenance\frm_masterlist_implements.Designer.vb">
       <DependentUpon>frm_masterlist_implements.vb</DependentUpon>
     </Compile>
