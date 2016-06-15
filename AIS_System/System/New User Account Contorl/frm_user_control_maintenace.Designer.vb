@@ -23,68 +23,69 @@ Partial Class Frm_user_control_maintenace
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Me.page_useraccess = New Telerik.WinControls.UI.RadPageViewPage()
         Me.page_useraccount = New Telerik.WinControls.UI.RadPageViewPage()
-        Me.RadGroupBox2 = New Telerik.WinControls.UI.RadGroupBox()
-        Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
-        Me.lv_useraccountlist = New Telerik.WinControls.UI.RadListView()
-        Me.btn_lotno = New Telerik.WinControls.UI.RadButton()
-        Me.view_usercontrol = New Telerik.WinControls.UI.RadPageView()
+        Me.gb_menu = New Telerik.WinControls.UI.RadGroupBox()
+        Me.RadLabel9 = New Telerik.WinControls.UI.RadLabel()
+        Me.dp_usertype = New Telerik.WinControls.UI.RadDropDownList()
+        Me.txt_lname = New Telerik.WinControls.UI.RadTextBox()
+        Me.RadLabel7 = New Telerik.WinControls.UI.RadLabel()
+        Me.txt_mname = New Telerik.WinControls.UI.RadTextBox()
+        Me.RadLabel6 = New Telerik.WinControls.UI.RadLabel()
+        Me.txt_fname = New Telerik.WinControls.UI.RadTextBox()
+        Me.RadLabel5 = New Telerik.WinControls.UI.RadLabel()
+        Me.txt_confirm_pass = New Telerik.WinControls.UI.RadTextBox()
+        Me.RadLabel3 = New Telerik.WinControls.UI.RadLabel()
+        Me.txt_password = New Telerik.WinControls.UI.RadTextBox()
+        Me.RadLabel2 = New Telerik.WinControls.UI.RadLabel()
+        Me.txt_username = New Telerik.WinControls.UI.RadTextBox()
+        Me.btn_canceluser = New Telerik.WinControls.UI.RadButton()
+        Me.RadLabel1 = New Telerik.WinControls.UI.RadLabel()
+        Me.btn_saveuser = New Telerik.WinControls.UI.RadButton()
+        Me.gb_data = New Telerik.WinControls.UI.RadGroupBox()
         Me.txt_searchuser = New Telerik.WinControls.UI.RadTextBox()
         Me.RadLabel4 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadLabel1 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadButton1 = New Telerik.WinControls.UI.RadButton()
-        Me.RadTextBox1 = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadTextBox2 = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadLabel2 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadTextBox3 = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadLabel3 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadTextBox4 = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadLabel5 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadTextBox5 = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadLabel6 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadTextBox6 = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadLabel7 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadLabel9 = New Telerik.WinControls.UI.RadLabel()
-        Me.RadDropDownList1 = New Telerik.WinControls.UI.RadDropDownList()
+        Me.lv_useraccountlist = New Telerik.WinControls.UI.RadListView()
+        Me.view_usercontrol = New Telerik.WinControls.UI.RadPageView()
         Me.cms_usermenu = New Telerik.WinControls.UI.RadContextMenu(Me.components)
         Me.refreshuser = New Telerik.WinControls.UI.RadMenuItem()
+        Me.RadMenuSeparatorItem1 = New Telerik.WinControls.UI.RadMenuSeparatorItem()
         Me.createuser = New Telerik.WinControls.UI.RadMenuItem()
         Me.modifyuser = New Telerik.WinControls.UI.RadMenuItem()
         Me.removeuser = New Telerik.WinControls.UI.RadMenuItem()
         Me.page_useraccount.SuspendLayout()
-        CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.RadGroupBox2.SuspendLayout()
-        CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.RadGroupBox1.SuspendLayout()
-        CType(Me.lv_useraccountlist, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.view_usercontrol, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.view_usercontrol.SuspendLayout()
+        CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gb_menu.SuspendLayout()
+        CType(Me.RadLabel9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dp_usertype, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_lname, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_mname, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_fname, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_confirm_pass, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_password, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_username, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btn_canceluser, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btn_saveuser, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.gb_data, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gb_data.SuspendLayout()
         CType(Me.txt_searchuser, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadButton1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadTextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadTextBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadTextBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadTextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadTextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadDropDownList1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lv_useraccountlist, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.view_usercontrol, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.view_usercontrol.SuspendLayout()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -97,96 +98,234 @@ Partial Class Frm_user_control_maintenace
         '
         'page_useraccount
         '
-        Me.page_useraccount.Controls.Add(Me.RadGroupBox1)
-        Me.page_useraccount.Controls.Add(Me.RadGroupBox2)
+        Me.page_useraccount.Controls.Add(Me.gb_menu)
+        Me.page_useraccount.Controls.Add(Me.gb_data)
         Me.page_useraccount.Location = New System.Drawing.Point(10, 37)
         Me.page_useraccount.Name = "page_useraccount"
         Me.page_useraccount.Size = New System.Drawing.Size(1231, 565)
         Me.page_useraccount.Text = "User Account Maintenance"
         '
-        'RadGroupBox2
+        'gb_menu
         '
-        Me.RadGroupBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
-        Me.RadGroupBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadGroupBox2.Controls.Add(Me.txt_searchuser)
-        Me.RadGroupBox2.Controls.Add(Me.RadLabel4)
-        Me.RadGroupBox2.Controls.Add(Me.lv_useraccountlist)
-        Me.RadGroupBox2.HeaderText = ""
-        Me.RadGroupBox2.Location = New System.Drawing.Point(366, 3)
-        Me.RadGroupBox2.Name = "RadGroupBox2"
-        Me.RadGroupBox2.Size = New System.Drawing.Size(862, 559)
-        Me.RadGroupBox2.TabIndex = 1
-        '
-        'RadGroupBox1
-        '
-        Me.RadGroupBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
-        Me.RadGroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.gb_menu.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
+        Me.gb_menu.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.RadGroupBox1.Controls.Add(Me.RadLabel9)
-        Me.RadGroupBox1.Controls.Add(Me.RadDropDownList1)
-        Me.RadGroupBox1.Controls.Add(Me.RadTextBox6)
-        Me.RadGroupBox1.Controls.Add(Me.RadLabel7)
-        Me.RadGroupBox1.Controls.Add(Me.RadTextBox5)
-        Me.RadGroupBox1.Controls.Add(Me.RadLabel6)
-        Me.RadGroupBox1.Controls.Add(Me.RadTextBox4)
-        Me.RadGroupBox1.Controls.Add(Me.RadLabel5)
-        Me.RadGroupBox1.Controls.Add(Me.RadTextBox3)
-        Me.RadGroupBox1.Controls.Add(Me.RadLabel3)
-        Me.RadGroupBox1.Controls.Add(Me.RadTextBox2)
-        Me.RadGroupBox1.Controls.Add(Me.RadLabel2)
-        Me.RadGroupBox1.Controls.Add(Me.RadTextBox1)
-        Me.RadGroupBox1.Controls.Add(Me.RadButton1)
-        Me.RadGroupBox1.Controls.Add(Me.RadLabel1)
-        Me.RadGroupBox1.Controls.Add(Me.btn_lotno)
-        Me.RadGroupBox1.HeaderText = ""
-        Me.RadGroupBox1.Location = New System.Drawing.Point(0, 3)
-        Me.RadGroupBox1.Name = "RadGroupBox1"
-        Me.RadGroupBox1.Size = New System.Drawing.Size(360, 559)
-        Me.RadGroupBox1.TabIndex = 1
+        Me.gb_menu.Controls.Add(Me.RadLabel9)
+        Me.gb_menu.Controls.Add(Me.dp_usertype)
+        Me.gb_menu.Controls.Add(Me.txt_lname)
+        Me.gb_menu.Controls.Add(Me.RadLabel7)
+        Me.gb_menu.Controls.Add(Me.txt_mname)
+        Me.gb_menu.Controls.Add(Me.RadLabel6)
+        Me.gb_menu.Controls.Add(Me.txt_fname)
+        Me.gb_menu.Controls.Add(Me.RadLabel5)
+        Me.gb_menu.Controls.Add(Me.txt_confirm_pass)
+        Me.gb_menu.Controls.Add(Me.RadLabel3)
+        Me.gb_menu.Controls.Add(Me.txt_password)
+        Me.gb_menu.Controls.Add(Me.RadLabel2)
+        Me.gb_menu.Controls.Add(Me.txt_username)
+        Me.gb_menu.Controls.Add(Me.btn_canceluser)
+        Me.gb_menu.Controls.Add(Me.RadLabel1)
+        Me.gb_menu.Controls.Add(Me.btn_saveuser)
+        Me.gb_menu.Enabled = False
+        Me.gb_menu.HeaderText = ""
+        Me.gb_menu.Location = New System.Drawing.Point(0, 3)
+        Me.gb_menu.Name = "gb_menu"
+        Me.gb_menu.Size = New System.Drawing.Size(360, 559)
+        Me.gb_menu.TabIndex = 1
         '
-        'lv_useraccountlist
+        'RadLabel9
         '
-        Me.lv_useraccountlist.AllowColumnReorder = False
-        Me.lv_useraccountlist.AllowEdit = False
-        Me.lv_useraccountlist.AllowRemove = False
-        Me.lv_useraccountlist.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.RadLabel9.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel9.Location = New System.Drawing.Point(18, 285)
+        Me.RadLabel9.Name = "RadLabel9"
+        Me.RadLabel9.Size = New System.Drawing.Size(67, 19)
+        Me.RadLabel9.TabIndex = 140
+        Me.RadLabel9.Text = "User Type:"
+        '
+        'dp_usertype
+        '
+        Me.dp_usertype.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.dp_usertype.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
+        Me.dp_usertype.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
+        Me.dp_usertype.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        RadListDataItem1.Enabled = False
+        RadListDataItem1.Text = "System Administrator"
+        RadListDataItem1.TextWrap = True
+        RadListDataItem2.Text = "Administrator"
+        RadListDataItem2.TextWrap = True
+        RadListDataItem3.Text = "Manager"
+        RadListDataItem3.TextWrap = True
+        RadListDataItem4.Text = "Finance"
+        RadListDataItem4.TextWrap = True
+        RadListDataItem5.Text = "Farm Manager"
+        RadListDataItem5.TextWrap = True
+        RadListDataItem6.Text = "Farm Supervisor"
+        RadListDataItem6.TextWrap = True
+        RadListDataItem7.Text = "Basic User"
+        RadListDataItem7.TextWrap = True
+        Me.dp_usertype.Items.Add(RadListDataItem1)
+        Me.dp_usertype.Items.Add(RadListDataItem2)
+        Me.dp_usertype.Items.Add(RadListDataItem3)
+        Me.dp_usertype.Items.Add(RadListDataItem4)
+        Me.dp_usertype.Items.Add(RadListDataItem5)
+        Me.dp_usertype.Items.Add(RadListDataItem6)
+        Me.dp_usertype.Items.Add(RadListDataItem7)
+        Me.dp_usertype.Location = New System.Drawing.Point(38, 305)
+        Me.dp_usertype.Name = "dp_usertype"
+        Me.dp_usertype.NullText = "<Required>"
+        '
+        '
+        '
+        Me.dp_usertype.RootElement.StretchVertically = True
+        Me.dp_usertype.Size = New System.Drawing.Size(274, 20)
+        Me.dp_usertype.TabIndex = 139
+        CType(Me.dp_usertype.GetChildAt(0), Telerik.WinControls.UI.RadDropDownListElement).DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
+        CType(Me.dp_usertype.GetChildAt(0), Telerik.WinControls.UI.RadDropDownListElement).Alignment = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'txt_lname
+        '
+        Me.txt_lname.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_lname.Location = New System.Drawing.Point(38, 259)
+        Me.txt_lname.Name = "txt_lname"
+        Me.txt_lname.NullText = "<Required>"
+        Me.txt_lname.Size = New System.Drawing.Size(274, 20)
+        Me.txt_lname.TabIndex = 136
+        '
+        'RadLabel7
+        '
+        Me.RadLabel7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel7.Location = New System.Drawing.Point(18, 241)
+        Me.RadLabel7.Name = "RadLabel7"
+        Me.RadLabel7.Size = New System.Drawing.Size(100, 19)
+        Me.RadLabel7.TabIndex = 135
+        Me.RadLabel7.Text = "User Last Name:"
+        '
+        'txt_mname
+        '
+        Me.txt_mname.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_mname.Location = New System.Drawing.Point(38, 215)
+        Me.txt_mname.Name = "txt_mname"
+        Me.txt_mname.NullText = "<Required>"
+        Me.txt_mname.Size = New System.Drawing.Size(274, 20)
+        Me.txt_mname.TabIndex = 134
+        '
+        'RadLabel6
+        '
+        Me.RadLabel6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel6.Location = New System.Drawing.Point(18, 197)
+        Me.RadLabel6.Name = "RadLabel6"
+        Me.RadLabel6.Size = New System.Drawing.Size(118, 19)
+        Me.RadLabel6.TabIndex = 133
+        Me.RadLabel6.Text = "User Middle Name:"
+        '
+        'txt_fname
+        '
+        Me.txt_fname.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_fname.Location = New System.Drawing.Point(38, 171)
+        Me.txt_fname.Name = "txt_fname"
+        Me.txt_fname.NullText = "<Required>"
+        Me.txt_fname.Size = New System.Drawing.Size(274, 20)
+        Me.txt_fname.TabIndex = 132
+        '
+        'RadLabel5
+        '
+        Me.RadLabel5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel5.Location = New System.Drawing.Point(18, 153)
+        Me.RadLabel5.Name = "RadLabel5"
+        Me.RadLabel5.Size = New System.Drawing.Size(102, 19)
+        Me.RadLabel5.TabIndex = 131
+        Me.RadLabel5.Text = "User First Name:"
+        '
+        'txt_confirm_pass
+        '
+        Me.txt_confirm_pass.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_confirm_pass.Location = New System.Drawing.Point(38, 127)
+        Me.txt_confirm_pass.Name = "txt_confirm_pass"
+        Me.txt_confirm_pass.NullText = "<Required>"
+        Me.txt_confirm_pass.Size = New System.Drawing.Size(274, 20)
+        Me.txt_confirm_pass.TabIndex = 130
+        '
+        'RadLabel3
+        '
+        Me.RadLabel3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel3.Location = New System.Drawing.Point(18, 109)
+        Me.RadLabel3.Name = "RadLabel3"
+        Me.RadLabel3.Size = New System.Drawing.Size(116, 19)
+        Me.RadLabel3.TabIndex = 129
+        Me.RadLabel3.Text = "Confirm Password:"
+        '
+        'txt_password
+        '
+        Me.txt_password.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_password.Location = New System.Drawing.Point(38, 83)
+        Me.txt_password.Name = "txt_password"
+        Me.txt_password.NullText = "<Required>"
+        Me.txt_password.Size = New System.Drawing.Size(274, 20)
+        Me.txt_password.TabIndex = 128
+        '
+        'RadLabel2
+        '
+        Me.RadLabel2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel2.Location = New System.Drawing.Point(18, 65)
+        Me.RadLabel2.Name = "RadLabel2"
+        Me.RadLabel2.Size = New System.Drawing.Size(65, 19)
+        Me.RadLabel2.TabIndex = 127
+        Me.RadLabel2.Text = "Password:"
+        '
+        'txt_username
+        '
+        Me.txt_username.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_username.Location = New System.Drawing.Point(38, 39)
+        Me.txt_username.Name = "txt_username"
+        Me.txt_username.NullText = "<Required>"
+        Me.txt_username.Size = New System.Drawing.Size(274, 20)
+        Me.txt_username.TabIndex = 0
+        Me.txt_username.TabStop = False
+        '
+        'btn_canceluser
+        '
+        Me.btn_canceluser.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btn_canceluser.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.btn_canceluser.Location = New System.Drawing.Point(244, 530)
+        Me.btn_canceluser.Name = "btn_canceluser"
+        Me.btn_canceluser.Size = New System.Drawing.Size(110, 24)
+        Me.btn_canceluser.TabIndex = 125
+        Me.btn_canceluser.Text = "Cancel User"
+        '
+        'RadLabel1
+        '
+        Me.RadLabel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadLabel1.Location = New System.Drawing.Point(18, 21)
+        Me.RadLabel1.Name = "RadLabel1"
+        Me.RadLabel1.Size = New System.Drawing.Size(74, 19)
+        Me.RadLabel1.TabIndex = 124
+        Me.RadLabel1.Text = "User Name:"
+        '
+        'btn_saveuser
+        '
+        Me.btn_saveuser.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btn_saveuser.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.btn_saveuser.Location = New System.Drawing.Point(128, 530)
+        Me.btn_saveuser.Name = "btn_saveuser"
+        Me.btn_saveuser.Size = New System.Drawing.Size(110, 24)
+        Me.btn_saveuser.TabIndex = 123
+        Me.btn_saveuser.Text = "Save User"
+        '
+        'gb_data
+        '
+        Me.gb_data.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
+        Me.gb_data.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lv_useraccountlist.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
-        Me.lv_useraccountlist.ItemSpacing = -1
-        Me.lv_useraccountlist.Location = New System.Drawing.Point(5, 39)
-        Me.lv_useraccountlist.Name = "lv_useraccountlist"
-        Me.lv_useraccountlist.SelectLastAddedItem = False
-        Me.lv_useraccountlist.ShowGridLines = True
-        Me.lv_useraccountlist.Size = New System.Drawing.Size(852, 515)
-        Me.lv_useraccountlist.TabIndex = 117
-        Me.lv_useraccountlist.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
-        '
-        'btn_lotno
-        '
-        Me.btn_lotno.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.btn_lotno.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.btn_lotno.Location = New System.Drawing.Point(128, 530)
-        Me.btn_lotno.Name = "btn_lotno"
-        Me.btn_lotno.Size = New System.Drawing.Size(110, 24)
-        Me.btn_lotno.TabIndex = 123
-        Me.btn_lotno.Text = "Save User"
-        '
-        'view_usercontrol
-        '
-        Me.view_usercontrol.Controls.Add(Me.page_useraccount)
-        Me.view_usercontrol.Controls.Add(Me.page_useraccess)
-        Me.view_usercontrol.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.view_usercontrol.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.view_usercontrol.Location = New System.Drawing.Point(0, 0)
-        Me.view_usercontrol.Name = "view_usercontrol"
-        Me.view_usercontrol.SelectedPage = Me.page_useraccount
-        Me.view_usercontrol.Size = New System.Drawing.Size(1252, 613)
-        Me.view_usercontrol.TabIndex = 1
-        Me.view_usercontrol.Text = "RadPageView1"
-        CType(Me.view_usercontrol.GetChildAt(0), Telerik.WinControls.UI.RadPageViewStripElement).StripButtons = Telerik.WinControls.UI.StripViewButtons.None
+        Me.gb_data.Controls.Add(Me.txt_searchuser)
+        Me.gb_data.Controls.Add(Me.RadLabel4)
+        Me.gb_data.Controls.Add(Me.lv_useraccountlist)
+        Me.gb_data.HeaderText = ""
+        Me.gb_data.Location = New System.Drawing.Point(366, 3)
+        Me.gb_data.Name = "gb_data"
+        Me.gb_data.Size = New System.Drawing.Size(862, 559)
+        Me.gb_data.TabIndex = 1
         '
         'txt_searchuser
         '
@@ -206,177 +345,41 @@ Partial Class Frm_user_control_maintenace
         Me.RadLabel4.TabIndex = 121
         Me.RadLabel4.Text = "Find Lot Code:"
         '
-        'RadLabel1
+        'lv_useraccountlist
         '
-        Me.RadLabel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel1.Location = New System.Drawing.Point(18, 21)
-        Me.RadLabel1.Name = "RadLabel1"
-        Me.RadLabel1.Size = New System.Drawing.Size(74, 19)
-        Me.RadLabel1.TabIndex = 124
-        Me.RadLabel1.Text = "User Name:"
-        '
-        'RadButton1
-        '
-        Me.RadButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadButton1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.RadButton1.Location = New System.Drawing.Point(244, 530)
-        Me.RadButton1.Name = "RadButton1"
-        Me.RadButton1.Size = New System.Drawing.Size(110, 24)
-        Me.RadButton1.TabIndex = 125
-        Me.RadButton1.Text = "Cancel User"
-        '
-        'RadTextBox1
-        '
-        Me.RadTextBox1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadTextBox1.Location = New System.Drawing.Point(38, 39)
-        Me.RadTextBox1.Name = "RadTextBox1"
-        Me.RadTextBox1.NullText = "<Required>"
-        Me.RadTextBox1.Size = New System.Drawing.Size(274, 20)
-        Me.RadTextBox1.TabIndex = 126
-        '
-        'RadTextBox2
-        '
-        Me.RadTextBox2.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadTextBox2.Location = New System.Drawing.Point(38, 83)
-        Me.RadTextBox2.Name = "RadTextBox2"
-        Me.RadTextBox2.NullText = "<Required>"
-        Me.RadTextBox2.Size = New System.Drawing.Size(274, 20)
-        Me.RadTextBox2.TabIndex = 128
-        '
-        'RadLabel2
-        '
-        Me.RadLabel2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel2.Location = New System.Drawing.Point(18, 65)
-        Me.RadLabel2.Name = "RadLabel2"
-        Me.RadLabel2.Size = New System.Drawing.Size(65, 19)
-        Me.RadLabel2.TabIndex = 127
-        Me.RadLabel2.Text = "Password:"
-        '
-        'RadTextBox3
-        '
-        Me.RadTextBox3.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadTextBox3.Location = New System.Drawing.Point(38, 127)
-        Me.RadTextBox3.Name = "RadTextBox3"
-        Me.RadTextBox3.NullText = "<Required>"
-        Me.RadTextBox3.Size = New System.Drawing.Size(274, 20)
-        Me.RadTextBox3.TabIndex = 130
-        '
-        'RadLabel3
-        '
-        Me.RadLabel3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel3.Location = New System.Drawing.Point(18, 109)
-        Me.RadLabel3.Name = "RadLabel3"
-        Me.RadLabel3.Size = New System.Drawing.Size(116, 19)
-        Me.RadLabel3.TabIndex = 129
-        Me.RadLabel3.Text = "Confirm Password:"
-        '
-        'RadTextBox4
-        '
-        Me.RadTextBox4.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadTextBox4.Location = New System.Drawing.Point(38, 171)
-        Me.RadTextBox4.Name = "RadTextBox4"
-        Me.RadTextBox4.NullText = "<Required>"
-        Me.RadTextBox4.Size = New System.Drawing.Size(274, 20)
-        Me.RadTextBox4.TabIndex = 132
-        '
-        'RadLabel5
-        '
-        Me.RadLabel5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel5.Location = New System.Drawing.Point(18, 153)
-        Me.RadLabel5.Name = "RadLabel5"
-        Me.RadLabel5.Size = New System.Drawing.Size(102, 19)
-        Me.RadLabel5.TabIndex = 131
-        Me.RadLabel5.Text = "User First Name:"
-        '
-        'RadTextBox5
-        '
-        Me.RadTextBox5.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadTextBox5.Location = New System.Drawing.Point(38, 215)
-        Me.RadTextBox5.Name = "RadTextBox5"
-        Me.RadTextBox5.NullText = "<Required>"
-        Me.RadTextBox5.Size = New System.Drawing.Size(274, 20)
-        Me.RadTextBox5.TabIndex = 134
-        '
-        'RadLabel6
-        '
-        Me.RadLabel6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel6.Location = New System.Drawing.Point(18, 197)
-        Me.RadLabel6.Name = "RadLabel6"
-        Me.RadLabel6.Size = New System.Drawing.Size(118, 19)
-        Me.RadLabel6.TabIndex = 133
-        Me.RadLabel6.Text = "User Middle Name:"
-        '
-        'RadTextBox6
-        '
-        Me.RadTextBox6.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadTextBox6.Location = New System.Drawing.Point(38, 259)
-        Me.RadTextBox6.Name = "RadTextBox6"
-        Me.RadTextBox6.NullText = "<Required>"
-        Me.RadTextBox6.Size = New System.Drawing.Size(274, 20)
-        Me.RadTextBox6.TabIndex = 136
-        '
-        'RadLabel7
-        '
-        Me.RadLabel7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel7.Location = New System.Drawing.Point(18, 241)
-        Me.RadLabel7.Name = "RadLabel7"
-        Me.RadLabel7.Size = New System.Drawing.Size(100, 19)
-        Me.RadLabel7.TabIndex = 135
-        Me.RadLabel7.Text = "User Last Name:"
-        '
-        'RadLabel9
-        '
-        Me.RadLabel9.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadLabel9.Location = New System.Drawing.Point(18, 285)
-        Me.RadLabel9.Name = "RadLabel9"
-        Me.RadLabel9.Size = New System.Drawing.Size(67, 19)
-        Me.RadLabel9.TabIndex = 140
-        Me.RadLabel9.Text = "User Type:"
-        '
-        'RadDropDownList1
-        '
-        Me.RadDropDownList1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.lv_useraccountlist.AllowColumnReorder = False
+        Me.lv_useraccountlist.AllowEdit = False
+        Me.lv_useraccountlist.AllowRemove = False
+        Me.lv_useraccountlist.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadDropDownList1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.RadDropDownList1.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        Me.RadDropDownList1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        RadListDataItem8.Enabled = False
-        RadListDataItem8.Text = "System Administrator"
-        RadListDataItem8.TextWrap = True
-        RadListDataItem9.Text = "Administrator"
-        RadListDataItem9.TextWrap = True
-        RadListDataItem10.Text = "Manager"
-        RadListDataItem10.TextWrap = True
-        RadListDataItem11.Text = "Finance"
-        RadListDataItem11.TextWrap = True
-        RadListDataItem12.Text = "Farm Manager"
-        RadListDataItem12.TextWrap = True
-        RadListDataItem13.Text = "Farm Supervisor"
-        RadListDataItem13.TextWrap = True
-        RadListDataItem14.Text = "Basic User"
-        RadListDataItem14.TextWrap = True
-        Me.RadDropDownList1.Items.Add(RadListDataItem8)
-        Me.RadDropDownList1.Items.Add(RadListDataItem9)
-        Me.RadDropDownList1.Items.Add(RadListDataItem10)
-        Me.RadDropDownList1.Items.Add(RadListDataItem11)
-        Me.RadDropDownList1.Items.Add(RadListDataItem12)
-        Me.RadDropDownList1.Items.Add(RadListDataItem13)
-        Me.RadDropDownList1.Items.Add(RadListDataItem14)
-        Me.RadDropDownList1.Location = New System.Drawing.Point(38, 305)
-        Me.RadDropDownList1.Name = "RadDropDownList1"
-        Me.RadDropDownList1.NullText = "<Required>"
+        Me.lv_useraccountlist.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
+        Me.lv_useraccountlist.ItemSpacing = -1
+        Me.lv_useraccountlist.Location = New System.Drawing.Point(5, 39)
+        Me.lv_useraccountlist.Name = "lv_useraccountlist"
+        Me.lv_useraccountlist.SelectLastAddedItem = False
+        Me.lv_useraccountlist.ShowGridLines = True
+        Me.lv_useraccountlist.Size = New System.Drawing.Size(852, 515)
+        Me.lv_useraccountlist.TabIndex = 117
+        Me.lv_useraccountlist.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
+        'view_usercontrol
         '
-        '
-        Me.RadDropDownList1.RootElement.StretchVertically = True
-        Me.RadDropDownList1.Size = New System.Drawing.Size(274, 20)
-        Me.RadDropDownList1.TabIndex = 139
-        CType(Me.RadDropDownList1.GetChildAt(0), Telerik.WinControls.UI.RadDropDownListElement).DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        CType(Me.RadDropDownList1.GetChildAt(0), Telerik.WinControls.UI.RadDropDownListElement).Alignment = System.Drawing.ContentAlignment.MiddleLeft
+        Me.view_usercontrol.Controls.Add(Me.page_useraccount)
+        Me.view_usercontrol.Controls.Add(Me.page_useraccess)
+        Me.view_usercontrol.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.view_usercontrol.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.view_usercontrol.Location = New System.Drawing.Point(0, 0)
+        Me.view_usercontrol.Name = "view_usercontrol"
+        Me.view_usercontrol.SelectedPage = Me.page_useraccount
+        Me.view_usercontrol.Size = New System.Drawing.Size(1252, 613)
+        Me.view_usercontrol.TabIndex = 1
+        Me.view_usercontrol.Text = "RadPageView1"
+        CType(Me.view_usercontrol.GetChildAt(0), Telerik.WinControls.UI.RadPageViewStripElement).StripButtons = Telerik.WinControls.UI.StripViewButtons.None
         '
         'cms_usermenu
         '
-        Me.cms_usermenu.Items.AddRange(New Telerik.WinControls.RadItem() {Me.refreshuser, Me.createuser, Me.modifyuser, Me.removeuser})
+        Me.cms_usermenu.Items.AddRange(New Telerik.WinControls.RadItem() {Me.refreshuser, Me.RadMenuSeparatorItem1, Me.createuser, Me.modifyuser, Me.removeuser})
         '
         'refreshuser
         '
@@ -385,6 +388,14 @@ Partial Class Frm_user_control_maintenace
         Me.refreshuser.Name = "refreshuser"
         Me.refreshuser.Text = "Refresh Data"
         Me.refreshuser.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        '
+        'RadMenuSeparatorItem1
+        '
+        Me.RadMenuSeparatorItem1.AccessibleDescription = "RadMenuSeparatorItem1"
+        Me.RadMenuSeparatorItem1.AccessibleName = "RadMenuSeparatorItem1"
+        Me.RadMenuSeparatorItem1.Name = "RadMenuSeparatorItem1"
+        Me.RadMenuSeparatorItem1.Text = "RadMenuSeparatorItem1"
+        Me.RadMenuSeparatorItem1.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'createuser
         '
@@ -423,33 +434,33 @@ Partial Class Frm_user_control_maintenace
         Me.RootElement.ApplyShapeToControl = True
         Me.Text = "Frm_user_control_maintenace"
         Me.page_useraccount.ResumeLayout(False)
-        CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.RadGroupBox2.ResumeLayout(False)
-        Me.RadGroupBox2.PerformLayout()
-        CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.RadGroupBox1.ResumeLayout(False)
-        Me.RadGroupBox1.PerformLayout()
-        CType(Me.lv_useraccountlist, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btn_lotno, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.view_usercontrol, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.view_usercontrol.ResumeLayout(False)
+        CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gb_menu.ResumeLayout(False)
+        Me.gb_menu.PerformLayout()
+        CType(Me.RadLabel9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dp_usertype, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_lname, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_mname, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_fname, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_confirm_pass, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_password, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_username, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btn_canceluser, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btn_saveuser, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.gb_data, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gb_data.ResumeLayout(False)
+        Me.gb_data.PerformLayout()
         CType(Me.txt_searchuser, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadButton1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadTextBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadTextBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadTextBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadTextBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadTextBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadTextBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadDropDownList1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lv_useraccountlist, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.view_usercontrol, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.view_usercontrol.ResumeLayout(False)
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -457,32 +468,33 @@ Partial Class Frm_user_control_maintenace
 
     Friend WithEvents page_useraccess As Telerik.WinControls.UI.RadPageViewPage
     Friend WithEvents page_useraccount As Telerik.WinControls.UI.RadPageViewPage
-    Friend WithEvents RadGroupBox1 As Telerik.WinControls.UI.RadGroupBox
-    Friend WithEvents btn_lotno As Telerik.WinControls.UI.RadButton
+    Friend WithEvents gb_menu As Telerik.WinControls.UI.RadGroupBox
+    Friend WithEvents btn_saveuser As Telerik.WinControls.UI.RadButton
     Friend WithEvents lv_useraccountlist As Telerik.WinControls.UI.RadListView
-    Friend WithEvents RadGroupBox2 As Telerik.WinControls.UI.RadGroupBox
+    Friend WithEvents gb_data As Telerik.WinControls.UI.RadGroupBox
     Friend WithEvents view_usercontrol As Telerik.WinControls.UI.RadPageView
     Friend WithEvents txt_searchuser As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel4 As Telerik.WinControls.UI.RadLabel
     Friend WithEvents RadLabel1 As Telerik.WinControls.UI.RadLabel
-    Friend WithEvents RadButton1 As Telerik.WinControls.UI.RadButton
-    Friend WithEvents RadTextBox2 As Telerik.WinControls.UI.RadTextBox
+    Friend WithEvents btn_canceluser As Telerik.WinControls.UI.RadButton
+    Friend WithEvents txt_password As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel2 As Telerik.WinControls.UI.RadLabel
-    Friend WithEvents RadTextBox1 As Telerik.WinControls.UI.RadTextBox
-    Friend WithEvents RadTextBox3 As Telerik.WinControls.UI.RadTextBox
+    Friend WithEvents txt_username As Telerik.WinControls.UI.RadTextBox
+    Friend WithEvents txt_confirm_pass As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel3 As Telerik.WinControls.UI.RadLabel
-    Friend WithEvents RadTextBox6 As Telerik.WinControls.UI.RadTextBox
+    Friend WithEvents txt_lname As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel7 As Telerik.WinControls.UI.RadLabel
-    Friend WithEvents RadTextBox5 As Telerik.WinControls.UI.RadTextBox
+    Friend WithEvents txt_mname As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel6 As Telerik.WinControls.UI.RadLabel
-    Friend WithEvents RadTextBox4 As Telerik.WinControls.UI.RadTextBox
+    Friend WithEvents txt_fname As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel5 As Telerik.WinControls.UI.RadLabel
     Friend WithEvents RadLabel9 As Telerik.WinControls.UI.RadLabel
-    Friend WithEvents RadDropDownList1 As Telerik.WinControls.UI.RadDropDownList
+    Friend WithEvents dp_usertype As Telerik.WinControls.UI.RadDropDownList
     Friend WithEvents cms_usermenu As Telerik.WinControls.UI.RadContextMenu
     Friend WithEvents refreshuser As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents createuser As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents modifyuser As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents removeuser As Telerik.WinControls.UI.RadMenuItem
+    Friend WithEvents RadMenuSeparatorItem1 As Telerik.WinControls.UI.RadMenuSeparatorItem
 End Class
 

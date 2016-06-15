@@ -78,4 +78,54 @@ Public Class user_maintenance_view
         End Try
     End Sub
 #End Region
+
+#Region "MAIN WORK OPERATION UPDATEVALUE"
+    Shared Sub usercontrol_updatevalue()
+        If Frm_user_control_maintenace.lv_useraccountlist.SelectedItems.Count > 0 Then
+            With Frm_user_control_maintenace.lv_useraccountlist.SelectedItems(0)
+                .Text = .Text
+                'Frm_master_list_work_operation.dp_operationcategory.SelectedValue = .SubItems(2)
+                'Frm_master_list_work_operation.txt_workoperation.Text = .SubItems(3)
+                'Frm_master_list_work_operation.txt_unitmeasure.Text = .SubItems(4)
+                'Frm_master_list_work_operation.txt_ratecost.Text = .SubItems(5)
+            End With
+        End If
+    End Sub
+#End Region
+
+#Region "USER ACCOUNT DISABLED"
+    Shared Sub usercontrol_disabled()
+        With Frm_user_control_maintenace
+            .gb_menu.Enabled = True
+            .gb_data.Enabled = False
+        End With
+    End Sub
+#End Region
+
+#Region "USER ACCOUNT ENABLED"
+    Shared Sub usercontrol_enabled()
+        With Frm_user_control_maintenace
+            .gb_menu.Enabled = False
+            .gb_data.Enabled = True
+        End With
+    End Sub
+#End Region
+
+#Region "USER ACCOUNT CLEAR FIELD"
+    Shared Sub usercontrol_clear_field()
+
+        For Each t As Control In Frm_master_list_work_operation.gb_menu.Controls
+            If TypeOf (t) Is RadDropDownList = True Then
+                t.Text = ""
+            End If
+        Next
+
+        For Each tx As Control In Frm_master_list_work_operation.gb_menu.Controls
+            If TypeOf (tx) Is RadTextBox = True Then
+                tx.Text = ""
+            End If
+        Next
+    End Sub
+#End Region
+
 End Class
