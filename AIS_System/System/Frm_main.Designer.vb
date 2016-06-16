@@ -35,7 +35,6 @@ Partial Class Frm_main
         Me.subcanepoint = New Telerik.WinControls.UI.RadMenuItem()
         Me.menuuserc = New Telerik.WinControls.UI.RadMenuItem()
         Me.subuseraccount = New Telerik.WinControls.UI.RadMenuItem()
-        Me.subuseraccess = New Telerik.WinControls.UI.RadMenuItem()
         Me.subseperator1 = New Telerik.WinControls.UI.RadMenuSeparatorItem()
         Me.subusersetting = New Telerik.WinControls.UI.RadMenuItem()
         Me.menumaint = New Telerik.WinControls.UI.RadMenuItem()
@@ -58,7 +57,6 @@ Partial Class Frm_main
         Me.txt_actualtime = New Telerik.WinControls.UI.RadLabelElement()
         Me.raddock = New Telerik.WinControls.UI.Docking.RadDock()
         Me.docCon = New Telerik.WinControls.UI.Docking.DocumentContainer()
-        Me.RadMenu1 = New Telerik.WinControls.UI.RadMenu()
         Me.menumonitoring = New Telerik.WinControls.UI.RadMenuItem()
         Me.menuitemlotstatus = New Telerik.WinControls.UI.RadMenuItem()
         Me.RadMenuSeparatorItem1 = New Telerik.WinControls.UI.RadMenuSeparatorItem()
@@ -70,12 +68,13 @@ Partial Class Frm_main
         Me.menuimplement = New Telerik.WinControls.UI.RadMenuItem()
         Me.CustomShape1 = New Telerik.WinControls.OldShapeEditor.CustomShape()
         Me.tp_timer = New System.Windows.Forms.Timer(Me.components)
+        Me.RadMenu1 = New Telerik.WinControls.UI.RadMenu()
         CType(Me.rs_main, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.raddock, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.raddock.SuspendLayout()
         CType(Me.docCon, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'menufile
@@ -165,7 +164,7 @@ Partial Class Frm_main
         Me.menuuserc.AccessibleDescription = "User Control"
         Me.menuuserc.AccessibleName = "User Control"
         Me.menuuserc.AutoSize = True
-        Me.menuuserc.Items.AddRange(New Telerik.WinControls.RadItem() {Me.subuseraccount, Me.subuseraccess, Me.subseperator1, Me.subusersetting})
+        Me.menuuserc.Items.AddRange(New Telerik.WinControls.RadItem() {Me.subuseraccount, Me.subseperator1, Me.subusersetting})
         Me.menuuserc.Name = "menuuserc"
         Me.menuuserc.Text = "User Control"
         Me.menuuserc.Visibility = Telerik.WinControls.ElementVisibility.Visible
@@ -175,16 +174,8 @@ Partial Class Frm_main
         Me.subuseraccount.AccessibleDescription = "User Account"
         Me.subuseraccount.AccessibleName = "User Account"
         Me.subuseraccount.Name = "subuseraccount"
-        Me.subuseraccount.Text = "User Account"
+        Me.subuseraccount.Text = "User Accounts And Permissions"
         Me.subuseraccount.Visibility = Telerik.WinControls.ElementVisibility.Visible
-        '
-        'subuseraccess
-        '
-        Me.subuseraccess.AccessibleDescription = "User Access"
-        Me.subuseraccess.AccessibleName = "User Access"
-        Me.subuseraccess.Name = "subuseraccess"
-        Me.subuseraccess.Text = "User Access"
-        Me.subuseraccess.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subseperator1
         '
@@ -197,7 +188,7 @@ Partial Class Frm_main
         Me.subusersetting.AccessibleDescription = "User Setting"
         Me.subusersetting.AccessibleName = "User Setting"
         Me.subusersetting.Name = "subusersetting"
-        Me.subusersetting.Text = "User Setting"
+        Me.subusersetting.Text = "My User Setting"
         Me.subusersetting.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menumaint
@@ -393,19 +384,6 @@ Partial Class Frm_main
         Me.docCon.RootElement.MinSize = New System.Drawing.Size(25, 25)
         Me.docCon.SizeInfo.SizeMode = Telerik.WinControls.UI.Docking.SplitPanelSizeMode.Fill
         '
-        'RadMenu1
-        '
-        Me.RadMenu1.Items.AddRange(New Telerik.WinControls.RadItem() {Me.menufile, Me.menufarming, Me.menumaint, Me.menumonitoring, Me.menuuserc, Me.menureport, Me.menuabout})
-        Me.RadMenu1.Location = New System.Drawing.Point(0, 0)
-        Me.RadMenu1.Name = "RadMenu1"
-        '
-        '
-        '
-        Me.RadMenu1.RootElement.DefaultSize = New System.Drawing.Size(0, 0)
-        Me.RadMenu1.Size = New System.Drawing.Size(1178, 20)
-        Me.RadMenu1.TabIndex = 0
-        Me.RadMenu1.Text = "RadMenu1"
-        '
         'menumonitoring
         '
         Me.menumonitoring.AccessibleDescription = "Operation Monitoring"
@@ -493,6 +471,19 @@ Partial Class Frm_main
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1178, 563)
+        '
+        'RadMenu1
+        '
+        Me.RadMenu1.Items.AddRange(New Telerik.WinControls.RadItem() {Me.menufile, Me.menufarming, Me.menumaint, Me.menumonitoring, Me.menuuserc, Me.menureport, Me.menuabout})
+        Me.RadMenu1.Location = New System.Drawing.Point(0, 0)
+        Me.RadMenu1.Name = "RadMenu1"
+        '
+        '
+        '
+        Me.RadMenu1.RootElement.DefaultSize = New System.Drawing.Size(0, 0)
+        Me.RadMenu1.Size = New System.Drawing.Size(1178, 20)
+        Me.RadMenu1.TabIndex = 0
+        Me.RadMenu1.Text = "RadMenu1"
         Me.Controls.Add(Me.raddock)
         Me.Controls.Add(Me.rs_main)
         Me.Controls.Add(Me.RadMenu1)
@@ -529,7 +520,6 @@ Partial Class Frm_main
     Friend WithEvents subrequisition As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents subcanepoint As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents subuseraccount As Telerik.WinControls.UI.RadMenuItem
-    Friend WithEvents subuseraccess As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents subusersetting As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents subseperator1 As Telerik.WinControls.UI.RadMenuSeparatorItem
     Friend WithEvents raddock As Telerik.WinControls.UI.Docking.RadDock
@@ -538,7 +528,6 @@ Partial Class Frm_main
     Friend WithEvents subequipment As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents subimplementation As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents suboperation As Telerik.WinControls.UI.RadMenuItem
-    Friend WithEvents RadMenu1 As Telerik.WinControls.UI.RadMenu
     Friend WithEvents menumonitoring As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents menuiteminventory As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents menuitemlotstatus As Telerik.WinControls.UI.RadMenuItem
@@ -560,5 +549,6 @@ Partial Class Frm_main
     Friend WithEvents RadMenuSeparatorItem2 As Telerik.WinControls.UI.RadMenuSeparatorItem
     Friend WithEvents menuequipment As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents menuimplement As Telerik.WinControls.UI.RadMenuItem
+    Friend WithEvents RadMenu1 As Telerik.WinControls.UI.RadMenu
 End Class
 

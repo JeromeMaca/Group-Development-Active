@@ -109,7 +109,7 @@ Public Class Frm_main
         ''''''''''USER CONTOL
     End Sub
 
-    Private Sub subuseraccess_Click(sender As Object, e As EventArgs) Handles subuseraccess.Click
+    Private Sub subuseraccess_Click(sender As Object, e As EventArgs)
         Frm_user_control_maintenace.Text = "User Authorization Management"
         Frm_user_control_maintenace.MdiParent = Me
         Frm_user_control_maintenace.Show()

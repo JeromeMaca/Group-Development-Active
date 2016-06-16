@@ -326,6 +326,12 @@
     <Compile Include="System\New User Account Contorl\frm_user_control_maintenace.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="System\New User Account Contorl\frm_user_control_permission.Designer.vb">
+      <DependentUpon>frm_user_control_permission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\New User Account Contorl\frm_user_control_permission.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="Forms\Data Maintenance\frm_equipment.resx">
       <DependentUpon>frm_equipment.vb</DependentUpon>
     </EmbeddedResource>
@@ -449,6 +455,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="System\New User Account Contorl\frm_user_control_maintenace.resx">
       <DependentUpon>frm_user_control_maintenace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\New User Account Contorl\frm_user_control_permission.resx">
+      <DependentUpon>frm_user_control_permission.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

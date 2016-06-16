@@ -30,8 +30,6 @@ Partial Class Frm_user_control_maintenace
         Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Me.page_useraccess = New Telerik.WinControls.UI.RadPageViewPage()
-        Me.page_useraccount = New Telerik.WinControls.UI.RadPageViewPage()
         Me.gb_menu = New Telerik.WinControls.UI.RadGroupBox()
         Me.RadLabel9 = New Telerik.WinControls.UI.RadLabel()
         Me.dp_usertype = New Telerik.WinControls.UI.RadDropDownList()
@@ -53,14 +51,14 @@ Partial Class Frm_user_control_maintenace
         Me.txt_searchuser = New Telerik.WinControls.UI.RadTextBox()
         Me.RadLabel4 = New Telerik.WinControls.UI.RadLabel()
         Me.lv_useraccountlist = New Telerik.WinControls.UI.RadListView()
-        Me.view_usercontrol = New Telerik.WinControls.UI.RadPageView()
         Me.cms_usermenu = New Telerik.WinControls.UI.RadContextMenu(Me.components)
         Me.refreshuser = New Telerik.WinControls.UI.RadMenuItem()
         Me.RadMenuSeparatorItem1 = New Telerik.WinControls.UI.RadMenuSeparatorItem()
         Me.createuser = New Telerik.WinControls.UI.RadMenuItem()
         Me.modifyuser = New Telerik.WinControls.UI.RadMenuItem()
         Me.removeuser = New Telerik.WinControls.UI.RadMenuItem()
-        Me.page_useraccount.SuspendLayout()
+        Me.RadMenuSeparatorItem2 = New Telerik.WinControls.UI.RadMenuSeparatorItem()
+        Me.assignedpermissionuser = New Telerik.WinControls.UI.RadMenuItem()
         CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gb_menu.SuspendLayout()
         CType(Me.RadLabel9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,26 +82,8 @@ Partial Class Frm_user_control_maintenace
         CType(Me.txt_searchuser, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_useraccountlist, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.view_usercontrol, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.view_usercontrol.SuspendLayout()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'page_useraccess
-        '
-        Me.page_useraccess.Location = New System.Drawing.Point(10, 37)
-        Me.page_useraccess.Name = "page_useraccess"
-        Me.page_useraccess.Size = New System.Drawing.Size(1231, 565)
-        Me.page_useraccess.Text = "User Access Permission"
-        '
-        'page_useraccount
-        '
-        Me.page_useraccount.Controls.Add(Me.gb_menu)
-        Me.page_useraccount.Controls.Add(Me.gb_data)
-        Me.page_useraccount.Location = New System.Drawing.Point(10, 37)
-        Me.page_useraccount.Name = "page_useraccount"
-        Me.page_useraccount.Size = New System.Drawing.Size(1231, 565)
-        Me.page_useraccount.Text = "User Account Maintenance"
         '
         'gb_menu
         '
@@ -128,9 +108,9 @@ Partial Class Frm_user_control_maintenace
         Me.gb_menu.Controls.Add(Me.btn_saveuser)
         Me.gb_menu.Enabled = False
         Me.gb_menu.HeaderText = ""
-        Me.gb_menu.Location = New System.Drawing.Point(0, 3)
+        Me.gb_menu.Location = New System.Drawing.Point(1, 3)
         Me.gb_menu.Name = "gb_menu"
-        Me.gb_menu.Size = New System.Drawing.Size(360, 559)
+        Me.gb_menu.Size = New System.Drawing.Size(360, 609)
         Me.gb_menu.TabIndex = 1
         '
         'RadLabel9
@@ -150,19 +130,19 @@ Partial Class Frm_user_control_maintenace
         Me.dp_usertype.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
         Me.dp_usertype.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         RadListDataItem1.Enabled = False
-        RadListDataItem1.Text = "System Administrator"
+        RadListDataItem1.Text = "SYSTEM DMINISTRATOR"
         RadListDataItem1.TextWrap = True
-        RadListDataItem2.Text = "Administrator"
+        RadListDataItem2.Text = "ADMINISTRATOR"
         RadListDataItem2.TextWrap = True
-        RadListDataItem3.Text = "Manager"
+        RadListDataItem3.Text = "MANAGER"
         RadListDataItem3.TextWrap = True
-        RadListDataItem4.Text = "Finance"
+        RadListDataItem4.Text = "FINANCE"
         RadListDataItem4.TextWrap = True
-        RadListDataItem5.Text = "Farm Manager"
+        RadListDataItem5.Text = "FARM MANAGER"
         RadListDataItem5.TextWrap = True
-        RadListDataItem6.Text = "Farm Supervisor"
+        RadListDataItem6.Text = "FARM SUPERVISOR"
         RadListDataItem6.TextWrap = True
-        RadListDataItem7.Text = "Basic User"
+        RadListDataItem7.Text = "BASIC USER"
         RadListDataItem7.TextWrap = True
         Me.dp_usertype.Items.Add(RadListDataItem1)
         Me.dp_usertype.Items.Add(RadListDataItem2)
@@ -251,9 +231,9 @@ Partial Class Frm_user_control_maintenace
         Me.RadLabel3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadLabel3.Location = New System.Drawing.Point(18, 109)
         Me.RadLabel3.Name = "RadLabel3"
-        Me.RadLabel3.Size = New System.Drawing.Size(116, 19)
+        Me.RadLabel3.Size = New System.Drawing.Size(145, 19)
         Me.RadLabel3.TabIndex = 129
-        Me.RadLabel3.Text = "Confirm Password:"
+        Me.RadLabel3.Text = "Confirm New Password:"
         '
         'txt_password
         '
@@ -269,9 +249,9 @@ Partial Class Frm_user_control_maintenace
         Me.RadLabel2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadLabel2.Location = New System.Drawing.Point(18, 65)
         Me.RadLabel2.Name = "RadLabel2"
-        Me.RadLabel2.Size = New System.Drawing.Size(65, 19)
+        Me.RadLabel2.Size = New System.Drawing.Size(95, 19)
         Me.RadLabel2.TabIndex = 127
-        Me.RadLabel2.Text = "Password:"
+        Me.RadLabel2.Text = "New Password:"
         '
         'txt_username
         '
@@ -287,7 +267,7 @@ Partial Class Frm_user_control_maintenace
         '
         Me.btn_canceluser.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btn_canceluser.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.btn_canceluser.Location = New System.Drawing.Point(244, 530)
+        Me.btn_canceluser.Location = New System.Drawing.Point(244, 580)
         Me.btn_canceluser.Name = "btn_canceluser"
         Me.btn_canceluser.Size = New System.Drawing.Size(110, 24)
         Me.btn_canceluser.TabIndex = 125
@@ -306,7 +286,7 @@ Partial Class Frm_user_control_maintenace
         '
         Me.btn_saveuser.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btn_saveuser.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.btn_saveuser.Location = New System.Drawing.Point(128, 530)
+        Me.btn_saveuser.Location = New System.Drawing.Point(128, 580)
         Me.btn_saveuser.Name = "btn_saveuser"
         Me.btn_saveuser.Size = New System.Drawing.Size(110, 24)
         Me.btn_saveuser.TabIndex = 123
@@ -322,9 +302,9 @@ Partial Class Frm_user_control_maintenace
         Me.gb_data.Controls.Add(Me.RadLabel4)
         Me.gb_data.Controls.Add(Me.lv_useraccountlist)
         Me.gb_data.HeaderText = ""
-        Me.gb_data.Location = New System.Drawing.Point(366, 3)
+        Me.gb_data.Location = New System.Drawing.Point(361, 3)
         Me.gb_data.Name = "gb_data"
-        Me.gb_data.Size = New System.Drawing.Size(862, 559)
+        Me.gb_data.Size = New System.Drawing.Size(889, 609)
         Me.gb_data.TabIndex = 1
         '
         'txt_searchuser
@@ -359,27 +339,13 @@ Partial Class Frm_user_control_maintenace
         Me.lv_useraccountlist.Name = "lv_useraccountlist"
         Me.lv_useraccountlist.SelectLastAddedItem = False
         Me.lv_useraccountlist.ShowGridLines = True
-        Me.lv_useraccountlist.Size = New System.Drawing.Size(852, 515)
+        Me.lv_useraccountlist.Size = New System.Drawing.Size(879, 565)
         Me.lv_useraccountlist.TabIndex = 117
         Me.lv_useraccountlist.ViewType = Telerik.WinControls.UI.ListViewType.DetailsView
         '
-        'view_usercontrol
-        '
-        Me.view_usercontrol.Controls.Add(Me.page_useraccount)
-        Me.view_usercontrol.Controls.Add(Me.page_useraccess)
-        Me.view_usercontrol.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.view_usercontrol.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.view_usercontrol.Location = New System.Drawing.Point(0, 0)
-        Me.view_usercontrol.Name = "view_usercontrol"
-        Me.view_usercontrol.SelectedPage = Me.page_useraccount
-        Me.view_usercontrol.Size = New System.Drawing.Size(1252, 613)
-        Me.view_usercontrol.TabIndex = 1
-        Me.view_usercontrol.Text = "RadPageView1"
-        CType(Me.view_usercontrol.GetChildAt(0), Telerik.WinControls.UI.RadPageViewStripElement).StripButtons = Telerik.WinControls.UI.StripViewButtons.None
-        '
         'cms_usermenu
         '
-        Me.cms_usermenu.Items.AddRange(New Telerik.WinControls.RadItem() {Me.refreshuser, Me.RadMenuSeparatorItem1, Me.createuser, Me.modifyuser, Me.removeuser})
+        Me.cms_usermenu.Items.AddRange(New Telerik.WinControls.RadItem() {Me.refreshuser, Me.RadMenuSeparatorItem1, Me.createuser, Me.modifyuser, Me.removeuser, Me.RadMenuSeparatorItem2, Me.assignedpermissionuser})
         '
         'refreshuser
         '
@@ -421,19 +387,35 @@ Partial Class Frm_user_control_maintenace
         Me.removeuser.Text = "Remove User"
         Me.removeuser.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
+        'RadMenuSeparatorItem2
+        '
+        Me.RadMenuSeparatorItem2.AccessibleDescription = "RadMenuSeparatorItem2"
+        Me.RadMenuSeparatorItem2.AccessibleName = "RadMenuSeparatorItem2"
+        Me.RadMenuSeparatorItem2.Name = "RadMenuSeparatorItem2"
+        Me.RadMenuSeparatorItem2.Text = "RadMenuSeparatorItem2"
+        Me.RadMenuSeparatorItem2.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        '
+        'assignedpermissionuser
+        '
+        Me.assignedpermissionuser.AccessibleDescription = "User Assigned Permission"
+        Me.assignedpermissionuser.AccessibleName = "User Assigned Permission"
+        Me.assignedpermissionuser.Name = "assignedpermissionuser"
+        Me.assignedpermissionuser.Text = "User Assigned Permission"
+        Me.assignedpermissionuser.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        '
         'Frm_user_control_maintenace
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1252, 613)
-        Me.Controls.Add(Me.view_usercontrol)
+        Me.Controls.Add(Me.gb_menu)
+        Me.Controls.Add(Me.gb_data)
         Me.Name = "Frm_user_control_maintenace"
         '
         '
         '
         Me.RootElement.ApplyShapeToControl = True
         Me.Text = "Frm_user_control_maintenace"
-        Me.page_useraccount.ResumeLayout(False)
         CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gb_menu.ResumeLayout(False)
         Me.gb_menu.PerformLayout()
@@ -459,20 +441,14 @@ Partial Class Frm_user_control_maintenace
         CType(Me.txt_searchuser, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_useraccountlist, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.view_usercontrol, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.view_usercontrol.ResumeLayout(False)
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents page_useraccess As Telerik.WinControls.UI.RadPageViewPage
-    Friend WithEvents page_useraccount As Telerik.WinControls.UI.RadPageViewPage
     Friend WithEvents gb_menu As Telerik.WinControls.UI.RadGroupBox
     Friend WithEvents btn_saveuser As Telerik.WinControls.UI.RadButton
     Friend WithEvents lv_useraccountlist As Telerik.WinControls.UI.RadListView
     Friend WithEvents gb_data As Telerik.WinControls.UI.RadGroupBox
-    Friend WithEvents view_usercontrol As Telerik.WinControls.UI.RadPageView
     Friend WithEvents txt_searchuser As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents RadLabel4 As Telerik.WinControls.UI.RadLabel
     Friend WithEvents RadLabel1 As Telerik.WinControls.UI.RadLabel
@@ -496,5 +472,7 @@ Partial Class Frm_user_control_maintenace
     Friend WithEvents modifyuser As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents removeuser As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents RadMenuSeparatorItem1 As Telerik.WinControls.UI.RadMenuSeparatorItem
+    Friend WithEvents RadMenuSeparatorItem2 As Telerik.WinControls.UI.RadMenuSeparatorItem
+    Friend WithEvents assignedpermissionuser As Telerik.WinControls.UI.RadMenuItem
 End Class
 

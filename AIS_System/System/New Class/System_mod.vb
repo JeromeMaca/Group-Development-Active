@@ -1154,7 +1154,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & DTL_ID & "','" & userid & "'"
+                        .CommandText = "p_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & dtl_id & "','" & userid & "'"
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -1173,7 +1173,7 @@ Public Class System_mod
                         dbConn = New SqlConnection(connStr)
                         With sqlCmd
                             .Connection = dbConn
-                            .CommandText = "p_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & DTL_ID & "','" & userid & "'"
+                            .CommandText = "p_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & dtl_id & "','" & userid & "'"
                             dbConn.Open()
                             .ExecuteNonQuery()
                             dbConn.Close()
@@ -1447,12 +1447,12 @@ Public Class System_mod
 
     'USER CONTROL
 #Region "USER ACCOUNT CONTROL"
-    Sub Add_useraccount(username, password, fname, mname, lname, usertype, encodername)
+    Sub Add_useraccount(username, password, fname, mname, lname, usertype, encodername, index)
         Try
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','1'"
+                .CommandText = "p_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','1','','" & index & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1469,12 +1469,12 @@ Public Class System_mod
         End If
     End Sub
 
-    Sub update_useraccount(username, password, fname, mname, lname, usertype, encodername, id)
+    Sub update_useraccount(username, password, fname, mname, lname, usertype, encodername, id, index)
         Try
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','2','" & id & "'"
+                .CommandText = "p_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','2','" & id & "','" & index & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1493,24 +1493,27 @@ Public Class System_mod
 
     Sub delete_useraccount(id)
         Try
-            dbConn = New SqlConnection(connStr)
-            With sqlCmd
-                .Connection = dbConn
-                .CommandText = "p_usercontrol_add_modify '3','" & id & "'"
-                dbConn.Open()
-                .ExecuteNonQuery()
-                dbConn.Close()
-            End With
-        Catch ex As SqlException
-            If ex.Message <> Nothing Then
-                msgb = 1
+            If id <> Nothing Then
+                If MsgBox("Are you sure you want to delete selected record?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
+
+                    dbConn = New SqlConnection(connStr)
+                    With sqlCmd
+                        .Connection = dbConn
+                        .CommandText = "p_usercontrol_add_modify '','','','','','','','3','" & id & "'"
+                        dbConn.Open()
+                        .ExecuteNonQuery()
+                        dbConn.Close()
+                    End With
+
+                End If
+
+            Else
+                MsgBox("No Data Selected.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
+            usercontrol_id = Nothing
+        Catch ex As Exception
+            MsgBox(ex.Message.ToString(), vbCritical + vbOKOnly, "Reccommend Administrator Assistant")
         End Try
-        If msgb = 1 Then
-            msgS = "Error!!! Unable to Delete this Data."
-        Else
-            msgS = "Successfully Deleted an Data."
-        End If
     End Sub
 #End Region
 

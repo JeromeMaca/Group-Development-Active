@@ -93,4 +93,8 @@ Module declaration
     Public hdr_id_monitoring As Integer = 0
 #End Region
 
+#Region "USER ACCOUNT"
+    Public usercontrol_id As Integer = 0
+#End Region
+
 End Module
