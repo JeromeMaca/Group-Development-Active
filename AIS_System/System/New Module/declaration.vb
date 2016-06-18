@@ -95,6 +95,8 @@ Module declaration
 
 #Region "USER ACCOUNT"
     Public usercontrol_id As Integer = 0
+    Public user_flag As Integer = 0
+    Public access_id As Integer = 0
 #End Region
 
 End Module

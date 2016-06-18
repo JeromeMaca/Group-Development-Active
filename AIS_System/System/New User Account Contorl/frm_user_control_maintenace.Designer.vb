@@ -23,13 +23,13 @@ Partial Class Frm_user_control_maintenace
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Me.gb_menu = New Telerik.WinControls.UI.RadGroupBox()
         Me.RadLabel9 = New Telerik.WinControls.UI.RadLabel()
         Me.dp_usertype = New Telerik.WinControls.UI.RadDropDownList()
@@ -129,28 +129,28 @@ Partial Class Frm_user_control_maintenace
         Me.dp_usertype.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.dp_usertype.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
         Me.dp_usertype.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        RadListDataItem1.Enabled = False
-        RadListDataItem1.Text = "SYSTEM DMINISTRATOR"
-        RadListDataItem1.TextWrap = True
-        RadListDataItem2.Text = "ADMINISTRATOR"
-        RadListDataItem2.TextWrap = True
-        RadListDataItem3.Text = "MANAGER"
-        RadListDataItem3.TextWrap = True
-        RadListDataItem4.Text = "FINANCE"
-        RadListDataItem4.TextWrap = True
-        RadListDataItem5.Text = "FARM MANAGER"
-        RadListDataItem5.TextWrap = True
-        RadListDataItem6.Text = "FARM SUPERVISOR"
-        RadListDataItem6.TextWrap = True
-        RadListDataItem7.Text = "BASIC USER"
-        RadListDataItem7.TextWrap = True
-        Me.dp_usertype.Items.Add(RadListDataItem1)
-        Me.dp_usertype.Items.Add(RadListDataItem2)
-        Me.dp_usertype.Items.Add(RadListDataItem3)
-        Me.dp_usertype.Items.Add(RadListDataItem4)
-        Me.dp_usertype.Items.Add(RadListDataItem5)
-        Me.dp_usertype.Items.Add(RadListDataItem6)
-        Me.dp_usertype.Items.Add(RadListDataItem7)
+        RadListDataItem8.Enabled = False
+        RadListDataItem8.Text = "SYSTEM DMINISTRATOR"
+        RadListDataItem8.TextWrap = True
+        RadListDataItem9.Text = "ADMINISTRATOR"
+        RadListDataItem9.TextWrap = True
+        RadListDataItem10.Text = "MANAGER"
+        RadListDataItem10.TextWrap = True
+        RadListDataItem11.Text = "FINANCE"
+        RadListDataItem11.TextWrap = True
+        RadListDataItem12.Text = "FARM MANAGER"
+        RadListDataItem12.TextWrap = True
+        RadListDataItem13.Text = "FARM SUPERVISOR"
+        RadListDataItem13.TextWrap = True
+        RadListDataItem14.Text = "BASIC USER"
+        RadListDataItem14.TextWrap = True
+        Me.dp_usertype.Items.Add(RadListDataItem8)
+        Me.dp_usertype.Items.Add(RadListDataItem9)
+        Me.dp_usertype.Items.Add(RadListDataItem10)
+        Me.dp_usertype.Items.Add(RadListDataItem11)
+        Me.dp_usertype.Items.Add(RadListDataItem12)
+        Me.dp_usertype.Items.Add(RadListDataItem13)
+        Me.dp_usertype.Items.Add(RadListDataItem14)
         Me.dp_usertype.Location = New System.Drawing.Point(38, 305)
         Me.dp_usertype.Name = "dp_usertype"
         Me.dp_usertype.NullText = "<Required>"

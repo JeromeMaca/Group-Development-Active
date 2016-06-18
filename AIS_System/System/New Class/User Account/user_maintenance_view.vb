@@ -4,6 +4,8 @@ Imports Telerik.WinControls.UI
 
 Public Class user_maintenance_view
 
+#Region "USER MAINTENANCE"
+
 #Region "LISTVIEW FORMATTING CELL"
     Shared Sub lv_cellformatting(e)
         If TypeOf e.CellElement Is DetailListViewHeaderCellElement Then
@@ -37,6 +39,41 @@ Public Class user_maintenance_view
             e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
             e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
         End If
+
+    End Sub
+
+    Shared Sub lvpermission_cellformatting(e)
+        If TypeOf e.CellElement Is DetailListViewHeaderCellElement Then
+            e.CellElement.TextAlignment = ContentAlignment.MiddleLeft
+
+        Else
+            e.CellElement.ResetValue(LightVisualElement.TextAlignmentProperty, Telerik.WinControls.ValueResetFlags.Local)
+        End If
+
+        If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
+            e.CellElement.TextAlignment = ContentAlignment.MiddleLeft
+        End If
+
+        If (e.CellElement).Data.Name = "count" Then
+            If (TypeOf e.CellElement Is DetailListViewHeaderCellElement) Then
+                e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
+                ' e.CellElement.BackColor = Color.Red
+            Else
+                e.CellElement.ResetValue(LightVisualElement.BackColorProperty)
+            End If
+
+            If (TypeOf e.CellElement Is DetailListViewDataCellElement) Then
+                e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
+            End If
+        End If
+
+        'If (TypeOf e.Cellelement Is DetailListViewCellElement) Then
+        '    e.CellElement.DrawFill = False
+        '    e.CellElement.DrawBorder = False
+        'Else
+        '    e.CellElement.ResetValue(LightVisualElement.DrawBorderProperty, Telerik.WinControls.ValueResetFlags.Local)
+        '    e.CellElement.ResetValue(LightVisualElement.DrawFillProperty, Telerik.WinControls.ValueResetFlags.Local)
+        'End If
 
     End Sub
 #End Region
@@ -96,6 +133,14 @@ Public Class user_maintenance_view
         If listview.SelectedItems.Count > 0 Then
             With listview.SelectedItems(0)
                 usercontrol_id = .SubItems(0)
+            End With
+        End If
+    End Sub
+
+    Shared Sub access_selected(listview As RadListView)
+        If listview.SelectedItems.Count > 0 Then
+            With listview.SelectedItems(0)
+                access_id = .SubItems(0)
             End With
         End If
     End Sub
@@ -205,5 +250,163 @@ Public Class user_maintenance_view
             MsgBox(ex.Message)
         End Try
     End Sub
+#End Region
+
+#End Region
+
+
+#Region "USER PERMISSION"
+
+#Region "LISTVIEW LOAD"
+    Shared Sub menulist_load(userid, id, flag)
+
+        Select Case flag ''''''MENU
+            Case 0
+                Try
+                    sql = ""
+                    sql = "p_usercontrol_permission_list '" & userid & "','','" & flag & "'"
+
+                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+
+                        '   Dim aa As New Frm_user_control_permission
+                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
+
+                        sqlCnn.Open()
+                        sqlCmd = New SqlCommand(sql, sqlCnn)
+
+                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+
+                            While (sqlReader.Read())
+                                Dim list As New ListViewDataItem
+                                list.SubItems.Add(sqlReader(1).ToString())
+                                list.SubItems.Add(sqlReader(0).ToString())
+                                list.SubItems.Add(sqlReader(2).ToString())
+                                list.SubItems.Add(sqlReader(4).ToString())
+
+                                If (sqlReader(4) IsNot DBNull.Value) Then
+                                    list.SubItems.Add("ENABLED")
+                                Else
+                                    list.SubItems.Add("DISABBLED")
+                                End If
+
+                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
+                            End While
+                        End Using
+                        sqlCmd.Connection.Close()
+                    End Using
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                End Try
+            Case 1 'SUB MENU
+                Try
+                    sql = ""
+                    sql = "p_usercontrol_permission_list '" & userid & "','" & id & "','" & flag & "'"
+
+                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+
+                        '   Dim aa As New Frm_user_control_permission
+                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
+
+                        sqlCnn.Open()
+                        sqlCmd = New SqlCommand(sql, sqlCnn)
+
+                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+
+                            While (sqlReader.Read())
+                                Dim list As New ListViewDataItem
+                                list.SubItems.Add(sqlReader(1).ToString())
+                                list.SubItems.Add(sqlReader(0).ToString())
+                                list.SubItems.Add(sqlReader(2).ToString())
+                                list.SubItems.Add(sqlReader(4).ToString())
+
+                                If (sqlReader(4) IsNot DBNull.Value) Then
+                                    list.SubItems.Add("ENABLED")
+                                Else
+                                    list.SubItems.Add("DISABBLED")
+                                End If
+
+                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
+                            End While
+                        End Using
+                        sqlCmd.Connection.Close()
+                    End Using
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                End Try
+            Case 2 'CHILD MENU
+                Try
+                    sql = ""
+                    sql = "p_usercontrol_permission_list '" & userid & "','" & id & "','" & flag & "'"
+
+                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+
+                        '   Dim aa As New Frm_user_control_permission
+                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
+
+                        sqlCnn.Open()
+                        sqlCmd = New SqlCommand(sql, sqlCnn)
+
+                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+
+                            While (sqlReader.Read())
+                                Dim list As New ListViewDataItem
+                                list.SubItems.Add(sqlReader(1).ToString())
+                                list.SubItems.Add(sqlReader(0).ToString())
+                                list.SubItems.Add(sqlReader(2).ToString())
+                                list.SubItems.Add(sqlReader(4).ToString())
+
+                                If (sqlReader(4) IsNot DBNull.Value) Then
+                                    list.SubItems.Add("ENABLED")
+                                Else
+                                    list.SubItems.Add("DISABBLED")
+                                End If
+
+                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
+                            End While
+                        End Using
+                        sqlCmd.Connection.Close()
+                    End Using
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                End Try
+            Case 3 'MAINTENANCE
+                Try
+                    sql = ""
+                    sql = "p_usercontrol_permission_list '" & userid & "','" & id & "','" & flag & "'"
+
+                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+
+                        '   Dim aa As New Frm_user_control_permission
+                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
+
+                        sqlCnn.Open()
+                        sqlCmd = New SqlCommand(sql, sqlCnn)
+
+                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+
+                            While (sqlReader.Read())
+                                Dim list As New ListViewDataItem
+                                list.SubItems.Add(sqlReader(1).ToString())
+                                list.SubItems.Add(sqlReader(0).ToString())
+                                list.SubItems.Add(sqlReader(2).ToString())
+                                list.SubItems.Add(sqlReader(4).ToString())
+
+                                If (sqlReader(4) IsNot DBNull.Value) Then
+                                    list.SubItems.Add("ENABLED")
+                                Else
+                                    list.SubItems.Add("DISABBLED")
+                                End If
+
+                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
+                            End While
+                        End Using
+                        sqlCmd.Connection.Close()
+                    End Using
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                End Try
+        End Select
+    End Sub
+#End Region
 #End Region
 End Class

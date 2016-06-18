@@ -108,6 +108,7 @@ Public Class frm_login
 
     Private Sub btn_login_Click(sender As Object, e As EventArgs) Handles btn_login.Click
 
+
         useraccount.logging_in(Replace(Trim(Me.txt_username.Text), "'", "`"), Replace(Trim(Me.txt_password.Text), "'", "`"))
 
         If msgstats = 2 Then

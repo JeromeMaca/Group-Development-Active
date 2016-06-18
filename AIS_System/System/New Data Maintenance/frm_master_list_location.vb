@@ -116,7 +116,7 @@ Public Class Frm_master_list_location
     End Sub
 
     Private Sub combar_txt_search_TextChanged(sender As Object, e As EventArgs) Handles combar_txt_search.TextChanged
-        location_masterlist_view.main_location_search(Replace(Trim(Me.combar_txt_search.Text), "'", "`"))
+        location_masterlist_view.main_location_search(Replace(Trim(combar_txt_search.Text), "'", "`"))
     End Sub
 
     Private Sub combar_dp_group_SelectedIndexChanged(sender As Object, e As UI.Data.PositionChangedEventArgs) Handles combar_dp_group.SelectedIndexChanged

@@ -319,6 +319,7 @@ Public Class location_masterlist_view
     End Sub
 #End Region
 
+
 #Region "main_location_enabled"
     Shared Sub main_loc_enabled()
         With Frm_master_list_location
@@ -340,10 +341,10 @@ Public Class location_masterlist_view
         Try
             sql = ""
             If search_word <> "" Then
-                sql = "SELECT  TOP 50 ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,ownername,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata " _
+                sql = "SELECT  TOP 50 ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata " _
                     & " WHERE (location LIKE '%" & search_word & "%') OR (code LIKE '%" & search_word & "%') "
             Else
-                sql = "SELECT ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,ownername,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata " _
+                sql = "SELECT ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata " _
                    & " WHERE (location LIKE '%" & search_word & "%') OR (code LIKE '%" & search_word & "%') "
             End If
 

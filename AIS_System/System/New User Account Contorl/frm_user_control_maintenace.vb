@@ -104,7 +104,8 @@ Public Class Frm_user_control_maintenace
             sysmod.Add_useraccount(Replace(Trim(txt_username.Text), "'", "`"), pwordhash, Replace(Trim(txt_fname.Text), "'", "`"),
                                    Replace(Trim(txt_mname.Text), "'", "`"), Replace(Trim(txt_lname.Text), "'", "`"), dp_usertype.SelectedItem.ToString, Frm_main.txt_fullname.Text, dp_usertype.SelectedIndex)
         ElseIf command_contxt = 2 Then
-            'sysmod.Update_workoperationmasterlist(dp_cat_slct_id, Replace(Trim(Me.txt_workoperation.Text), "'", "`"), Replace(Trim(Me.txt_unitmeasure.Text), "'", "`"), Trim(Me.txt_ratecost.Value), slct_id)
+            sysmod.update_useraccount(Replace(Trim(txt_username.Text), "'", "`"), pwordhash, Replace(Trim(txt_fname.Text), "'", "`"),
+                                             Replace(Trim(txt_mname.Text), "'", "`"), Replace(Trim(txt_lname.Text), "'", "`"), dp_usertype.SelectedItem.ToString, Frm_main.txt_fullname.Text, usercontrol_id, dp_usertype.SelectedIndex)
         Else
             MsgBox("No command... need administrator assistant")
             Exit Sub
