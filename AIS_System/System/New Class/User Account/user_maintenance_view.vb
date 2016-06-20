@@ -257,155 +257,155 @@ Public Class user_maintenance_view
 
 #Region "USER PERMISSION"
 
-#Region "LISTVIEW LOAD"
-    Shared Sub menulist_load(userid, id, flag)
+#Region "TREEVIEW FORMATTING"
+    Shared Sub tv_format(e)
+        If e.Node.Nodes.Count > 0 Then
 
-        Select Case flag ''''''MENU
-            Case 0
-                Try
-                    sql = ""
-                    sql = "p_usercontrol_permission_list '" & userid & "','','" & flag & "'"
+            If e.Node.Expanded Then
+                'e.NodeElement.ImageElement.Image = folderOpen
 
-                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+                ' e.NodeElement.ContentElement.ForeColor = Color.DarkRed
+                e.NodeElement.ContentElement.Font = New Font("Tahoma", 8.5, FontStyle.Bold)
+            Else
+                ' e.NodeElement.ImageElement.Image = folderClose
+                '   e.NodeElement.ContentElement.ForeColor = Color.DimGray
 
-                        '   Dim aa As New Frm_user_control_permission
-                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
+                e.NodeElement.ContentElement.Font = New Font("Tahoma", 8.5, FontStyle.Bold)
+            End If
+        Else
+            ' e.NodeElement.ImageElement.Image = file
+            ' e.NodeElement.ContentElement.ForeColor = Color.SteelBlue
 
-                        sqlCnn.Open()
-                        sqlCmd = New SqlCommand(sql, sqlCnn)
+            e.NodeElement.ContentElement.Font = New Font("Tahoma", 8.5, FontStyle.Bold)
+        End If
 
-                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+    End Sub
+#End Region
 
-                            While (sqlReader.Read())
-                                Dim list As New ListViewDataItem
-                                list.SubItems.Add(sqlReader(1).ToString())
-                                list.SubItems.Add(sqlReader(0).ToString())
-                                list.SubItems.Add(sqlReader(2).ToString())
-                                list.SubItems.Add(sqlReader(4).ToString())
+#Region "LOAD TREEVIEW DATA"
 
-                                If (sqlReader(4) IsNot DBNull.Value) Then
-                                    list.SubItems.Add("ENABLED")
-                                Else
-                                    list.SubItems.Add("DISABBLED")
-                                End If
 
-                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
-                            End While
-                        End Using
-                        sqlCmd.Connection.Close()
-                    End Using
-                Catch ex As Exception
-                    MsgBox(ex.Message)
-                End Try
-            Case 1 'SUB MENU
-                Try
-                    sql = ""
-                    sql = "p_usercontrol_permission_list '" & userid & "','" & id & "','" & flag & "'"
+    Shared Function CreateDataTable() As DataTable
+        Try
+            Dim dt As New DataTable()
+            sql = ""
+            sql = "SELECT id, description,hierarchy1 FROM tbl_main_useraccess_list"
 
-                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
-                        '   Dim aa As New Frm_user_control_permission
-                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
+            Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+                sqlCnn.Open()
+                sqlCmd = New SqlCommand(sql, sqlCnn)
 
-                        sqlCnn.Open()
-                        sqlCmd = New SqlCommand(sql, sqlCnn)
+                Using SqlDataAdapter As New SqlDataAdapter
+                    sqlCmd.Connection = sqlCnn
+                    SqlDataAdapter.SelectCommand = sqlCmd
+                    SqlDataAdapter.Fill(dt)
+                End Using
+                Return dt
+            End Using
 
-                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+        Catch ex As Exception
 
-                            While (sqlReader.Read())
-                                Dim list As New ListViewDataItem
-                                list.SubItems.Add(sqlReader(1).ToString())
-                                list.SubItems.Add(sqlReader(0).ToString())
-                                list.SubItems.Add(sqlReader(2).ToString())
-                                list.SubItems.Add(sqlReader(4).ToString())
+        End Try
+    End Function
 
-                                If (sqlReader(4) IsNot DBNull.Value) Then
-                                    list.SubItems.Add("ENABLED")
-                                Else
-                                    list.SubItems.Add("DISABBLED")
-                                End If
+    Shared Function Searchnode(ByVal nodetext As String, ByVal trv As RadTreeView) As RadTreeNode
+        For Each node As RadTreeNode In trv.Nodes
+            If node.Text = nodetext Then
+                Return node
+            End If
+        Next
+    End Function
 
-                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
-                            End While
-                        End Using
-                        sqlCmd.Connection.Close()
-                    End Using
-                Catch ex As Exception
-                    MsgBox(ex.Message)
-                End Try
-            Case 2 'CHILD MENU
-                Try
-                    sql = ""
-                    sql = "p_usercontrol_permission_list '" & userid & "','" & id & "','" & flag & "'"
+    Shared Sub buildtree(ByVal dt As DataTable, ByVal trv As RadTreeView, ByVal expandAll As [Boolean])
+        Dim dts As New DataTable
 
-                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+        dts.Columns.Add("Id", GetType(Integer))
+        dts.Columns.Add("description", GetType(String))
+        dts.Columns.Add("hierarchy", GetType(String))
 
-                        '   Dim aa As New Frm_user_control_permission
-                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
+        trv.Nodes.Clear()
+        Dim desc As RadTreeNode
 
-                        sqlCnn.Open()
-                        sqlCmd = New SqlCommand(sql, sqlCnn)
+        Dim subNode As RadTreeNode
 
-                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+        Dim flag As Boolean = False
+        Dim flag2 As Boolean = False
 
-                            While (sqlReader.Read())
-                                Dim list As New ListViewDataItem
-                                list.SubItems.Add(sqlReader(1).ToString())
-                                list.SubItems.Add(sqlReader(0).ToString())
-                                list.SubItems.Add(sqlReader(2).ToString())
-                                list.SubItems.Add(sqlReader(4).ToString())
+        For Each row As DataRow In dt.Rows
+            'Dim hierarchyid As String
+            'Dim nameid As String
+            Dim name = row.Item(1).ToString()
 
-                                If (sqlReader(4) IsNot DBNull.Value) Then
-                                    list.SubItems.Add("ENABLED")
-                                Else
-                                    list.SubItems.Add("DISABBLED")
-                                End If
+            Dim assss As String
+            Dim ids As String
+            Dim child_asss As String
+            Dim namesss As String
 
-                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
-                            End While
-                        End Using
-                        sqlCmd.Connection.Close()
-                    End Using
-                Catch ex As Exception
-                    MsgBox(ex.Message)
-                End Try
-            Case 3 'MAINTENANCE
-                Try
-                    sql = ""
-                    sql = "p_usercontrol_permission_list '" & userid & "','" & id & "','" & flag & "'"
 
-                    Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+            For Each rr As DataRow In dt.Rows
+                assss = rr.Item(0).ToString
+                If assss = row.Item(2).ToString Then
+                    flag = True
+                    ids = rr.Item(0).ToString
+                    namesss = rr.Item(1).ToString
+                    Exit For
+                End If
+            Next
 
-                        '   Dim aa As New Frm_user_control_permission
-                        Frm_user_control_permission.lv_useraccountpermission.Items.Clear()
 
-                        sqlCnn.Open()
-                        sqlCmd = New SqlCommand(sql, sqlCnn)
+            'For i As Integer = 0 To RadTreeView1.Nodes.Count - 1
+            '    browseTreeNodes(RadTreeView1.Nodes(i), 0)
+            'Next
 
-                        Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+            desc = Searchnode(row.Item(1).ToString(), trv)
 
-                            While (sqlReader.Read())
-                                Dim list As New ListViewDataItem
-                                list.SubItems.Add(sqlReader(1).ToString())
-                                list.SubItems.Add(sqlReader(0).ToString())
-                                list.SubItems.Add(sqlReader(2).ToString())
-                                list.SubItems.Add(sqlReader(4).ToString())
+            If flag = True Then
 
-                                If (sqlReader(4) IsNot DBNull.Value) Then
-                                    list.SubItems.Add("ENABLED")
-                                Else
-                                    list.SubItems.Add("DISABBLED")
-                                End If
+                For Each rs As DataRow In dt.Rows
+                    child_asss = rs.Item(2).ToString
+                    If child_asss = ids Then
+                        flag2 = True
+                        Exit For
+                    End If
+                Next
 
-                                Frm_user_control_permission.lv_useraccountpermission.Items.Add(list)
-                            End While
-                        End Using
-                        sqlCmd.Connection.Close()
-                    End Using
-                Catch ex As Exception
-                    MsgBox(ex.Message)
-                End Try
-        End Select
+                If flag2 = True Then
+                    'namesss = rr.Item(1).ToString
+                End If
+
+                desc = Searchnode(namesss, trv)
+                subNode = New RadTreeNode(row.Item(1).ToString())
+
+                desc.Nodes.Add(subNode)
+            Else
+                desc = New RadTreeNode(row.Item(1).ToString())
+
+                trv.Nodes.Add(desc)
+            End If
+        Next
+        If expandAll Then
+            ' Expand the TreeView
+            trv.ExpandAll()
+        End If
+    End Sub
+#End Region
+
+#Region "FIND ALL NODES"
+    Shared Sub browseTreeNodes(subRoot As RadTreeNode, level As Integer)
+        If subRoot Is Nothing Then
+            Return
+        End If
+
+        ' do what you need here (just print to output for the purpose of demonstration - this is where "level" is used)
+        Dim nodeText As String = subRoot.Text.PadLeft(subRoot.Text.Length + level, ControlChars.Tab)
+        ' MsgBox(nodeText & " --- " & level)
+
+
+        ' loop through the children
+        For i As Integer = 0 To subRoot.Nodes.Count - 1
+            browseTreeNodes(subRoot.Nodes(i), level + 1)
+        Next
     End Sub
 #End Region
 #End Region

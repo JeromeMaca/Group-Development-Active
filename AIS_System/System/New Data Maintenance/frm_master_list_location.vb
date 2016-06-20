@@ -49,11 +49,11 @@ Public Class Frm_master_list_location
         location_masterlist_view.main_location_listview()
     End Sub
 
-    Private Sub AddToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddToolStripMenuItem.Click
-        command_contxt = 1
+    'Private Sub AddToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddToolStripMenuItem.Click
+    '    command_contxt = 1
 
-        location_masterlist_view.main_loc_disabled()
-    End Sub
+    '    location_masterlist_view.main_loc_disabled()
+    'End Sub
 
     Private Sub btn_cancel_Click(sender As Object, e As EventArgs) Handles btn_cancel.Click
         location_masterlist_view.main_loc_enabled()
@@ -176,5 +176,15 @@ Public Class Frm_master_list_location
         Me.lv_masterlocation.EnableSorting = True
         Dim sort = New SortDescriptor(sortsss, ListSortDirection.Descending)
         Me.lv_masterlocation.SortDescriptors.Add(sort)
+    End Sub
+
+    Private Sub AddNewlyLotCodeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddNewlyLotCodeToolStripMenuItem.Click
+        command_contxt = 1
+        location_masterlist_view.main_loc_disabled()
+    End Sub
+
+    Private Sub AddNewLotCodeWithExistingCodeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddNewLotCodeWithExistingCodeToolStripMenuItem.Click
+        Frm_main.Enabled = False
+        Frm_masterlist_location_addexisting.Show()
     End Sub
 End Class

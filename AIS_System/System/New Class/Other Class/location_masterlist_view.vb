@@ -554,4 +554,40 @@ Public Class location_masterlist_view
 #End Region
 
 #End Region
+
+    'SPLIT LOT CODE LOCATION
+#Region "DIVIDED LOT CODE"
+
+#Region "COMBO BOX LOAD"
+
+    Shared Sub dp_load_location()
+        Try
+            Frm_masterlist_location_addexisting.dp_loc_desc.Items.Clear()
+            sql = ""
+            sql = "SELECT location FROM tbl_location_list ORDER BY location ASC"
+
+            Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+                sqlCnn.Open()
+                Using sqlCmd = New SqlCommand(sql, sqlCnn)
+                    Dim sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+                    While (sqlReader.Read())
+                        Dim desc = sqlReader.Item("location")
+                        Frm_masterlist_location_addexisting.dp_loc_desc.Items.Add(desc)
+                    End While
+                End Using
+                sqlCnn.Close()
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
+#End Region
+
+#Region "COMBO BOX SELECTED ITEM"
+
+
+#End Region
+
+#End Region
 End Class

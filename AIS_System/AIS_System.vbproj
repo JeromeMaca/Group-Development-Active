@@ -299,6 +299,12 @@
     <Compile Include="System\New Data Maintenance\frm_master_list_work_operation.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="System\New Data Maintenance\Others\frm_masterlist_location_addexisting.Designer.vb">
+      <DependentUpon>frm_masterlist_location_addexisting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\New Data Maintenance\Others\frm_masterlist_location_addexisting.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="System\New Data Maintenance\Others\frm_master_list_location_info.Designer.vb">
       <DependentUpon>frm_master_list_location_info.vb</DependentUpon>
     </Compile>
@@ -461,6 +467,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="System\New Data Maintenance\Others\frm_masterlist_location_addexisting.resx">
+      <DependentUpon>frm_masterlist_location_addexisting.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="System\New Menu Farming\Others\frm_form_status.resx">
       <DependentUpon>frm_form_status.vb</DependentUpon>
     </EmbeddedResource>

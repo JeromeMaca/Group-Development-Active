@@ -139,7 +139,6 @@ Partial Class Frm_main
         '
         Me.subjobticket.AccessibleDescription = "Job Ticket Operation"
         Me.subjobticket.AccessibleName = "Job Ticket Operation"
-        Me.subjobticket.Enabled = False
         Me.subjobticket.Name = "subjobticket"
         Me.subjobticket.Text = "Job Ticket Operation"
         Me.subjobticket.Visibility = Telerik.WinControls.ElementVisibility.Visible
@@ -148,7 +147,6 @@ Partial Class Frm_main
         '
         Me.subrequisition.AccessibleDescription = "Requisition/Issuance Slip"
         Me.subrequisition.AccessibleName = "Requisition/Issuance Slip"
-        Me.subrequisition.Enabled = False
         Me.subrequisition.Name = "subrequisition"
         Me.subrequisition.Text = "Requisition And Issuance Slip"
         Me.subrequisition.Visibility = Telerik.WinControls.ElementVisibility.Visible
@@ -157,7 +155,6 @@ Partial Class Frm_main
         '
         Me.subcanepoint.AccessibleDescription = "Cane Point Receipt"
         Me.subcanepoint.AccessibleName = "Cane Point Receipt"
-        Me.subcanepoint.Enabled = False
         Me.subcanepoint.Name = "subcanepoint"
         Me.subcanepoint.Text = "Cane Point Receipt"
         Me.subcanepoint.Visibility = Telerik.WinControls.ElementVisibility.Visible
