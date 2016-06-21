@@ -355,16 +355,16 @@ Public Class Frm_master_list_other
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
 
-            Case 9 'VARIETY
+                ' Case 9 'VARIETY
                 'Me.gb_implemet_list.Location = New Point(2, 101)
                 'Me.gb_implemet_list.BringToFront()
                 ' Me.gb_implemet_list.Visible = True
-                variety_column()
+                '      variety_column()
                 'other_masterlist_view.implementlist_listview()
                 'Me.add.Enabled = True
                 'Me.update.Enabled = True
                 'Me.delete.Enabled = True
-                Me.txt_location_search.Enabled = True
+                '      Me.txt_location_search.Enabled = True
         End Select
     End Sub
 

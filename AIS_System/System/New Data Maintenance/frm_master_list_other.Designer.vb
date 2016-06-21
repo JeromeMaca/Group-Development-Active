@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Frm_master_list_other
     Inherits Telerik.WinControls.UI.RadForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,19 +20,19 @@ Partial Class Frm_master_list_other
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem15 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem16 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem17 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem18 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem19 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem20 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
         Me.dp_masterlistitem = New Telerik.WinControls.UI.RadDropDownList()
         Me.RadLabel1 = New Telerik.WinControls.UI.RadLabel()
@@ -152,36 +152,36 @@ Partial Class Frm_master_list_other
         '
         Me.dp_masterlistitem.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
         Me.dp_masterlistitem.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold)
-        RadListDataItem1.Text = "Main Location"
-        RadListDataItem1.TextWrap = True
-        RadListDataItem2.Text = "Operation Category"
-        RadListDataItem2.TextWrap = True
-        RadListDataItem3.Text = "Association List"
-        RadListDataItem3.TextWrap = True
-        RadListDataItem4.Text = "Culture"
-        RadListDataItem4.TextWrap = True
-        RadListDataItem5.Text = "Equipment / Implement Ownername"
-        RadListDataItem5.TextWrap = True
-        RadListDataItem6.Text = "Equipment Type"
-        RadListDataItem6.TextWrap = True
-        RadListDataItem7.Text = "Equipment Brand"
-        RadListDataItem7.TextWrap = True
-        RadListDataItem8.Text = "Equipment Driver"
-        RadListDataItem8.TextWrap = True
-        RadListDataItem9.Text = "Implements"
-        RadListDataItem9.TextWrap = True
-        RadListDataItem10.Text = "Variety"
-        RadListDataItem10.TextWrap = True
-        Me.dp_masterlistitem.Items.Add(RadListDataItem1)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem2)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem3)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem4)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem5)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem6)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem7)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem8)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem9)
-        Me.dp_masterlistitem.Items.Add(RadListDataItem10)
+        RadListDataItem11.Text = "Main Location"
+        RadListDataItem11.TextWrap = True
+        RadListDataItem12.Text = "Operation Category"
+        RadListDataItem12.TextWrap = True
+        RadListDataItem13.Text = "Association List"
+        RadListDataItem13.TextWrap = True
+        RadListDataItem14.Text = "Culture"
+        RadListDataItem14.TextWrap = True
+        RadListDataItem15.Text = "Equipment / Implement Ownername"
+        RadListDataItem15.TextWrap = True
+        RadListDataItem16.Text = "Equipment Type"
+        RadListDataItem16.TextWrap = True
+        RadListDataItem17.Text = "Equipment Brand"
+        RadListDataItem17.TextWrap = True
+        RadListDataItem18.Text = "Equipment Driver"
+        RadListDataItem18.TextWrap = True
+        RadListDataItem19.Text = "Implements"
+        RadListDataItem19.TextWrap = True
+        RadListDataItem20.Text = "Variety"
+        RadListDataItem20.TextWrap = True
+        Me.dp_masterlistitem.Items.Add(RadListDataItem11)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem12)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem13)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem14)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem15)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem16)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem17)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem18)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem19)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem20)
         Me.dp_masterlistitem.Location = New System.Drawing.Point(16, 32)
         Me.dp_masterlistitem.Name = "dp_masterlistitem"
         Me.dp_masterlistitem.Size = New System.Drawing.Size(327, 20)
