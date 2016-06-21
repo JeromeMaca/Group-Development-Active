@@ -51,7 +51,7 @@ Public Class lot_history_class
         Try
             Frm_lot_by_lot_monitoring.dp_location.Items.Clear()
             sql = ""
-            sql = "SELECT DISTINCT location FROM v_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 ORDER BY location ASC"
+            sql = "SELECT DISTINCT location FROM v_ais_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 ORDER BY location ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -74,7 +74,7 @@ Public Class lot_history_class
         Try
             Frm_lot_by_lot_monitoring.dp_cropyear.Items.Clear()
             sql = ""
-            sql = "SELECT DISTINCT fiscal_year FROM v_trip_ticket_schedule_form ORDER BY fiscal_year DESC"
+            sql = "SELECT DISTINCT fiscal_year FROM v_ais_trip_ticket_schedule_form ORDER BY fiscal_year DESC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -122,7 +122,7 @@ Public Class lot_history_class
     Shared Sub monitoring_lotcode_load_listvoew(location, cropyear)
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (ORDER BY lot_no) as #,lot_no FROM v_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 AND location ='" _
+            sql = "SELECT  ROW_NUMBER() over (ORDER BY lot_no) as #,lot_no FROM v_ais_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 AND location ='" _
                     & "" & location & "' AND fiscal_year='" & cropyear & "' AND posted_by IS NOT NULL GROUP BY lot_no"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -157,7 +157,7 @@ Public Class lot_history_class
                      & ",CONVERT(VARCHAR(12), need_date, 107) as need_date,work_operation,purpose," _
                       & "CONVERT(VARCHAR(12), date_planted, 107) as date_planted,variety,current_area" _
                      & ",rate_per_area,SUBSTRING(convert(varchar, [operate_hours] ,108),1,5) + ' ' + 'Hours' as operate_hours" _
-                    & ",area_done,amount FROM v_trip_ticket_schedule_form WHERE status= 1 AND" _
+                    & ",area_done,amount FROM v_ais_trip_ticket_schedule_form WHERE status= 1 AND" _
                       & " lot_no='" & lot_no & "' AND fiscal_year='" & fiscal_year & "' AND dtl_stats = 2 AND posted_by IS NOT NULL"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -203,7 +203,7 @@ Public Class lot_history_class
                      & ",CONVERT(varchar(15),CAST(equip_timeout AS TIME),100) as equip_timeout" _
                       & ",CONVERT(varchar(15),CAST(jobsite_arrival_time AS TIME),100) as jobsite_arrival_time" _
                        & ",CONVERT(varchar(15),CAST(jobsite_departure_time AS TIME),100) as jobsite_departure_time" _
-                        & " FROM v_trip_ticket_schedule_form WHERE dtl_id='" & dtl_id & "'"
+                        & " FROM v_ais_trip_ticket_schedule_form WHERE dtl_id='" & dtl_id & "'"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -239,7 +239,7 @@ Public Class lot_history_class
     Shared Sub implement_load_listview(dtl_id)
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (PARTITION BY variety,lot_no ORDER BY lot_no ) as #,owner_imple,imple_desc,imple_code FROM v_trip_ticket_schedule_form WHERE dtl_id='" & dtl_id & "'"
+            sql = "SELECT  ROW_NUMBER() over (PARTITION BY variety,lot_no ORDER BY lot_no ) as #,owner_imple,imple_desc,imple_code FROM v_ais_trip_ticket_schedule_form WHERE dtl_id='" & dtl_id & "'"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -273,7 +273,7 @@ Public Class lot_history_class
     Shared Sub monitoring_lotcode_search(location, cropyear, search)
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (ORDER BY lot_no) as #,lot_no FROM v_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 AND location ='" _
+            sql = "SELECT  ROW_NUMBER() over (ORDER BY lot_no) as #,lot_no FROM v_ais_trip_ticket_schedule_form WHERE status=1 and dtl_stats=2 AND location ='" _
                     & "" & location & "' AND fiscal_year='" & cropyear & "' AND lot_no LIKE '%" & search & "%' GROUP BY lot_no"
 
 

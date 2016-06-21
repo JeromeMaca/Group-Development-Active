@@ -56,7 +56,7 @@ Public Class schedule_form_view
             sql = "SELECT ROW_NUMBER() over ( PARTITION BY trip_date ORDER BY CONVERT(VARCHAR(12), hdr_create_date, 107) DESC) as #," _
                      & "hdr_id,REPLICATE('0', 6 - LEN(trip_ticket_no)) + CAST(trip_ticket_no AS varchar) AS trip_ticket_no," _
                       & "CONVERT(VARCHAR(12), trip_date, 107) as trip_date,location, equip_type, equip_no, imple_code," _
-                       & "driver, purpose, requested_by, approved_by FROM v_trip_ticket_schedule_form WHERE dtl_stats <> 2" _
+                       & "driver, purpose, requested_by, approved_by FROM v_ais_trip_ticket_schedule_form WHERE dtl_stats <> 2" _
                        & " GROUP BY hdr_create_date,hdr_id,trip_ticket_no,trip_date,location, equip_type, equip_no, imple_code," _
                         & "driver, purpose, requested_by, approved_by"
 
@@ -120,7 +120,7 @@ Public Class schedule_form_view
 
         Try
             sql = ""
-            sql = "SELECT location,lot_no,ownership,current_area,work_operation,lot_owner_name,association_desc,fiscal_year FROM v_trip_ticket_schedule_form " _
+            sql = "SELECT location,lot_no,ownership,current_area,work_operation,lot_owner_name,association_desc,fiscal_year FROM v_ais_trip_ticket_schedule_form " _
                 & " WHERE dtl_id ='" & id & "'"
 
 
@@ -157,7 +157,7 @@ Public Class schedule_form_view
     Shared Sub trip_ticket_schedule_header_data()
         Try
             sql = ""
-            sql = "  SELECT ROW_NUMBER() over (ORDER BY lot_no) as #,dtl_id,lot_no,work_operation FROM v_trip_ticket_schedule_form WHERE hdr_id = '" & slct_id_hdr_schedule & "' AND accomplished_by IS NULL AND dtl_stats = '0'"
+            sql = "  SELECT ROW_NUMBER() over (ORDER BY lot_no) as #,dtl_id,lot_no,work_operation FROM v_ais_trip_ticket_schedule_form WHERE hdr_id = '" & slct_id_hdr_schedule & "' AND accomplished_by IS NULL AND dtl_stats = '0'"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -192,7 +192,7 @@ Public Class schedule_form_view
     Shared Sub trip_ticket_schedule_detail_data()
         Try
             sql = ""
-            sql = "SELECT ROW_NUMBER() over (ORDER BY lot_no) as #,lot_no,location,work_operation,time_started,time_stopped,operate_hours,area_done FROM v_trip_ticket_schedule_form WHERE hdr_id = '" & slct_id_hdr_schedule & "' AND dtl_stats = '1' AND accomplished_by IS NULL"
+            sql = "SELECT ROW_NUMBER() over (ORDER BY lot_no) as #,lot_no,location,work_operation,time_started,time_stopped,operate_hours,area_done FROM v_ais_trip_ticket_schedule_form WHERE hdr_id = '" & slct_id_hdr_schedule & "' AND dtl_stats = '1' AND accomplished_by IS NULL"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -235,7 +235,7 @@ Public Class schedule_form_view
             sql = "SELECT ROW_NUMBER() over ( PARTITION BY trip_date ORDER BY CONVERT(VARCHAR(12), hdr_create_date, 107) DESC) as #," _
                      & "hdr_id,REPLICATE('0', 6 - LEN(trip_ticket_no)) + CAST(trip_ticket_no AS varchar) AS trip_ticket_no," _
                        & "CONVERT(VARCHAR(12), trip_date, 107) as trip_date,location, equip_type, equip_no, imple_code," _
-                        & "driver, purpose, requested_by, approved_by, accomplished_by FROM v_trip_ticket_schedule_form WHERE dtl_stats = 2" _
+                        & "driver, purpose, requested_by, approved_by, accomplished_by FROM v_ais_trip_ticket_schedule_form WHERE dtl_stats = 2" _
                          & " GROUP BY hdr_create_date,hdr_id,reg_no,trip_ticket_no,trip_date,location, equip_type, equip_no, imple_code," _
                           & "driver, purpose, requested_by, approved_by,accomplished_by"
 

@@ -31,7 +31,7 @@ Public Class User_Accounts_view
                 Try
                     Dim pwordhash = sysmod.GenerateHash(password)
 
-                    sysmod.strQuery = "SELECT TOP 1 * FROM tbl_user_account WHERE username = '" & username & "' AND password = '" & pwordhash & "'"
+                    sysmod.strQuery = "SELECT TOP 1 * FROM tbl_ais_user_account WHERE username = '" & username & "' AND password = '" & pwordhash & "'"
                     sysmod.useDB(sysmod.strQuery)
                     sysmod.resultNum = sysmod.sqlCmd.ExecuteScalar
                     If sysmod.resultNum <> 0 Then

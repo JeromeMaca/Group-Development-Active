@@ -12,7 +12,7 @@ Public Class implement_masterlist_view
         Try
             Frm_masterlist_implements.dp_owner.Items.Clear()
             sql = ""
-            sql = "SELECT owner_name FROM tbl_owner_name ORDER BY owner_name ASC"
+            sql = "SELECT owner_name FROM tbl_ais_owner_name ORDER BY owner_name ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -35,7 +35,7 @@ Public Class implement_masterlist_view
         Try
             Frm_masterlist_implements.dp_implelist.Items.Clear()
             sql = ""
-            sql = "SELECT description FROM tbl_implement_list ORDER BY description ASC"
+            sql = "SELECT description FROM tbl_ais_implement_list ORDER BY description ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -59,7 +59,7 @@ Public Class implement_masterlist_view
     Shared Sub main_imple_select_dp_owner()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_owner_name WHERE owner_name='" + Trim(Frm_masterlist_implements.dp_owner.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_owner_name WHERE owner_name='" + Trim(Frm_masterlist_implements.dp_owner.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -81,7 +81,7 @@ Public Class implement_masterlist_view
     Shared Sub main_imple_select_dp_list()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_implement_list WHERE description='" + Trim(Frm_masterlist_implements.dp_implelist.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_implement_list WHERE description='" + Trim(Frm_masterlist_implements.dp_implelist.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -105,7 +105,7 @@ Public Class implement_masterlist_view
     Shared Sub implement_listview()
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (PARTITION BY description,owner_name ORDER BY description,imple_desc,owner_name) as #,id,owner_name,description,code,imple_desc FROM v_implement_masterlist"
+            sql = "SELECT  ROW_NUMBER() over (PARTITION BY description,owner_name ORDER BY description,imple_desc,owner_name) as #,id,owner_name,description,code,imple_desc FROM v_ais_implement_masterlist"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -210,11 +210,11 @@ Public Class implement_masterlist_view
             sql = ""
             If search_word <> "" Then
                 sql = "SELECT TOP 50 ROW_NUMBER() over (PARTITION BY description,owner_name ORDER BY description,imple_desc,owner_name) as #" _
-                    & ",id,owner_name,description,code,imple_desc FROM v_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
+                    & ",id,owner_name,description,code,imple_desc FROM v_ais_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
                     & " LIKE '%" & search_word & "%'"
             Else
                 sql = "SELECT ROW_NUMBER() over (PARTITION BY description,owner_name ORDER BY description,imple_desc,owner_name) as #" _
-                    & ",id,owner_name,description,code,imple_desc FROM v_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
+                    & ",id,owner_name,description,code,imple_desc FROM v_ais_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
                     & " LIKE '%" & search_word & "%'"
             End If
 

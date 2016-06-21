@@ -28,7 +28,7 @@ Public Class Farming_Operation
     'Shared Sub NewCategory()
     '    Try
     '        sql = ""
-    '        sql = "SELECT  row_number() over (order by cat_desc asc) as #,category_id,cat_desc FROM tbl_operation_category"
+    '        sql = "SELECT  row_number() over (order by cat_desc asc) as #,category_id,cat_desc FROM tbl_ais_ais_operation_category"
 
     '        Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -58,7 +58,7 @@ Public Class Farming_Operation
     'Shared Sub NewOwnerName()
     '    Try
     '        sql = ""
-    '        sql = "SELECT row_number() over (order by owner_name asc) as #,owner_name_id,owner_name FROM tbl_equipment_ownername ORDER BY owner_name"
+    '        sql = "SELECT row_number() over (order by owner_name asc) as #,owner_name_id,owner_name FROM tbl_ais_equipment_ownername ORDER BY owner_name"
 
     '        Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -89,7 +89,7 @@ Public Class Farming_Operation
         Try
             frm_master_list_operation.dropd_category.Items.Clear()
             sql = ""
-            sql = "SELECT cat_desc FROM tbl_operation_category ORDER BY cat_desc ASC"
+            sql = "SELECT cat_desc FROM tbl_ais_operation_category ORDER BY cat_desc ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -115,11 +115,11 @@ Public Class Farming_Operation
             sql = ""
 
             If equipment_ownerid = 1 Then
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id= '1' ORDER BY owner_name ASC"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id= '1' ORDER BY owner_name ASC"
             ElseIf equipment_ownerid = 2 Then
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id= '2' ORDER BY owner_name ASC"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id= '2' ORDER BY owner_name ASC"
             ElseIf equipment_ownerid = 3 Then
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id NOT IN(1,2) ORDER BY owner_name ASC"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id NOT IN(1,2) ORDER BY owner_name ASC"
             End If
 
 
@@ -146,11 +146,11 @@ Public Class Farming_Operation
             sql = ""
 
             If imple_id = 1 Then
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id= '1' ORDER BY owner_name ASC"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id= '1' ORDER BY owner_name ASC"
             ElseIf imple_id = 2 Then
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id= '2' ORDER BY owner_name ASC"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id= '2' ORDER BY owner_name ASC"
             ElseIf imple_id = 3 Then
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id NOT IN(1,2) ORDER BY owner_name ASC"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id NOT IN(1,2) ORDER BY owner_name ASC"
             End If
 
 
@@ -174,7 +174,7 @@ Public Class Farming_Operation
     Shared Sub main_select_category()
         Try
             sql = ""
-            sql = "SELECT category_id FROM tbl_operation_category WHERE cat_desc='" + Trim(frm_master_list_operation.dropd_category.Text) + "'"
+            sql = "SELECT category_id FROM tbl_ais_operation_category WHERE cat_desc='" + Trim(frm_master_list_operation.dropd_category.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -198,7 +198,7 @@ Public Class Farming_Operation
     Shared Sub main_select_ownername()
         Try
             sql = ""
-            sql = "SELECT owner_name_id FROM tbl_equipment_ownername WHERE owner_name='" + Trim(Frm_equipment.cb_ownername.Text) + "'"
+            sql = "SELECT owner_name_id FROM tbl_ais_equipment_ownername WHERE owner_name='" + Trim(Frm_equipment.cb_ownername.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -222,7 +222,7 @@ Public Class Farming_Operation
     Shared Sub main_select_ownername_imple()
         Try
             sql = ""
-            sql = "SELECT owner_name_id FROM tbl_equipment_ownername WHERE owner_name='" + Trim(Frm_implement.cb_imp_ownername.Text) + "'"
+            sql = "SELECT owner_name_id FROM tbl_ais_equipment_ownername WHERE owner_name='" + Trim(Frm_implement.cb_imp_ownername.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -246,7 +246,7 @@ Public Class Farming_Operation
     Shared Sub load_work_operation()
         Try
             sql = ""
-            sql = "SELECT  row_number() over (order by cat_desc asc) as #,id,operation_desc, CONVERT(VARCHAR,rate,1) as rate,unit,cat_desc FROM v_work_operation"
+            sql = "SELECT  row_number() over (order by cat_desc asc) as #,id,operation_desc, CONVERT(VARCHAR,rate,1) as rate,unit,cat_desc FROM v_ais_work_operation"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -287,7 +287,7 @@ Public Class Farming_Operation
     Shared Sub load_equipment_v()
         Try
             sql = ""
-            sql = "SELECT ROW_NUMBER() OVER (ORDER BY owner_id ASC) AS #,owner_id,owner_name,equipment_no,equipment_desc,equipment_driver,equipment_fuelcap,owner_name_id FROM v_equipments"
+            sql = "SELECT ROW_NUMBER() OVER (ORDER BY owner_id ASC) AS #,owner_id,owner_name,equipment_no,equipment_desc,equipment_driver,equipment_fuelcap,owner_name_id FROM v_ais_equipments"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -322,7 +322,7 @@ Public Class Farming_Operation
     Shared Sub load_implements_v()
         Try
             sql = ""
-            sql = "SELECT ROW_NUMBER() OVER (ORDER BY imp_id ASC) as #,imp_id,imp_name_id,Owner_name,imp_desc FROM v_implements"
+            sql = "SELECT ROW_NUMBER() OVER (ORDER BY imp_id ASC) as #,imp_id,imp_name_id,Owner_name,imp_desc FROM v_ais_implements"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -354,7 +354,7 @@ Public Class Farming_Operation
     'Shared Sub load_location_list()
     '    Try
     '        sql = ""
-    '        sql = "SELECT ROW_NUMBER() OVER (ORDER BY id ASC) as #,id,location_desc FROM tbl_location_list"
+    '        sql = "SELECT ROW_NUMBER() OVER (ORDER BY id ASC) as #,id,location_desc FROM tbl_ais_location_list"
 
     '        Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -384,7 +384,7 @@ Public Class Farming_Operation
         Try
             Frm_locations.cb_loc_desc.Items.Clear()
             sql = ""
-            sql = "SELECT location_desc FROM tbl_location_list ORDER BY location_desc ASC"
+            sql = "SELECT location_desc FROM tbl_ais_location_list ORDER BY location_desc ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -406,7 +406,7 @@ Public Class Farming_Operation
     Shared Sub Select_Combo_location_list()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location_list WHERE location_desc='" + Trim(Frm_locations.cb_loc_desc.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_location_list WHERE location_desc='" + Trim(Frm_locations.cb_loc_desc.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -429,7 +429,7 @@ Public Class Farming_Operation
     Shared Sub Load_locationMasterList()
         Try
             sql = ""
-            sql = "SELECT ROW_NUMBER() OVER (ORDER BY id ASC) as #,id,code,location_desc,area,culture FROM v_locations"
+            sql = "SELECT ROW_NUMBER() OVER (ORDER BY id ASC) as #,id,code,location_desc,area,culture FROM v_ais_locations"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -462,7 +462,7 @@ Public Class Farming_Operation
         Try
             Frm_triptickets.cb_ST_equipment.Items.Clear()
             sql = ""
-            sql = "SELECT equipment_desc,equipment_driver FROM tbl_equipments WHERE owner_name_id='" & e_ownername_id & "' ORDER BY equipment_desc ASC"
+            sql = "SELECT equipment_desc,equipment_driver FROM tbl_ais_equipments WHERE owner_name_id='" & e_ownername_id & "' ORDER BY equipment_desc ASC"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -488,7 +488,7 @@ Public Class Farming_Operation
         Try
             Frm_triptickets.cb_ST_implement.Items.Clear()
             sql = ""
-            sql = "SELECT imp_desc FROM tbl_implements WHERE imp_name_id='" & i_ownername_id & "' ORDER BY imp_desc ASC"
+            sql = "SELECT imp_desc FROM tbl_ais_implements WHERE imp_name_id='" & i_ownername_id & "' ORDER BY imp_desc ASC"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -511,7 +511,7 @@ Public Class Farming_Operation
     Shared Sub Select_Trip_ticket_equipment()
         Try
             sql = ""
-            sql = "SELECT owner_id,equipment_no,equipment_driver FROM tbl_equipments WHERE equipment_desc='" + Trim(Frm_triptickets.cb_ST_equipment.Text) + "'"
+            sql = "SELECT owner_id,equipment_no,equipment_driver FROM tbl_ais_equipments WHERE equipment_desc='" + Trim(Frm_triptickets.cb_ST_equipment.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -536,7 +536,7 @@ Public Class Farming_Operation
     Shared Sub Select_Trip_ticket_implements()
         Try
             sql = ""
-            sql = "SELECT imp_id,imp_desc FROM tbl_implements WHERE imp_desc='" + Trim(Frm_triptickets.cb_ST_implement.Text) + "'"
+            sql = "SELECT imp_id,imp_desc FROM tbl_ais_implements WHERE imp_desc='" + Trim(Frm_triptickets.cb_ST_implement.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -561,7 +561,7 @@ Public Class Farming_Operation
         Try
             Frm_triptickets.cb_ST_destination.Items.Clear()
             sql = ""
-            sql = "SELECT location_desc FROM tbl_location_list ORDER BY location_desc ASC"
+            sql = "SELECT location_desc FROM tbl_ais_location_list ORDER BY location_desc ASC"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -584,7 +584,7 @@ Public Class Farming_Operation
     Shared Sub Select_trip_ticket_destination()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location_list WHERE location_desc='" + Trim(Frm_triptickets.cb_ST_destination.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_location_list WHERE location_desc='" + Trim(Frm_triptickets.cb_ST_destination.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -610,7 +610,7 @@ Public Class Farming_Operation
             Frm_triptickets.cb_equipment_owner_TT.Items.Clear()
 
             sql = ""
-            sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id IN(1,2)"
+            sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id IN(1,2)"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -639,7 +639,7 @@ Public Class Farming_Operation
             Frm_triptickets.cb_implement_owner_TT.Items.Clear()
 
             sql = ""
-            sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id IN(1,2)"
+            sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id IN(1,2)"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -668,7 +668,7 @@ Public Class Farming_Operation
             If Frm_triptickets.chk_subcon_equipment.Checked = True Then
                 Frm_triptickets.cb_equipment_owner_TT.Items.Clear()
 
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id NOT IN(1,2)"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id NOT IN(1,2)"
                 Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                     sqlCnn.Open()
                     Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -702,7 +702,7 @@ Public Class Farming_Operation
             If Frm_triptickets.chk_subcon_implement.Checked = True Then
                 Frm_triptickets.cb_implement_owner_TT.Items.Clear()
 
-                sql = "SELECT owner_name FROM tbl_equipment_ownername WHERE owner_name_id NOT IN(1,2)"
+                sql = "SELECT owner_name FROM tbl_ais_equipment_ownername WHERE owner_name_id NOT IN(1,2)"
                 Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                     sqlCnn.Open()
                     Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -732,7 +732,7 @@ Public Class Farming_Operation
     Shared Sub Select_equip_owner_id_TT()
         Try
             sql = ""
-            sql = "SELECT owner_name_id FROM tbl_equipment_ownername WHERE Owner_name='" + Trim(Frm_triptickets.cb_equipment_owner_TT.Text) + "'"
+            sql = "SELECT owner_name_id FROM tbl_ais_equipment_ownername WHERE Owner_name='" + Trim(Frm_triptickets.cb_equipment_owner_TT.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -755,7 +755,7 @@ Public Class Farming_Operation
     Shared Sub select_imple_owner_id_TT()
         Try
             sql = ""
-            sql = "SELECT owner_name_id FROM tbl_equipment_ownername WHERE Owner_name='" + Trim(Frm_triptickets.cb_implement_owner_TT.Text) + "'"
+            sql = "SELECT owner_name_id FROM tbl_ais_equipment_ownername WHERE Owner_name='" + Trim(Frm_triptickets.cb_implement_owner_TT.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)

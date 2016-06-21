@@ -107,7 +107,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_location_list(location,municipality,province) VALUES('" + loc + "','" + mun + "', '" + prov + "')"
+                .CommandText = "INSERT INTO tbl_ais_location_list(location,municipality,province) VALUES('" + loc + "','" + mun + "', '" + prov + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -129,7 +129,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_location_list SET province='" & prov & "',municipality ='" & mun & "', location='" & loc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_location_list SET province='" & prov & "',municipality ='" & mun & "', location='" & loc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -154,7 +154,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_location_list WHERE id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_location_list WHERE id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -178,7 +178,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_operation_category(cat_desc) VALUES('" + desc + "')"
+                .CommandText = "INSERT INTO tbl_ais_operation_category(cat_desc) VALUES('" + desc + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -200,7 +200,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_operation_category SET cat_desc='" & desc & "' WHERE category_id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_operation_category SET cat_desc='" & desc & "' WHERE category_id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -224,7 +224,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_operation_category WHERE category_id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_operation_category WHERE category_id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -248,7 +248,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_location_association SET sub_desc='" & desc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_location_association SET sub_desc='" & desc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -272,7 +272,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_location_variety(variety) VALUES('" + desc + "')"
+                .CommandText = "INSERT INTO tbl_ais_location_variety(variety) VALUES('" + desc + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -294,7 +294,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_location_variety SET variety='" & desc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_location_variety SET variety='" & desc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -319,7 +319,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_location_variety WHERE id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_location_variety WHERE id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -343,7 +343,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_owner_name(owner_name,id_name) VALUES('" + desc + "','4')"
+                .CommandText = "INSERT INTO tbl_ais_owner_name(owner_name,id_name) VALUES('" + desc + "','4')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -365,7 +365,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_owner_name SET owner_name='" & desc & "' WHERE id='" & id & "')"
+                .CommandText = "UPDATE tbl_ais_owner_name SET owner_name='" & desc & "' WHERE id='" & id & "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -390,7 +390,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_owner_name WHERE id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_owner_name WHERE id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -417,7 +417,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_equipment_type(equipment_type) VALUES('" + desc + "')"
+                .CommandText = "INSERT INTO tbl_ais_equipment_type(equipment_type) VALUES('" + desc + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -439,7 +439,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_equipment_type SET equipment_type='" & desc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_equipment_type SET equipment_type='" & desc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -464,7 +464,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_equipment_type WHERE id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_equipment_type WHERE id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -491,7 +491,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_equipment_brand(equipment_brand) VALUES('" + desc + "')"
+                .CommandText = "INSERT INTO tbl_ais_equipment_brand(equipment_brand) VALUES('" + desc + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -513,7 +513,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_equipment_brand SET equipment_brand='" & desc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_equipment_brand SET equipment_brand='" & desc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -538,7 +538,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_equipment_brand WHERE id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_equipment_brand WHERE id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -565,7 +565,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_equipment_driver(driver_name,status) VALUES('" + desc + "','0')"
+                .CommandText = "INSERT INTO tbl_ais_equipment_driver(driver_name,status) VALUES('" + desc + "','0')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -587,7 +587,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_equipment_driver SET driver_name='" & desc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_equipment_driver SET driver_name='" & desc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -612,7 +612,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_equipment_driver WHERE id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_equipment_driver WHERE id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -639,7 +639,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_implement_list(description) VALUES('" + desc + "')"
+                .CommandText = "INSERT INTO tbl_ais_implement_list(description) VALUES('" + desc + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -661,7 +661,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_implement_list SET description='" & desc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_implement_list SET description='" & desc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -686,7 +686,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_implement_list WHERE id =" & slct_id
+                        .CommandText = "DELETE FROM tbl_ais_implement_list WHERE id =" & slct_id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -717,7 +717,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_main_location_add '" & code & "','" & loc_id & "', '" & area & "','" & soiltype & "','" & owner_name & "'"
+                .CommandText = "p_ais_main_location_add '" & code & "','" & loc_id & "', '" & area & "','" & soiltype & "','" & owner_name & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -739,7 +739,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_main_location_update '" & loc_id & "','" & code & "', '" & area & "','" & soiltype & "','" & id & "','" & owner_name & "'"
+                .CommandText = "p_ais_main_location_update '" & loc_id & "','" & code & "', '" & area & "','" & soiltype & "','" & id & "','" & owner_name & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -765,7 +765,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "DELETE FROM tbl_location WHERE id =" & id
+                        .CommandText = "DELETE FROM tbl_ais_location WHERE id =" & id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -783,7 +783,7 @@ Public Class System_mod
         Catch ex As Exception
             msgerror = ex.Message.ToString
 
-            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_location_info_tbl_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
+            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_ais_location_info_tbl_ais_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_ais_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
                 MsgBox("Unabled to delete this item because of Data Independency.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
         End Try
@@ -797,7 +797,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_insert_location_info_update_main_location '" & lot_id & "','" & date_planted & "','" & ownership & "'," _
+                .CommandText = "p_ais_insert_location_info_update_main_location '" & lot_id & "','" & date_planted & "','" & ownership & "'," _
                     & "'" & variety_id & "','" & asso_id & "','" & wat_source & "','" & fiscal_year & "','" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
@@ -820,7 +820,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_location_info_update '" & date_planted & "','" & ownership & "'," _
+                .CommandText = "p_ais_location_info_update '" & date_planted & "','" & ownership & "'," _
                     & "'" & variety_id & "','" & asso_id & "','" & wat_source & "','" & fiscal_year & "','" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
@@ -847,7 +847,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_location_info_delete " & id
+                        .CommandText = "p_ais_location_info_delete " & id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -865,7 +865,7 @@ Public Class System_mod
         Catch ex As Exception
             msgerror = ex.Message.ToString
 
-            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_location_info_tbl_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
+            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_ais_location_info_tbl_ais_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_ais_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
                 MsgBox("Unenabled to delete this item because of the independency.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
         End Try
@@ -882,7 +882,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_equipment_masterlist_add '" & owner_id & "','" & type_id & "', '" & brand_id & "','" & model & "','" & cr_no & "','" & motor_no & "','" & serial_no & "'" _
+                .CommandText = "p_ais_equipment_masterlist_add '" & owner_id & "','" & type_id & "', '" & brand_id & "','" & model & "','" & cr_no & "','" & motor_no & "','" & serial_no & "'" _
                     & ",'" & mv_file_no & "','" & si_no & "','" & dr_no & "','" & others & "','" & date_proof & "','" & acqi_cost & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
@@ -905,7 +905,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_equipment_masterlist_update '" & owner_id & "','" & type_id & "', '" & brand_id & "','" & model & "','" & cr_no & "','" & motor_no & "','" & serial_no & "'" _
+                .CommandText = "p_ais_equipment_masterlist_update '" & owner_id & "','" & type_id & "', '" & brand_id & "','" & model & "','" & cr_no & "','" & motor_no & "','" & serial_no & "'" _
                     & ",'" & mv_file_no & "','" & si_no & "','" & dr_no & "','" & others & "','" & date_proof & "','" & acqi_cost & "','" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
@@ -932,7 +932,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_equipment_masterlist_delete " & id
+                        .CommandText = "p_ais_equipment_masterlist_delete " & id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -950,7 +950,7 @@ Public Class System_mod
         Catch ex As Exception
             msgerror = ex.Message.ToString
 
-            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_location_info_tbl_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
+            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_ais_location_info_tbl_ais_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_ais_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
                 MsgBox("Unenabled to delete this item because of the independency.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
         End Try
@@ -965,7 +965,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_implement_masterlist_add '" & owner_id & "','" & imple_id & "', '" & code & "','" & descr & "'"
+                .CommandText = "p_ais_implement_masterlist_add '" & owner_id & "','" & imple_id & "', '" & code & "','" & descr & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -987,7 +987,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_implement_masterlist_update '" & owner_id & "','" & imple_id & "', '" & code & "','" & descr & "','" & id & "'"
+                .CommandText = "p_ais_implement_masterlist_update '" & owner_id & "','" & imple_id & "', '" & code & "','" & descr & "','" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1013,7 +1013,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_implement_masterlist_delete " & id
+                        .CommandText = "p_ais_implement_masterlist_delete " & id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -1031,7 +1031,7 @@ Public Class System_mod
         Catch ex As Exception
             msgerror = ex.Message.ToString
 
-            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_location_info_tbl_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
+            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_ais_location_info_tbl_ais_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_ais_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
                 MsgBox("Unenabled to delete this item because of the independency.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
         End Try
@@ -1046,7 +1046,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_workoperation_masterlist_add '" & cat_id & "','" & operation & "', '" & unit & "','" & rate & "'"
+                .CommandText = "p_ais_workoperation_masterlist_add '" & cat_id & "','" & operation & "', '" & unit & "','" & rate & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1068,7 +1068,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_workoperation_masterlist_update '" & cat_id & "','" & operation & "', '" & unit & "','" & rate & "','" & id & "'"
+                .CommandText = "p_ais_workoperation_masterlist_update '" & cat_id & "','" & operation & "', '" & unit & "','" & rate & "','" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1094,7 +1094,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_workoperation_masterlist_delete " & id
+                        .CommandText = "p_ais_workoperation_masterlist_delete " & id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -1112,7 +1112,7 @@ Public Class System_mod
         Catch ex As Exception
             msgerror = ex.Message.ToString
 
-            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_location_info_tbl_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
+            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_ais_location_info_tbl_ais_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_ais_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
                 MsgBox("Unenabled to delete this item because of the independency.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
         End Try
@@ -1128,7 +1128,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_trip_ticket_request_form_add '" & date_req & "','" & lot_id & "', '" & order_id & "','" & work_ope_id & "','" & userid & "','0','" & needtime & "','" & purpose & "'"
+                .CommandText = "p_ais_trip_ticket_request_form_add '" & date_req & "','" & lot_id & "', '" & order_id & "','" & work_ope_id & "','" & userid & "','0','" & needtime & "','" & purpose & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1154,7 +1154,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & dtl_id & "','" & userid & "'"
+                        .CommandText = "p_ais_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & dtl_id & "','" & userid & "'"
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -1173,7 +1173,7 @@ Public Class System_mod
                         dbConn = New SqlConnection(connStr)
                         With sqlCmd
                             .Connection = dbConn
-                            .CommandText = "p_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & dtl_id & "','" & userid & "'"
+                            .CommandText = "p_ais_trip_ticket_request_form_delete '" & cond & "','" & hdr_id & "','" & dtl_id & "','" & userid & "'"
                             dbConn.Open()
                             .ExecuteNonQuery()
                             dbConn.Close()
@@ -1195,7 +1195,7 @@ Public Class System_mod
         Catch ex As Exception
             msgerror = ex.Message.ToString
 
-            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_trip_ticket_request_dtl_tbl_trip_ticket_request_hdr" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_trip_ticket_request_dtl" & s & ", column 'req_hdr_id'." & vbCrLf & "The statement has been terminated." & vbCrLf & "Unexpected error occurred!" Then
+            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_ais_trip_ticket_request_dtl_tbl_ais_trip_ticket_request_hdr" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_ais_trip_ticket_request_dtl" & s & ", column 'req_hdr_id'." & vbCrLf & "The statement has been terminated." & vbCrLf & "Unexpected error occurred!" Then
                 MsgBox("Unenabled to delete this item because of the independency.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
         End Try
@@ -1206,7 +1206,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_workoperation_masterlist_update '" & cat_id & "','" & operation & "', '" & unit & "','" & rate & "','" & id & "'"
+                .CommandText = "p_ais_workoperation_masterlist_update '" & cat_id & "','" & operation & "', '" & unit & "','" & rate & "','" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1232,7 +1232,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_workoperation_masterlist_delete " & id
+                        .CommandText = "p_ais_workoperation_masterlist_delete " & id
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()
@@ -1250,7 +1250,7 @@ Public Class System_mod
         Catch ex As Exception
             msgerror = ex.Message.ToString
 
-            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_location_info_tbl_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
+            If msgerror = "The DELETE statement conflicted with the REFERENCE constraint " & s & "FK_tbl_ais_location_info_tbl_ais_location" & s & ". The conflict occurred in database " & s & "AIS_Database" & s & ", table " & s & "dbo.tbl_ais_location_info" & s & ", column 'lot_id'." & vbCrLf & "The statement has been terminated." Then
                 MsgBox("Unenabled to delete this item because of the independency.", vbInformation + vbOKOnly, "AIS: Warning")
             End If
         End Try
@@ -1261,7 +1261,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_trip_ticket_request_form_confirm '" & user_id & "'"
+                .CommandText = "p_ais_trip_ticket_request_form_confirm '" & user_id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1290,7 +1290,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_trip_ticket_approval_add '" & hdr_id & "','" & dtl_id & "','" & lot_id & "','" & reg_no & "','" & trip_ticket_no & "','" & trip_date & "','" & equip_type & "','" & equipt_no & "','" & imple_desc & "'" _
+                .CommandText = "p_ais_trip_ticket_approval_add '" & hdr_id & "','" & dtl_id & "','" & lot_id & "','" & reg_no & "','" & trip_ticket_no & "','" & trip_date & "','" & equip_type & "','" & equipt_no & "','" & imple_desc & "'" _
                                     & ",'" & imple_code & "','" & driver & "','" & purpose & "','" & need_date & "','" & need_time & "','" & requested_by & "','" & approved_by & "','" & lot_no & "'" _
                                     & ",'" & work_operation & "','" & approval_equip_id & "','" & approval_imple_id & "','" & driver_id & "','" & user_ids & "'"
                 dbConn.Open()
@@ -1316,7 +1316,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_trip_ticket_schedule_dtl SET dtl_stats=1,time_started='" & started & "',time_stopped='" & stopped & "',operate_hours='" & operate_hrs & "'" _
+                .CommandText = "UPDATE tbl_ais_trip_ticket_schedule_dtl SET dtl_stats=1,time_started='" & started & "',time_stopped='" & stopped & "',operate_hours='" & operate_hrs & "'" _
                             & " ,area_done='" & area_done & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
@@ -1342,7 +1342,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "SELECT COUNT(*) FROM v_trip_ticket_schedule_form WHERE hdr_id ='" & id & "' AND dtl_stats='0'"
+                .CommandText = "SELECT COUNT(*) FROM v_ais_trip_ticket_schedule_form WHERE hdr_id ='" & id & "' AND dtl_stats='0'"
                 dbConn.Open()
                 count_remain = .ExecuteScalar()
                 dbConn.Close()
@@ -1383,7 +1383,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_trip_ticket_schedule_dtl SET rate_per_area='" & rate_area & "', amount='" & total_amount & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_trip_ticket_schedule_dtl SET rate_per_area='" & rate_area & "', amount='" & total_amount & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1405,7 +1405,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_trip_ticket_schedule_dtl SET post_status='1' WHERE hdr_id='" & id & "' AND dtl_stats ='2'"
+                .CommandText = "UPDATE tbl_ais_trip_ticket_schedule_dtl SET post_status='1' WHERE hdr_id='" & id & "' AND dtl_stats ='2'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1426,7 +1426,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_trip_ticket_schedule_hdr SET posted_by='" & Frm_main.txt_fullname.Text & "',posted_date=GETDATE() WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_trip_ticket_schedule_hdr SET posted_by='" & Frm_main.txt_fullname.Text & "',posted_date=GETDATE() WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1452,7 +1452,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','1','','" & index & "'"
+                .CommandText = "p_ais_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','1','','" & index & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1474,7 +1474,7 @@ Public Class System_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','2','" & id & "','" & index & "'"
+                .CommandText = "p_ais_usercontrol_add_modify '" & username & "','" & password & "', '" & fname & "','" & mname & "','" & lname & "','" & usertype & "','" & encodername & "','2','" & id & "','" & index & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -1499,7 +1499,7 @@ Public Class System_mod
                     dbConn = New SqlConnection(connStr)
                     With sqlCmd
                         .Connection = dbConn
-                        .CommandText = "p_usercontrol_add_modify '','','','','','','','3','" & id & "'"
+                        .CommandText = "p_ais_usercontrol_add_modify '','','','','','','','3','" & id & "'"
                         dbConn.Open()
                         .ExecuteNonQuery()
                         dbConn.Close()

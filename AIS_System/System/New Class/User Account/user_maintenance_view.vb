@@ -82,7 +82,7 @@ Public Class user_maintenance_view
     Shared Sub userlist_load()
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (PARTITION BY type_index ORDER BY type_index) as #,id,username,password,user_lname,user_fname,user_mname,user_type,type_index FROM tbl_user_account"
+            sql = "SELECT  ROW_NUMBER() over (PARTITION BY type_index ORDER BY type_index) as #,id,username,password,user_lname,user_fname,user_mname,user_type,type_index FROM tbl_ais_user_account"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -205,7 +205,7 @@ Public Class user_maintenance_view
         Try
             sql = ""
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY type_index ORDER BY type_index) as #,id,username,password,user_lname,user_fname,user_mname,user_type,type_index" _
-                    & " FROM tbl_user_account WHERE username LIKE '%" & search & "%' OR user_lname LIKE '%" & search & "%' OR user_fname LIKE '%" & search & "%' OR user_mname LIKE '%" & search & "%'"
+                    & " FROM tbl_ais_user_account WHERE username LIKE '%" & search & "%' OR user_lname LIKE '%" & search & "%' OR user_fname LIKE '%" & search & "%' OR user_mname LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -289,7 +289,7 @@ Public Class user_maintenance_view
         Try
             Dim dt As New DataTable()
             sql = ""
-            sql = "SELECT id, description,hierarchy1 FROM tbl_main_useraccess_list"
+            sql = "SELECT id, description,hierarchy1 FROM tbl_ais_main_useraccess_list"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)

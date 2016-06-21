@@ -40,7 +40,7 @@ Partial Class Frm_master_list_location_info
         Dim ListViewDetailColumn5 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "DATE PLANTED")
         Dim ListViewDetailColumn6 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 5", "OWNERSHIP")
         Dim ListViewDetailColumn7 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 7", "ASSOCIATION")
-        Dim ListViewDetailColumn8 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 8", "VARIETY")
+        Dim ListViewDetailColumn8 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 8", "CULTURE")
         Dim ListViewDetailColumn9 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 9", "W/ WATER SOURCE")
         Dim ListViewDetailColumn10 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 10", "YEAR")
         Me.RadLabel11 = New Telerik.WinControls.UI.RadLabel()
@@ -83,6 +83,8 @@ Partial Class Frm_master_list_location_info
         Me.add = New System.Windows.Forms.ToolStripMenuItem()
         Me.modify = New System.Windows.Forms.ToolStripMenuItem()
         Me.remove = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RadDropDownList1 = New Telerik.WinControls.UI.RadDropDownList()
+        Me.RadLabel4 = New Telerik.WinControls.UI.RadLabel()
         CType(Me.RadLabel11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dp_association, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel10, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -115,13 +117,15 @@ Partial Class Frm_master_list_location_info
         CType(Me.RadCommandBar2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lv_loc_info, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.cms_locationinfo.SuspendLayout()
+        CType(Me.RadDropDownList1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'RadLabel11
         '
         Me.RadLabel11.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.RadLabel11.Location = New System.Drawing.Point(12, 182)
+        Me.RadLabel11.Location = New System.Drawing.Point(12, 210)
         Me.RadLabel11.Name = "RadLabel11"
         Me.RadLabel11.Size = New System.Drawing.Size(70, 18)
         Me.RadLabel11.TabIndex = 43
@@ -130,7 +134,7 @@ Partial Class Frm_master_list_location_info
         'dp_association
         '
         Me.dp_association.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        Me.dp_association.Location = New System.Drawing.Point(89, 180)
+        Me.dp_association.Location = New System.Drawing.Point(89, 208)
         Me.dp_association.Name = "dp_association"
         Me.dp_association.Size = New System.Drawing.Size(218, 20)
         Me.dp_association.TabIndex = 44
@@ -140,9 +144,9 @@ Partial Class Frm_master_list_location_info
         Me.RadLabel10.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         Me.RadLabel10.Location = New System.Drawing.Point(12, 152)
         Me.RadLabel10.Name = "RadLabel10"
-        Me.RadLabel10.Size = New System.Drawing.Size(44, 18)
+        Me.RadLabel10.Size = New System.Drawing.Size(45, 18)
         Me.RadLabel10.TabIndex = 41
-        Me.RadLabel10.Text = "Variety"
+        Me.RadLabel10.Text = "Culture"
         '
         'dp_variety
         '
@@ -208,7 +212,7 @@ Partial Class Frm_master_list_location_info
         Me.RadGroupBox3.Controls.Add(Me.rb_yes)
         Me.RadGroupBox3.Controls.Add(Me.RadLabel7)
         Me.RadGroupBox3.HeaderText = ""
-        Me.RadGroupBox3.Location = New System.Drawing.Point(9, 245)
+        Me.RadGroupBox3.Location = New System.Drawing.Point(9, 273)
         Me.RadGroupBox3.Name = "RadGroupBox3"
         Me.RadGroupBox3.Size = New System.Drawing.Size(338, 38)
         Me.RadGroupBox3.TabIndex = 36
@@ -273,6 +277,8 @@ Partial Class Frm_master_list_location_info
         Me.gb_menu.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
         Me.gb_menu.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.gb_menu.Controls.Add(Me.RadDropDownList1)
+        Me.gb_menu.Controls.Add(Me.RadLabel4)
         Me.gb_menu.Controls.Add(Me.txt_fiscalyear)
         Me.gb_menu.Controls.Add(Me.dp_lotnumber)
         Me.gb_menu.Controls.Add(Me.dp_locationinfo_desc)
@@ -298,7 +304,7 @@ Partial Class Frm_master_list_location_info
         '
         'txt_fiscalyear
         '
-        Me.txt_fiscalyear.Location = New System.Drawing.Point(89, 210)
+        Me.txt_fiscalyear.Location = New System.Drawing.Point(89, 238)
         Me.txt_fiscalyear.Name = "txt_fiscalyear"
         Me.txt_fiscalyear.NullText = "<Required>"
         Me.txt_fiscalyear.Size = New System.Drawing.Size(184, 20)
@@ -334,7 +340,7 @@ Partial Class Frm_master_list_location_info
         'RadLabel3
         '
         Me.RadLabel3.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.RadLabel3.Location = New System.Drawing.Point(12, 211)
+        Me.RadLabel3.Location = New System.Drawing.Point(12, 239)
         Me.RadLabel3.Name = "RadLabel3"
         Me.RadLabel3.Size = New System.Drawing.Size(65, 18)
         Me.RadLabel3.TabIndex = 49
@@ -390,7 +396,7 @@ Partial Class Frm_master_list_location_info
         Me.RadCommandBar2.Location = New System.Drawing.Point(0, 0)
         Me.RadCommandBar2.Name = "RadCommandBar2"
         Me.RadCommandBar2.Rows.AddRange(New Telerik.WinControls.UI.CommandBarRowElement() {Me.CommandBarRowElement2})
-        Me.RadCommandBar2.Size = New System.Drawing.Size(725, 55)
+        Me.RadCommandBar2.Size = New System.Drawing.Size(725, 30)
         Me.RadCommandBar2.TabIndex = 0
         Me.RadCommandBar2.Text = "RadCommandBar2"
         '
@@ -536,7 +542,7 @@ Partial Class Frm_master_list_location_info
         ListViewDetailColumn6.Width = 150.0!
         ListViewDetailColumn7.HeaderText = "ASSOCIATION"
         ListViewDetailColumn7.Width = 150.0!
-        ListViewDetailColumn8.HeaderText = "VARIETY"
+        ListViewDetailColumn8.HeaderText = "CULTURE"
         ListViewDetailColumn8.Width = 100.0!
         ListViewDetailColumn9.HeaderText = "W/ WATER SOURCE"
         ListViewDetailColumn9.Width = 150.0!
@@ -584,6 +590,23 @@ Partial Class Frm_master_list_location_info
         Me.remove.Name = "remove"
         Me.remove.Size = New System.Drawing.Size(166, 22)
         Me.remove.Text = "Remove Location"
+        '
+        'RadDropDownList1
+        '
+        Me.RadDropDownList1.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
+        Me.RadDropDownList1.Location = New System.Drawing.Point(62, 178)
+        Me.RadDropDownList1.Name = "RadDropDownList1"
+        Me.RadDropDownList1.Size = New System.Drawing.Size(243, 20)
+        Me.RadDropDownList1.TabIndex = 55
+        '
+        'RadLabel4
+        '
+        Me.RadLabel4.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.RadLabel4.Location = New System.Drawing.Point(10, 180)
+        Me.RadLabel4.Name = "RadLabel4"
+        Me.RadLabel4.Size = New System.Drawing.Size(44, 18)
+        Me.RadLabel4.TabIndex = 54
+        Me.RadLabel4.Text = "Variety"
         '
         'Frm_master_list_location_info
         '
@@ -638,6 +661,8 @@ Partial Class Frm_master_list_location_info
         CType(Me.RadCommandBar2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lv_loc_info, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cms_locationinfo.ResumeLayout(False)
+        CType(Me.RadDropDownList1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -682,5 +707,7 @@ Partial Class Frm_master_list_location_info
     Friend WithEvents CommandBarSeparator2 As Telerik.WinControls.UI.CommandBarSeparator
     Friend WithEvents CommandBarLabel2 As Telerik.WinControls.UI.CommandBarLabel
     Friend WithEvents cbar_cb_group As Telerik.WinControls.UI.CommandBarDropDownList
+    Friend WithEvents RadDropDownList1 As Telerik.WinControls.UI.RadDropDownList
+    Friend WithEvents RadLabel4 As Telerik.WinControls.UI.RadLabel
 End Class
 

@@ -10,8 +10,8 @@ Public Class other_masterlist_view
     Shared Sub location_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (PARTITION BY province order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (PARTITION BY province order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -45,8 +45,8 @@ Public Class other_masterlist_view
     Shared Sub operation_category_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by cat_desc asc) as #,category_id,cat_desc FROM tbl_operation_category"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by cat_desc asc) as #,category_id,cat_desc FROM tbl_ais_operation_category"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -76,9 +76,9 @@ Public Class other_masterlist_view
     Shared Sub association_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            'sql = "SELECT  ROW_NUMBER() over (order by sub_desc asc) as #,id,sub_desc FROM tbl_prod_internal_COOP WHERE sub_desc IS NOT Null"
-            sql = "SELECT  ROW_NUMBER() over (order by sub_desc asc) as #,id,sub_desc FROM tbl_location_association WHERE sub_desc IS NOT Null"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            'sql = "SELECT  ROW_NUMBER() over (order by sub_desc asc) as #,id,sub_desc FROM tbl_ais_prod_internal_COOP WHERE sub_desc IS NOT Null"
+            sql = "SELECT  ROW_NUMBER() over (order by sub_desc asc) as #,id,sub_desc FROM tbl_ais_location_association WHERE sub_desc IS NOT Null"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -108,8 +108,8 @@ Public Class other_masterlist_view
     Shared Sub variety_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by variety asc) as #,id,variety FROM tbl_location_variety"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by variety asc) as #,id,variety FROM tbl_ais_location_variety"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -140,8 +140,8 @@ Public Class other_masterlist_view
     Shared Sub subcon_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by id_name,owner_name asc) as #,id,owner_name FROM tbl_owner_name"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by id_name,owner_name asc) as #,id,owner_name FROM tbl_ais_owner_name"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -171,8 +171,8 @@ Public Class other_masterlist_view
     Shared Sub equiptype_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by equipment_type asc) as #,id,equipment_type FROM tbl_equipment_type"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by equipment_type asc) as #,id,equipment_type FROM tbl_ais_equipment_type"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -202,8 +202,8 @@ Public Class other_masterlist_view
     Shared Sub equipbrand_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by equipment_brand asc) as #,id,equipment_brand FROM tbl_equipment_brand"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by equipment_brand asc) as #,id,equipment_brand FROM tbl_ais_equipment_brand"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -233,8 +233,8 @@ Public Class other_masterlist_view
     Shared Sub driver_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by driver_name asc) as #,id,driver_name FROM tbl_equipment_driver"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by driver_name asc) as #,id,driver_name FROM tbl_ais_equipment_driver"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -264,8 +264,8 @@ Public Class other_masterlist_view
     Shared Sub implementlist_listview()
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by description asc) as #,id,description FROM tbl_implement_list"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by description asc) as #,id,description FROM tbl_ais_implement_list"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -297,9 +297,9 @@ Public Class other_masterlist_view
     Shared Sub location_search(search)
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY province order by province,municipality,location asc) as #,id,location,municipality,province" _
-                & " FROM tbl_location_list WHERE location LIKE '%" & search & "%'"
+                & " FROM tbl_ais_location_list WHERE location LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -331,9 +331,9 @@ Public Class other_masterlist_view
     Shared Sub operation_category_search(search)
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
             sql = "SELECT  ROW_NUMBER() over (order by cat_desc asc) as #,category_id,cat_desc" _
-                & " FROM tbl_operation_category WHERE cat_desc LIKE '%" & search & "%'"
+                & " FROM tbl_ais_operation_category WHERE cat_desc LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -363,8 +363,8 @@ Public Class other_masterlist_view
     Shared Sub subcon_search(search)
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by id_name,owner_name asc) as #,id,owner_name FROM tbl_owner_name WHERE owner_name LIKE '%" & search & "%'"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by id_name,owner_name asc) as #,id,owner_name FROM tbl_ais_owner_name WHERE owner_name LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -394,8 +394,8 @@ Public Class other_masterlist_view
     Shared Sub equiptype_search(search)
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by equipment_type asc) as #,id,equipment_type FROM tbl_equipment_type WHERE equipment_type LIKE '%" & search & "%'"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by equipment_type asc) as #,id,equipment_type FROM tbl_ais_equipment_type WHERE equipment_type LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -425,8 +425,8 @@ Public Class other_masterlist_view
     Shared Sub equipbrande_search(search)
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by equipment_brand asc) as #,id,equipment_brand FROM tbl_equipment_brand WHERE equipment_brand LIKE '%" & search & "%'"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by equipment_brand asc) as #,id,equipment_brand FROM tbl_ais_equipment_brand WHERE equipment_brand LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -456,8 +456,8 @@ Public Class other_masterlist_view
     Shared Sub driver_search(search)
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by driver_name asc) as #,id,driver_name FROM tbl_equipment_driver WHERE driver_name LIKE '%" & search & "%'"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by driver_name asc) as #,id,driver_name FROM tbl_ais_equipment_driver WHERE driver_name LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -487,8 +487,8 @@ Public Class other_masterlist_view
     Shared Sub implementlist_search(search)
         Try
             sql = ""
-            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_location_list"
-            sql = "SELECT  ROW_NUMBER() over (order by description asc) as #,id,description FROM tbl_implement_list WHERE description LIKE '%" & search & "%'"
+            'sql = "SELECT  row_number() over (order by province,municipality,location asc) as #,id,location,municipality,province FROM tbl_ais_location_list"
+            sql = "SELECT  ROW_NUMBER() over (order by description asc) as #,id,description FROM tbl_ais_implement_list WHERE description LIKE '%" & search & "%'"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)

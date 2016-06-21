@@ -129,7 +129,7 @@ Public Class Frm_triptickets
 
 
             Try
-                mymod.strQuery = "p_trip_ticket_schedule_equipment_info " & trip_ticket_id
+                mymod.strQuery = "p_ais_trip_ticket_schedule_equipment_info " & trip_ticket_id
                 mymod.useDB(mymod.strQuery)
 
 
@@ -147,7 +147,7 @@ Public Class Frm_triptickets
                 mymod.dbConn.Close()
 
 
-                mymod.strQuery = "p_trip_ticket_schedule_implement_info " & trip_ticket_id
+                mymod.strQuery = "p_ais_trip_ticket_schedule_implement_info " & trip_ticket_id
                 mymod.useDB(mymod.strQuery)
 
 
@@ -171,7 +171,7 @@ Public Class Frm_triptickets
     Private Sub DeleteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem.Click
         If trip_ticket_id <> Nothing Then
             If MsgBox("Are you sure you want to delete this record?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
-                mymod.strQuery = "DELETE FROM tbl_trip_ticket_schedule WHERE ID =" & trip_ticket_id
+                mymod.strQuery = "DELETE FROM tbl_ais_trip_ticket_schedule WHERE ID =" & trip_ticket_id
 
                 Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                     Using sqlCmd = New SqlCommand(mymod.strQuery, sqlCnn)

@@ -17,7 +17,7 @@ Public Class Frm_master_list_location_info
 
         location_masterlist_view.main_loc_dropdown_desc()
         location_masterlist_view.loc_info_dropdown_association()
-        location_masterlist_view.loc_info_dropdown_variety()
+        location_masterlist_view.loc_info_dropdown_culture()
         location_masterlist_view.location_info_listview()
 
         Me.cbar_cb_group.SelectedIndex = 0

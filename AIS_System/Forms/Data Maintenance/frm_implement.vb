@@ -81,7 +81,7 @@ Public Class Frm_implement
         If imple_id <> Nothing Then
             Try
                 If MsgBox("Are you sure you want to delete selected record?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
-                    sql = "DELETE FROM tbl_implements WHERE imp_id =" & imple_id
+                    sql = "DELETE FROM tbl_ais_implements WHERE imp_id =" & imple_id
 
                     Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                         Using sqlCmd = New SqlCommand(sql, sqlCnn)

@@ -16,7 +16,7 @@ Partial Public Class trip_ticket_schedule_report
         sqlConnection.ConnectionString = "Data Source=(local);Initial Catalog=AIS_Database;Integrated Security=True"
 
         sqlCommand.CommandText = "SELECT trip_ticket_no,lot_no,trip_date,work_operation " _
-                                    & ",equip_type,imple_code,driver,purpose,location FROM v_trip_ticket_schedule_form WHERE hdr_id='" & hdr_id & "'"
+                                    & ",equip_type,imple_code,driver,purpose,location FROM v_ais_trip_ticket_schedule_form WHERE hdr_id='" & hdr_id & "'"
 
         sqlCommand.CommandType = CommandType.Text
 

@@ -49,7 +49,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_operation_category(cat_desc) VALUES('" + cat_desc + "')"
+                .CommandText = "INSERT INTO tbl_ais_operation_category(cat_desc) VALUES('" + cat_desc + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -72,7 +72,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_operation_category SET cat_desc='" & desc & "' WHERE category_id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_operation_category SET cat_desc='" & desc & "' WHERE category_id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -89,13 +89,13 @@ Public Class site_mod
         End If
     End Sub
 
-      'ADD EQUIPMENT OWNER NAME 
+    'ADD EQUIPMENT OWNER NAME 
     Sub Equipment_NewOwnerName(owner_name)
         Try
             dbConn = New SqlConnection(My.Settings.Conn_string)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_equipment_ownername(owner_name) VALUES('" + owner_name + "')"
+                .CommandText = "INSERT INTO tbl_ais_equipment_ownername(owner_name) VALUES('" + owner_name + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -119,7 +119,7 @@ Public Class site_mod
 
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_equipment_ownername SET owner_name='" & owner_name & "' WHERE owner_name_id='" & owner_id & "'"
+                .CommandText = "UPDATE tbl_ais_equipment_ownername SET owner_name='" & owner_name & "' WHERE owner_name_id='" & owner_id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -142,7 +142,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_work_operations(category_id,operation_desc,rate,unit) VALUES('" + cat_id + "', '" + ope_desc + "', '" + rate + "','" + unit + "')"
+                .CommandText = "INSERT INTO tbl_ais_work_operations(category_id,operation_desc,rate,unit) VALUES('" + cat_id + "', '" + ope_desc + "', '" + rate + "','" + unit + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -165,7 +165,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_work_operations SET category_id='" + cat_id + "',operation_desc='" + ope_desc + "',rate='" + rate + "', unit='" + unit + "' WHERE id='" + id + "'"
+                .CommandText = "UPDATE tbl_ais_work_operations SET category_id='" + cat_id + "',operation_desc='" + ope_desc + "',rate='" + rate + "', unit='" + unit + "' WHERE id='" + id + "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -189,7 +189,7 @@ Public Class site_mod
             dbConn = New SqlConnection(My.Settings.Conn_string)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_equipments(owner_name_id,equipment_no,equipment_desc,equipment_driver,equipment_fuelcap) VALUES" _
+                .CommandText = "INSERT INTO tbl_ais_equipments(owner_name_id,equipment_no,equipment_desc,equipment_driver,equipment_fuelcap) VALUES" _
                     & "('" + owner_name + "','" + equip_no + "','" + equip_desc + "','" + equip_driver + "','" + equip_fueltank + "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
@@ -213,7 +213,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_equipments SET owner_name_id='" & owner_name & "',equipment_no='" & equip_no & "',equipment_desc='" & equip_desc & "', equipment_driver='" & equip_driver & "', equipment_fuelcap='" & equip_fueltank & "' WHERE owner_id='" & e_id & "'"
+                .CommandText = "UPDATE tbl_ais_equipments SET owner_name_id='" & owner_name & "',equipment_no='" & equip_no & "',equipment_desc='" & equip_desc & "', equipment_driver='" & equip_driver & "', equipment_fuelcap='" & equip_fueltank & "' WHERE owner_id='" & e_id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -237,7 +237,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_implements(imp_name_id,imp_desc) VALUES('" & imp_name_id & "','" & imp_desc & "')"
+                .CommandText = "INSERT INTO tbl_ais_implements(imp_name_id,imp_desc) VALUES('" & imp_name_id & "','" & imp_desc & "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -260,7 +260,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_implements SET imp_name_id='" & imp_name_id & "',imp_desc='" & imp_desc & "' WHERE imp_id='" & imp_id & "'"
+                .CommandText = "UPDATE tbl_ais_implements SET imp_name_id='" & imp_name_id & "',imp_desc='" & imp_desc & "' WHERE imp_id='" & imp_id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -284,7 +284,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_location_list(location_desc) VALUES('" & loc_desc & "')"
+                .CommandText = "INSERT INTO tbl_ais_location_list(location_desc) VALUES('" & loc_desc & "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -309,7 +309,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_location_list SET location_desc='" & loc_desc & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_location_list SET location_desc='" & loc_desc & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -333,7 +333,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "INSERT INTO tbl_location(code,location_id,area,culture) VALUES('" & code & "','" & loc_desc_id & "','" & area & "','" & culture & "')"
+                .CommandText = "INSERT INTO tbl_ais_location(code,location_id,area,culture) VALUES('" & code & "','" & loc_desc_id & "','" & area & "','" & culture & "')"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -356,7 +356,7 @@ Public Class site_mod
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "UPDATE tbl_location SET code='" & code & "',location_id='" & loc_desc_id & "',area='" & area & "',culture='" & culture & "' WHERE id='" & id & "'"
+                .CommandText = "UPDATE tbl_ais_location SET code='" & code & "',location_id='" & loc_desc_id & "',area='" & area & "',culture='" & culture & "' WHERE id='" & id & "'"
                 dbConn.Open()
                 .ExecuteNonQuery()
                 dbConn.Close()
@@ -375,12 +375,12 @@ Public Class site_mod
     End Sub
 
     'ADD bNew Schedule TRIP TICKETS
-    Sub trip_tickets_schedule_ADD(tic_no, trip_date, equip_id, imple_id, driver, purpose, destination, needed_date, needed_time, passenger, req_by, appro_by, form_id, trip_stats )
+    Sub trip_tickets_schedule_ADD(tic_no, trip_date, equip_id, imple_id, driver, purpose, destination, needed_date, needed_time, passenger, req_by, appro_by, form_id, trip_stats)
         Try
             dbConn = New SqlConnection(connStr)
             With sqlCmd
                 .Connection = dbConn
-                .CommandText = "p_trip_ticket_insert_schedule '" & tic_no & "','" & trip_date & "','" & equip_id & "','" & imple_id & "','" & driver & "'," _
+                .CommandText = "p_ais_trip_ticket_insert_schedule '" & tic_no & "','" & trip_date & "','" & equip_id & "','" & imple_id & "','" & driver & "'," _
                    & " '" & purpose & "','" & destination & "','" & needed_date & "','" & needed_time & "','" & passenger & "'," _
                    & " '" & req_by & "','" & appro_by & "','" & form_id & "','" & trip_stats & "'"
                 dbConn.Open()

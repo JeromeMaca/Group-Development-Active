@@ -13,7 +13,7 @@ Public Class winform_class
     Shared Sub enableddisabled_menuaccess(userid)
         Try
             sql = ""
-            sql = "Select menuid FROM tbl_usercontrol_permission WHERE useid='" & userid & "' AND menuid IS NOT NULL"
+            sql = "Select menuid FROM tbl_ais_ais_usercontrol_permission WHERE useid='" & userid & "' AND menuid IS NOT NULL"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -59,7 +59,7 @@ Public Class winform_class
     Shared Sub submenu(userid, menuid)
         Try
             sql = ""
-            sql = "SELECT DISTINCT submenuid FROM tbl_usercontrol_permission WHERE useid='" & userid & " ' AND menuid='" & menuid & "' AND submenuid IS NOT NULL"
+            sql = "SELECT DISTINCT submenuid FROM tbl_ais_usercontrol_permission WHERE useid='" & userid & " ' AND menuid='" & menuid & "' AND submenuid IS NOT NULL"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -129,7 +129,7 @@ Public Class winform_class
     Shared Sub subchildmenu(userid, submenu)
         Try
             sql = ""
-            sql = "SELECT DISTINCT subchildmenuid FROM tbl_usercontrol_permission WHERE useid='" & userid & "' AND submenuid='" & submenu & "' AND subchildmenuid IS NOT NULL"
+            sql = "SELECT DISTINCT subchildmenuid FROM tbl_ais_usercontrol_permission WHERE useid='" & userid & "' AND submenuid='" & submenu & "' AND subchildmenuid IS NOT NULL"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -163,7 +163,7 @@ Public Class winform_class
     Shared Sub maintenace(userid, subchildmenu)
         Try
             sql = ""
-            sql = "SELECT DISTINCT subchildmenuid FROM tbl_usercontrol_permission WHERE useid='" & userid & "' AND submenuid='" & subchildmenu & "' AND subchildmenuid IS NOT NULL"
+            sql = "SELECT DISTINCT subchildmenuid FROM tbl_ais_usercontrol_permission WHERE useid='" & userid & "' AND submenuid='" & subchildmenu & "' AND subchildmenuid IS NOT NULL"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 

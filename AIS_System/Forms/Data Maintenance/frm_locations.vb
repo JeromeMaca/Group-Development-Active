@@ -51,7 +51,7 @@ Public Class Frm_locations
     Private Sub DeleteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem.Click
         If loc_master_id <> Nothing Then
             If MsgBox("Are you sure you want to delete selected record?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
-                sql = "DELETE FROM tbl_location WHERE id =" & loc_master_id
+                sql = "DELETE FROM tbl_ais_location WHERE id =" & loc_master_id
 
                 Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                     Using sqlCmd = New SqlCommand(sql, sqlCnn)

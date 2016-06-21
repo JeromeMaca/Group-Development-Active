@@ -32,6 +32,7 @@ Partial Class Frm_master_list_other
         Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
         Me.dp_masterlistitem = New Telerik.WinControls.UI.RadDropDownList()
         Me.RadLabel1 = New Telerik.WinControls.UI.RadLabel()
@@ -157,7 +158,7 @@ Partial Class Frm_master_list_other
         RadListDataItem2.TextWrap = True
         RadListDataItem3.Text = "Association List"
         RadListDataItem3.TextWrap = True
-        RadListDataItem4.Text = "Variety / Culture"
+        RadListDataItem4.Text = "Culture"
         RadListDataItem4.TextWrap = True
         RadListDataItem5.Text = "Equipment / Implement Ownername"
         RadListDataItem5.TextWrap = True
@@ -169,6 +170,8 @@ Partial Class Frm_master_list_other
         RadListDataItem8.TextWrap = True
         RadListDataItem9.Text = "Implements"
         RadListDataItem9.TextWrap = True
+        RadListDataItem10.Text = "Variety"
+        RadListDataItem10.TextWrap = True
         Me.dp_masterlistitem.Items.Add(RadListDataItem1)
         Me.dp_masterlistitem.Items.Add(RadListDataItem2)
         Me.dp_masterlistitem.Items.Add(RadListDataItem3)
@@ -178,6 +181,7 @@ Partial Class Frm_master_list_other
         Me.dp_masterlistitem.Items.Add(RadListDataItem7)
         Me.dp_masterlistitem.Items.Add(RadListDataItem8)
         Me.dp_masterlistitem.Items.Add(RadListDataItem9)
+        Me.dp_masterlistitem.Items.Add(RadListDataItem10)
         Me.dp_masterlistitem.Location = New System.Drawing.Point(16, 32)
         Me.dp_masterlistitem.Name = "dp_masterlistitem"
         Me.dp_masterlistitem.Size = New System.Drawing.Size(327, 20)

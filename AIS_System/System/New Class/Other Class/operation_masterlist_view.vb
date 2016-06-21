@@ -12,7 +12,7 @@ Public Class operation_masterlist_view
         Try
             Frm_master_list_work_operation.dp_operationcategory.Items.Clear()
             sql = ""
-            sql = "SELECT cat_desc FROM tbl_operation_category ORDER BY cat_desc ASC"
+            sql = "SELECT cat_desc FROM tbl_ais_operation_category ORDER BY cat_desc ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -36,7 +36,7 @@ Public Class operation_masterlist_view
     Shared Sub main_category_select_dp_owner()
         Try
             sql = ""
-            sql = "SELECT category_id FROM tbl_operation_category WHERE cat_desc='" + Trim(Frm_master_list_work_operation.dp_operationcategory.Text) + "'"
+            sql = "SELECT category_id FROM tbl_ais_operation_category WHERE cat_desc='" + Trim(Frm_master_list_work_operation.dp_operationcategory.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -60,7 +60,7 @@ Public Class operation_masterlist_view
     Shared Sub work_operation_listview()
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (PARTITION BY cat_desc ORDER BY cat_desc,operation) as #,id,cat_desc,operation,unit_measure,replace(convert(nvarchar,convert(Money, rate_cost),1),'.0000','') as rate_cost FROM v_work_operation"
+            sql = "SELECT  ROW_NUMBER() over (PARTITION BY cat_desc ORDER BY cat_desc,operation) as #,id,cat_desc,operation,unit_measure,replace(convert(nvarchar,convert(Money, rate_cost),1),'.0000','') as rate_cost FROM v_ais_work_operation"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -164,11 +164,11 @@ Public Class operation_masterlist_view
             sql = ""
             If search_word <> "" Then
                 sql = "SELECT TOP 50 ROW_NUMBER() over (PARTITION BY description,owner_name ORDER BY description,imple_desc,owner_name) as #" _
-                    & ",id,owner_name,description,code,imple_desc FROM v_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
+                    & ",id,owner_name,description,code,imple_desc FROM v_ais_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
                     & " LIKE '%" & search_word & "%'"
             Else
                 sql = "SELECT ROW_NUMBER() over (PARTITION BY description,owner_name ORDER BY description,imple_desc,owner_name) as #" _
-                    & ",id,owner_name,description,code,imple_desc FROM v_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
+                    & ",id,owner_name,description,code,imple_desc FROM v_ais_implement_masterlist WHERE code LIKE '%" & search_word & "%' OR description" _
                     & " LIKE '%" & search_word & "%'"
             End If
 

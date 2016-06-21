@@ -83,7 +83,7 @@ Public Class Frm_equipment
         If equip_id <> Nothing Then
             Try
                 If MsgBox("Are you sure you want to delete selected record?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
-                    sql = "DELETE FROM tbl_equipments WHERE owner_id =" & equip_id
+                    sql = "DELETE FROM tbl_ais_equipments WHERE owner_id =" & equip_id
 
                     Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                         Using sqlCmd = New SqlCommand(sql, sqlCnn)

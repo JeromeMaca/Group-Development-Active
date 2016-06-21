@@ -51,7 +51,7 @@ Public Class frm_master_list_operation
     Private Sub DeleteOperationToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeleteOperationToolStripMenuItem.Click
         If opeartion_id <> Nothing Then
             If MsgBox("Are you sure you want to delete selected record?", MsgBoxStyle.Question + MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
-                sql = "DELETE FROM tbl_work_operations WHERE id =" & opeartion_id
+                sql = "DELETE FROM tbl_ais_work_operations WHERE id =" & opeartion_id
 
                 Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                     Using sqlCmd = New SqlCommand(sql, sqlCnn)

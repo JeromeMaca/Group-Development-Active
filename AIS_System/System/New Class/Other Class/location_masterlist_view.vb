@@ -14,7 +14,7 @@ Public Class location_masterlist_view
             Frm_master_list_location.cb_loc_desc.Items.Clear()
             Frm_master_list_location_info.dp_locationinfo_desc.Items.Clear()
             sql = ""
-            sql = "SELECT location FROM tbl_location_list ORDER BY location ASC"
+            sql = "SELECT location FROM tbl_ais_location_list ORDER BY location ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -38,7 +38,7 @@ Public Class location_masterlist_view
         Try
             Frm_master_list_location_info.dp_lotnumber.Items.Clear()
             sql = ""
-            sql = "SELECT code FROM tbl_location WHERE location_id='" & param & "' AND info_id IS NULL ORDER BY code ASC"
+            sql = "SELECT code FROM tbl_ais_location WHERE location_id='" & param & "' AND info_id IS NULL ORDER BY code ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -57,11 +57,11 @@ Public Class location_masterlist_view
     End Sub
 
 
-    Shared Sub loc_info_dropdown_variety()
+    Shared Sub loc_info_dropdown_culture()
         Try
             Frm_master_list_location_info.dp_variety.Items.Clear()
             sql = ""
-            sql = "SELECT variety FROM tbl_location_variety ORDER BY variety ASC"
+            sql = "SELECT variety FROM tbl_ais_location_variety ORDER BY variety ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -83,9 +83,9 @@ Public Class location_masterlist_view
         Try
             Frm_master_list_location_info.dp_association.Items.Clear()
             sql = ""
-            'sql = "SELECT sub_desc FROM tbl_prod_internal_COOP WHERE sub_desc IS NOT NULL ORDER BY sub_desc ASC"
+            'sql = "SELECT sub_desc FROM tbl_ais_prod_internal_COOP WHERE sub_desc IS NOT NULL ORDER BY sub_desc ASC"
 
-            sql = "SELECT sub_desc FROM tbl_location_association WHERE sub_desc IS NOT NULL ORDER BY sub_desc ASC"
+            sql = "SELECT sub_desc FROM tbl_ais_location_association WHERE sub_desc IS NOT NULL ORDER BY sub_desc ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -108,7 +108,7 @@ Public Class location_masterlist_view
     Shared Sub main_loc_select_dp_desc()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location_list WHERE location='" + Trim(Frm_master_list_location.cb_loc_desc.Text) + "' OR location='" & Trim(Frm_master_list_location_info.dp_locationinfo_desc.Text) & "'"
+            sql = "SELECT id FROM tbl_ais_location_list WHERE location='" + Trim(Frm_master_list_location.cb_loc_desc.Text) + "' OR location='" & Trim(Frm_master_list_location_info.dp_locationinfo_desc.Text) & "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -130,7 +130,7 @@ Public Class location_masterlist_view
     Shared Sub info_loc_select_dp_lot()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location WHERE code='" + Trim(Frm_master_list_location_info.dp_lotnumber.Text) + "' AND location_id='" & slct_id_locationdesc & "'"
+            sql = "SELECT id FROM tbl_ais_location WHERE code='" + Trim(Frm_master_list_location_info.dp_lotnumber.Text) + "' AND location_id='" & slct_id_locationdesc & "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -153,7 +153,7 @@ Public Class location_masterlist_view
     Shared Sub info_loc_select_dp_variety()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location_variety WHERE variety='" + Trim(Frm_master_list_location_info.dp_variety.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_location_variety WHERE variety='" + Trim(Frm_master_list_location_info.dp_variety.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -175,7 +175,7 @@ Public Class location_masterlist_view
     Shared Sub info_loc_select_dp_association()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location_association WHERE sub_desc='" + Trim(Frm_master_list_location_info.dp_association.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_location_association WHERE sub_desc='" + Trim(Frm_master_list_location_info.dp_association.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -199,7 +199,7 @@ Public Class location_masterlist_view
     Shared Sub main_location_listview()
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata"
+            sql = "SELECT  ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_ais_location_maindata"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -341,10 +341,10 @@ Public Class location_masterlist_view
         Try
             sql = ""
             If search_word <> "" Then
-                sql = "SELECT  TOP 50 ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata " _
+                sql = "SELECT  TOP 50 ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_ais_location_maindata " _
                     & " WHERE (location LIKE '%" & search_word & "%') OR (code LIKE '%" & search_word & "%') "
             Else
-                sql = "SELECT ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata " _
+                sql = "SELECT ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,id,code,location,area,soil_type,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,owner_name,sub_desc,variety,water_source,fiscal_year FROM v_ais_location_maindata " _
                    & " WHERE (location LIKE '%" & search_word & "%') OR (code LIKE '%" & search_word & "%') "
             End If
 
@@ -436,7 +436,7 @@ Public Class location_masterlist_view
     Shared Sub location_info_listview()
         Try
             sql = ""
-            sql = "SELECT  ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,info_id,code,location,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,sub_desc,variety,water_source,fiscal_year FROM v_location_maindata WHERE info_id IS NOT NULL"
+            sql = "SELECT  ROW_NUMBER() over (PARTITION BY location ORDER BY location,code asc) as #,info_id,code,location,CONVERT(VARCHAR(12), date_planted, 107) as date_planted,ownership,sub_desc,variety,water_source,fiscal_year FROM v_ais_location_maindata WHERE info_id IS NOT NULL"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -564,7 +564,7 @@ Public Class location_masterlist_view
         Try
             Frm_masterlist_location_addexisting.dp_loc_desc.Items.Clear()
             sql = ""
-            sql = "SELECT location FROM tbl_location_list ORDER BY location ASC"
+            sql = "SELECT location FROM tbl_ais_location_list ORDER BY location ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -586,7 +586,7 @@ Public Class location_masterlist_view
         Try
             f.dp_lot_code.Items.Clear()
             sql = ""
-            sql = "SELECT code FROM tbl_location WHERE location_id='" & loc_id & "' ORDER BY code ASC"
+            sql = "SELECT code FROM tbl_ais_location WHERE location_id='" & loc_id & "' ORDER BY code ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -607,7 +607,7 @@ Public Class location_masterlist_view
     Shared Sub Get_current_area(code_id As String, f As Frm_masterlist_location_addexisting)
         Try
             sql = ""
-            sql = "SELECT area FROM tbl_location WHERE id='" & code_id & "' ORDER BY code ASC"
+            sql = "SELECT area FROM tbl_ais_location WHERE id='" & code_id & "' ORDER BY code ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -630,7 +630,7 @@ Public Class location_masterlist_view
     Shared Sub loc_select_dp_desc(loc_desc)
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location_list WHERE location='" + loc_desc + "'"
+            sql = "SELECT id FROM tbl_ais_location_list WHERE location='" + loc_desc + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -652,7 +652,7 @@ Public Class location_masterlist_view
     Shared Sub code_select_dp_desc(code_desc)
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_location WHERE code='" + code_desc + "'"
+            sql = "SELECT id FROM tbl_ais_location WHERE code='" + code_desc + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)

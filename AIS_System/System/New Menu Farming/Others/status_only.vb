@@ -45,7 +45,7 @@ Public Class status_only
             sql = ""
             sql = "SELECT ROW_NUMBER() over ( PARTITION BY trip_date ORDER BY CONVERT(VARCHAR(12), hdr_create_date, 107) DESC) as #,hdr_id," _
                   & "lot_no, lot_owner_name, ownership, association_desc, CONVERT(VARCHAR(12), date_planted, 107) as date_planted, variety, current_area, soill_type, fiscal_year" _
-                   & " FROM v_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "'"
+                   & " FROM v_ais_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "'"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -87,7 +87,7 @@ Public Class status_only
             sql = ""
             sql = "SELECT ROW_NUMBER() over ( PARTITION BY trip_date ORDER BY CONVERT(VARCHAR(12), hdr_create_date, 107) DESC) as #,hdr_id," _
                   & "lot_no, lot_owner_name, ownership, association_desc, CONVERT(VARCHAR(12), date_planted, 107) as date_planted, variety, current_area, soill_type, fiscal_year" _
-                   & " FROM v_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "' AND dtl_stats=2"
+                   & " FROM v_ais_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "' AND dtl_stats=2"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -128,7 +128,7 @@ Public Class status_only
             sql = ""
             sql = "SELECT CONVERT(varchar(15),CAST(equip_timein AS TIME),100) as equip_timein,CONVERT(varchar(15),CAST(equip_timeout AS TIME),100) as equip_timeout" _
                     & ",CONVERT(varchar(15),CAST(jobsite_arrival_time AS TIME),100) as jobsite_arrival_time,CONVERT(varchar(15),CAST(jobsite_departure_time AS TIME),100) as jobsite_departure_time" _
-                     & " FROM v_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "'"
+                     & " FROM v_ais_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "'"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -159,7 +159,7 @@ Public Class status_only
             sql = ""
             sql = "SELECT ROW_NUMBER() over ( PARTITION BY trip_date ORDER BY CONVERT(VARCHAR(12), hdr_create_date, 107) DESC) as #,hdr_id," _
                   & "lot_no, lot_owner_name, ownership, association_desc, CONVERT(VARCHAR(12), date_planted, 107) as date_planted, variety, current_area, soill_type, fiscal_year" _
-                   & " FROM v_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "'"
+                   & " FROM v_ais_trip_ticket_schedule_form WHERE hdr_id ='" & hdr_id & "'"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 

@@ -87,13 +87,13 @@ Public Class Frm_master_list_other
     End Sub
 
     'VARIETY / CULTURE
-    Sub variety_column()
+    Sub culture_column()
         Me.lv_other_masterlist.Columns.Clear()
 
         With Me.lv_other_masterlist
             .Columns.Add("Id", "")
             .Columns.Add("Count", "#")
-            .Columns.Add("Variety/Culture", "VARIETY")
+            .Columns.Add("Variety/Culture", "CULTURE")
 
             .Columns("Id").Width = 0
             .Columns("Id").Visible = False
@@ -223,6 +223,30 @@ Public Class Frm_master_list_other
             Me.lv_other_masterlist.ShowGroups = False
         End With
     End Sub
+
+    'VARIETY
+    Sub variety_column()
+        Me.lv_other_masterlist.Columns.Clear()
+
+        With Me.lv_other_masterlist
+            .Columns.Add("Id", "")
+            .Columns.Add("Count", "#")
+            .Columns.Add("Variety/Culture", "VARIETY")
+
+            .Columns("Id").Width = 0
+            .Columns("Id").Visible = False
+            .Columns("Count").Width = 40
+            .Columns("Variety/Culture").Width = 1000
+
+            .FullRowSelect = True
+            '.ShowGridLines = True
+            .MultiSelect = False
+
+            Me.lv_other_masterlist.EnableGrouping = False
+            Me.lv_other_masterlist.ShowGroups = False
+        End With
+    End Sub
+
 #End Region
 
     Private Sub Frm_master_list_other_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -245,6 +269,7 @@ Public Class Frm_master_list_other
                 Me.lv_other_masterlist.GroupDescriptors.Add(groupByType)
 
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
             Case 1 ' WORK OPERATION CATEGORY
@@ -255,6 +280,7 @@ Public Class Frm_master_list_other
                 operation_category_column()
                 other_masterlist_view.operation_category_listview()
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
             Case 2 'ASSOCIATION
@@ -264,15 +290,17 @@ Public Class Frm_master_list_other
                 association_column()
                 other_masterlist_view.association_listview()
                 Me.add.Enabled = False
+                Me.update.Enabled = False
                 Me.delete.Enabled = False
                 Me.txt_location_search.Enabled = False
             Case 3 'VARIETY / CULTURE
                 Me.gb_variety.Location = New Point(2, 101)
                 Me.gb_variety.BringToFront()
                 Me.gb_variety.Visible = True
-                variety_column()
+                culture_column()
                 other_masterlist_view.variety_listview()
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = False
             Case 4 'SUB CONTRACTOR NAME
@@ -282,6 +310,7 @@ Public Class Frm_master_list_other
                 subcon_column()
                 other_masterlist_view.subcon_listview()
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
             Case 5 'EQUIPMENT TYPE
@@ -291,6 +320,7 @@ Public Class Frm_master_list_other
                 equiptype_column()
                 other_masterlist_view.equiptype_listview()
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
             Case 6 'EQUIPMENT BRAND
@@ -300,6 +330,7 @@ Public Class Frm_master_list_other
                 equipbrand_column()
                 other_masterlist_view.equipbrand_listview()
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
             Case 7 'EQUIPMENT DRIVER
@@ -309,6 +340,7 @@ Public Class Frm_master_list_other
                 driver_column()
                 other_masterlist_view.driver_listview()
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
 
@@ -319,7 +351,19 @@ Public Class Frm_master_list_other
                 implementlist_column()
                 other_masterlist_view.implementlist_listview()
                 Me.add.Enabled = True
+                Me.update.Enabled = True
                 Me.delete.Enabled = True
+                Me.txt_location_search.Enabled = True
+
+            Case 9 'VARIETY
+                'Me.gb_implemet_list.Location = New Point(2, 101)
+                'Me.gb_implemet_list.BringToFront()
+                ' Me.gb_implemet_list.Visible = True
+                variety_column()
+                'other_masterlist_view.implementlist_listview()
+                'Me.add.Enabled = True
+                'Me.update.Enabled = True
+                'Me.delete.Enabled = True
                 Me.txt_location_search.Enabled = True
         End Select
     End Sub

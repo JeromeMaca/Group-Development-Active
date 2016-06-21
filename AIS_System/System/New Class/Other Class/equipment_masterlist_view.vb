@@ -12,7 +12,7 @@ Public Class equipment_masterlist_view
         Try
             Frm_master_list_equipment.dp_owner.Items.Clear()
             sql = ""
-            sql = "SELECT owner_name FROM tbl_owner_name ORDER BY id ASC"
+            sql = "SELECT owner_name FROM tbl_ais_owner_name ORDER BY id ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -35,7 +35,7 @@ Public Class equipment_masterlist_view
         Try
             Frm_master_list_equipment.dp_equiptype.Items.Clear()
             sql = ""
-            sql = "SELECT equipment_type FROM tbl_equipment_type ORDER BY equipment_type ASC"
+            sql = "SELECT equipment_type FROM tbl_ais_equipment_type ORDER BY equipment_type ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -58,7 +58,7 @@ Public Class equipment_masterlist_view
         Try
             Frm_master_list_equipment.dp_equipbrand.Items.Clear()
             sql = ""
-            sql = "SELECT equipment_brand FROM tbl_equipment_brand ORDER BY equipment_brand ASC"
+            sql = "SELECT equipment_brand FROM tbl_ais_equipment_brand ORDER BY equipment_brand ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -83,7 +83,7 @@ Public Class equipment_masterlist_view
     Shared Sub select_dp_owner_equipmain()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_owner_name WHERE owner_name='" + Trim(Frm_master_list_equipment.dp_owner.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_owner_name WHERE owner_name='" + Trim(Frm_master_list_equipment.dp_owner.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -105,7 +105,7 @@ Public Class equipment_masterlist_view
     Shared Sub select_dp_type_equipmain()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_equipment_type WHERE equipment_type='" + Trim(Frm_master_list_equipment.dp_equiptype.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_equipment_type WHERE equipment_type='" + Trim(Frm_master_list_equipment.dp_equiptype.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -127,7 +127,7 @@ Public Class equipment_masterlist_view
     Shared Sub select_dp_brand_equipmain()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_equipment_brand WHERE equipment_brand='" + Trim(Frm_master_list_equipment.dp_equipbrand.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_equipment_brand WHERE equipment_brand='" + Trim(Frm_master_list_equipment.dp_equipbrand.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -153,7 +153,7 @@ Public Class equipment_masterlist_view
         Try
             sql = ""
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,equipment_type,equipment_brand asc) as #,id,owner_name,equipment_type,equipment_brand,model,cr_no,motor_no" _
-                & ",serial_no,mv_file_no,si_no,dr_no,others,CONVERT(VARCHAR(12), date_proof, 107) as date_proof, replace(convert(nvarchar,convert(Money, acquisition_cost),1),'.0000','') as acquisition_cost FROM v_equipment_masterlist"
+                & ",serial_no,mv_file_no,si_no,dr_no,others,CONVERT(VARCHAR(12), date_proof, 107) as date_proof, replace(convert(nvarchar,convert(Money, acquisition_cost),1),'.0000','') as acquisition_cost FROM v_ais_equipment_masterlist"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -325,12 +325,12 @@ Public Class equipment_masterlist_view
                 sql = "SELECT TOP 50 ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,equipment_type,equipment_brand asc) as #,id,owner_name,equipment_type,equipment_brand,model,cr_no,motor_no" _
                                & ",serial_no,mv_file_no,si_no,dr_no,others,CONVERT(VARCHAR(12), date_proof, 107) as date_proof, replace(convert(nvarchar,convert(Money, acquisition_cost),1),'.0000','') as acquisition_cost" _
                                 & " FROM(SELECT TOP 50 ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,equipment_type,equipment_brand asc) as #,id,(equipment_type + ' ' + equipment_brand + ' ' + model) AS SEART,owner_name,equipment_type,equipment_brand,model,cr_no,motor_no" _
-                               & ",serial_no,mv_file_no,si_no,dr_no,others,CONVERT(VARCHAR(12), date_proof, 107) as date_proof, replace(convert(nvarchar,convert(Money, acquisition_cost),1),'.0000','') as acquisition_cost FROM v_equipment_masterlist" _
+                               & ",serial_no,mv_file_no,si_no,dr_no,others,CONVERT(VARCHAR(12), date_proof, 107) as date_proof, replace(convert(nvarchar,convert(Money, acquisition_cost),1),'.0000','') as acquisition_cost FROM v_ais_equipment_masterlist" _
                                & ") x" _
                                 & " WHERE x.SEART LIKE '%" & search_word & "%'"
             Else
                 sql = "SELECT  ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,equipment_type,equipment_brand asc) as #,id,owner_name,equipment_type,equipment_brand,model,cr_no,motor_no" _
-                               & ",serial_no,mv_file_no,si_no,dr_no,others,CONVERT(VARCHAR(12), date_proof, 107) as date_proof, replace(convert(nvarchar,convert(Money, acquisition_cost),1),'.0000','') as acquisition_cost FROM v_equipment_masterlist" _
+                               & ",serial_no,mv_file_no,si_no,dr_no,others,CONVERT(VARCHAR(12), date_proof, 107) as date_proof, replace(convert(nvarchar,convert(Money, acquisition_cost),1),'.0000','') as acquisition_cost FROM v_ais_equipment_masterlist" _
                                & " WHERE model LIKE '%" & search_word & "%'"
             End If
 

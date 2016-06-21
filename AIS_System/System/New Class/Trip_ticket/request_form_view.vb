@@ -49,7 +49,7 @@ Public Class request_form_view
         Try
             Frm_request_form_add.dp_location.Items.Clear()
             sql = ""
-            sql = "SELECT DISTINCT location FROM v_location_maindata ORDER BY location ASC"
+            sql = "SELECT DISTINCT location FROM v_ais_location_maindata ORDER BY location ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -72,7 +72,7 @@ Public Class request_form_view
         Try
             Frm_request_form_add.dp_location_lot.Items.Clear()
             sql = ""
-            sql = "SELECT DISTINCT code,location FROM v_location_maindata  WHERE location='" & loc & "' GROUP BY location,code ORDER BY code ASC"
+            sql = "SELECT DISTINCT code,location FROM v_ais_location_maindata  WHERE location='" & loc & "' GROUP BY location,code ORDER BY code ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -95,7 +95,7 @@ Public Class request_form_view
         Try
             Frm_request_form_add.dp_workoperations.Items.Clear()
             sql = ""
-            sql = "SELECT DISTINCT operation FROM tbl_work_operations ORDER BY operation ASC"
+            sql = "SELECT DISTINCT operation FROM tbl_ais_work_operations ORDER BY operation ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -119,7 +119,7 @@ Public Class request_form_view
     Shared Sub request_slct_dp_lot(code)
         Try
             sql = ""
-            sql = "SELECT id,owner_name FROM tbl_location WHERE code='" & code & "'"
+            sql = "SELECT id,owner_name FROM tbl_ais_location WHERE code='" & code & "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -142,7 +142,7 @@ Public Class request_form_view
     Shared Sub request_slct_dp_work_operation(desc)
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_work_operations WHERE operation='" & desc & "'"
+            sql = "SELECT id FROM tbl_ais_work_operations WHERE operation='" & desc & "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -218,11 +218,11 @@ Public Class request_form_view
             sql = ""
             If Frm_request_form_add.chk_group.Checked = True Then
                 sql = "SELECT  ROW_NUMBER() over (PARTITION BY code ORDER BY date_req DESC,code,operation,Owner_name ASC) as #" _
-                    & ",id,dtl_id,CONVERT(VARCHAR(12), date_req, 107) as date_req,time_needed,code,location,owner_name,operation FROM v_trip_ticket_request_form WHERE user_id ='" & user_id & "'" _
+                    & ",id,dtl_id,CONVERT(VARCHAR(12), date_req, 107) as date_req,time_needed,code,location,owner_name,operation FROM v_ais_trip_ticket_request_form WHERE user_id ='" & user_id & "'" _
                      & "AND req_no IS NULL AND stats = '0' AND date_created BETWEEN CONVERT(VARCHAR(12), GETDATE()) AND  GETDATE()"
             Else
                 sql = "SELECT  ROW_NUMBER() over (PARTITION BY location ORDER BY date_req DESC,code,operation,Owner_name ASC) as #" _
-                    & ",id,dtl_id,CONVERT(VARCHAR(12), date_req, 107) as date_req,time_needed,code,location,owner_name,operation FROM v_trip_ticket_request_form WHERE user_id ='" & user_id & "'" _
+                    & ",id,dtl_id,CONVERT(VARCHAR(12), date_req, 107) as date_req,time_needed,code,location,owner_name,operation FROM v_ais_trip_ticket_request_form WHERE user_id ='" & user_id & "'" _
                     & "AND req_no IS NULL AND stats = '0' AND date_created BETWEEN CONVERT(VARCHAR(12), GETDATE()) AND  GETDATE()"
             End If
 
@@ -290,7 +290,7 @@ Public Class request_form_view
             sql = ""
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY req_no ORDER BY CONVERT(VARCHAR(12), date_req, 107) DESC,code,operation,Owner_name ASC) as #" _
                     & ",id,dtl_id,lot_id,req_no,CONVERT(VARCHAR(12), date_created, 107) as date_created,CONVERT(VARCHAR(12), date_req, 107)" _
-                    & " as date_req,time_needed,location,code,operation,purpose,(user_lname + ', ' + user_fname + ' ' + user_mname) as fulname FROM v_trip_ticket_request_form" _
+                    & " as date_req,time_needed,location,code,operation,purpose,(user_lname + ', ' + user_fname + ' ' + user_mname) as fulname FROM v_ais_trip_ticket_request_form" _
                      & " WHERE req_no IS NOT NULL AND stats = '0' AND dtl_status ='0' ORDER BY date_req DESC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -339,7 +339,7 @@ Public Class request_form_view
         Try
             Frm_request_form_add.dp_location.Items.Clear()
             sql = ""
-            sql = "SELECT DISTINCT(driver_name) FROM tbl_equipment_driver WHERE status ='0' ORDER BY driver_name ASC"
+            sql = "SELECT DISTINCT(driver_name) FROM tbl_ais_equipment_driver WHERE status ='0' ORDER BY driver_name ASC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
@@ -363,7 +363,7 @@ Public Class request_form_view
     Shared Sub equipment_listview()
         Try
             sql = ""
-            sql = "SELECT ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,equipment_type) as #,id,owner_name,equipment_type,model,status FROM v_equipment_masterlist"
+            sql = "SELECT ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,equipment_type) as #,id,owner_name,equipment_type,model,status FROM v_ais_equipment_masterlist"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -405,7 +405,7 @@ Public Class request_form_view
     Shared Sub implement_listview()
         Try
             sql = ""
-            sql = "SELECT ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,imple_desc ASC) as #,id,owner_name,code,imple_desc,status FROM v_implement_masterlist ORDER BY imple_desc ASC"
+            sql = "SELECT ROW_NUMBER() over (PARTITION BY owner_name ORDER BY owner_name,imple_desc ASC) as #,id,owner_name,code,imple_desc,status FROM v_ais_implement_masterlist ORDER BY imple_desc ASC"
 
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
@@ -508,7 +508,7 @@ Public Class request_form_view
     Shared Sub driver()
         Try
             sql = ""
-            sql = "SELECT id FROM tbl_equipment_driver WHERE driver_name='" + Trim(Frm_request_form_approve.dp_driver.Text) + "'"
+            sql = "SELECT id FROM tbl_ais_equipment_driver WHERE driver_name='" + Trim(Frm_request_form_approve.dp_driver.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -532,7 +532,7 @@ Public Class request_form_view
     Shared Sub driver_validity()
         Try
             sql = ""
-            sql = "SELECT COUNT(id) FROM tbl_trip_ticket_schedule_hdr WHERE reg_no='" + Trim(Frm_request_form_approve.txt_reqno.Text) + "'"
+            sql = "SELECT COUNT(id) FROM tbl_ais_trip_ticket_schedule_hdr WHERE reg_no='" + Trim(Frm_request_form_approve.txt_reqno.Text) + "'"
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
                 sqlCnn.Open()
                 Using sqlCmd = New SqlCommand(sql, sqlCnn)
@@ -563,7 +563,7 @@ Public Class request_form_view
                      & "hdr_id,REPLICATE('0', 6 - LEN(reg_no)) + CAST(reg_no AS varchar) AS reg_no," _
                       & "REPLICATE('0', 6 - LEN(trip_ticket_no)) + CAST(trip_ticket_no AS varchar) AS trip_ticket_no," _
                        & "CONVERT(VARCHAR(12), trip_date, 107) as trip_date,location, equip_type, equip_no, imple_code," _
-                        & "driver, purpose, requested_by, approved_by FROM v_trip_ticket_schedule_form " _
+                        & "driver, purpose, requested_by, approved_by FROM v_ais_trip_ticket_schedule_form " _
                          & " GROUP BY hdr_create_date,hdr_id,reg_no,trip_ticket_no,trip_date,location, equip_type, equip_no, imple_code," _
                           & "driver, purpose, requested_by, approved_by"
 

@@ -101,7 +101,7 @@ Public Class trip_ticket_class
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY CONVERT(VARCHAR(12), need_date, 107),trip_ticket_no ORDER BY CONVERT(VARCHAR(12), need_date, 107) DESC,trip_ticket_no,location  ) as #," _
                     & "REPLICATE('0', 6 - LEN(trip_ticket_no)) + CAST(trip_ticket_no AS varchar) AS trip_ticket_no,location," _
                      & "(SELECT Case status  WHEN 0 THEN 'UNPROCESSED' WHEN 1 THEN 'PROCESSED' End) as Statuses,CONVERT(VARCHAR(12), need_date, 107) as need_date," _
-                      & "CONVERT(VARCHAR(12), GETDATE(), 107) as cur_date FROM v_trip_ticket_schedule_form GROUP BY trip_ticket_no,need_date,location,status ORDER BY need_date DESC"
+                      & "CONVERT(VARCHAR(12), GETDATE(), 107) as cur_date FROM v_ais_trip_ticket_schedule_form GROUP BY trip_ticket_no,need_date,location,status ORDER BY need_date DESC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -142,7 +142,7 @@ Public Class trip_ticket_class
             sql = ""
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY CONVERT(VARCHAR(12), need_date, 107),trip_ticket_no ORDER BY CONVERT(VARCHAR(12), need_date, 107) DESC,trip_ticket_no  ) as #" _
                     & ",hdr_id, REPLICATE('0', 6 - LEN(trip_ticket_no)) + CAST(trip_ticket_no AS varchar) AS trip_ticket_no,equip_type,imple_code,driver,purpose" _
-                     & " FROM v_trip_ticket_schedule_form WHERE status=1 AND need_date='" & need_date & "' GROUP BY need_date,hdr_id,trip_ticket_no,equip_type,imple_code,driver,purpose ORDER BY need_date DESC"
+                     & " FROM v_ais_trip_ticket_schedule_form WHERE status=1 AND need_date='" & need_date & "' GROUP BY need_date,hdr_id,trip_ticket_no,equip_type,imple_code,driver,purpose ORDER BY need_date DESC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -178,7 +178,7 @@ Public Class trip_ticket_class
             sql = ""
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY CONVERT(VARCHAR(12), need_date, 107),trip_ticket_no ORDER BY CONVERT(VARCHAR(12), need_date, 107) DESC,trip_ticket_no  ) as #" _
                     & ",hdr_id, REPLICATE('0', 6 - LEN(trip_ticket_no)) + CAST(trip_ticket_no AS varchar) AS trip_ticket_no,equip_type,imple_code,driver,purpose" _
-                     & " FROM v_trip_ticket_schedule_form WHERE status=0 AND need_date='" & need_date & "' GROUP BY need_date,hdr_id,trip_ticket_no,equip_type,imple_code,driver,purpose ORDER BY need_date DESC"
+                     & " FROM v_ais_trip_ticket_schedule_form WHERE status=0 AND need_date='" & need_date & "' GROUP BY need_date,hdr_id,trip_ticket_no,equip_type,imple_code,driver,purpose ORDER BY need_date DESC"
 
             Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
 
@@ -217,13 +217,13 @@ Public Class trip_ticket_class
                 Case 0
                     sql = "SELECT  ROW_NUMBER() over (PARTITION BY CONVERT(VARCHAR(12), need_date, 107)ORDER BY CONVERT(VARCHAR(12), need_date, 107) DESC,trip_ticket_no,location  ) as #" _
                                    & ", lot_no,CONVERT(VARCHAR(12), date_planted, 107) AS date_planted,variety,lot_owner_name,work_operation,CONVERT(VARCHAR(12), trip_date, 107)" _
-                                    & " AS trip_date,requested_by,CONVERT(VARCHAR(12), hdr_create_date, 107) AS hdr_create_date,approved_by FROM v_trip_ticket_schedule_form WHERE " _
+                                    & " AS trip_date,requested_by,CONVERT(VARCHAR(12), hdr_create_date, 107) AS hdr_create_date,approved_by FROM v_ais_trip_ticket_schedule_form WHERE " _
                                      & "hdr_id='" & hdr_id & "' AND dtl_stats = 2 ORDER BY need_date DESC"
 
                 Case 1
                     sql = "SELECT  ROW_NUMBER() over (PARTITION BY CONVERT(VARCHAR(12), need_date, 107)ORDER BY CONVERT(VARCHAR(12), need_date, 107) DESC,trip_ticket_no,location  ) as #" _
                                  & ", lot_no,CONVERT(VARCHAR(12), date_planted, 107) AS date_planted,variety,lot_owner_name,work_operation,CONVERT(VARCHAR(12), trip_date, 107)" _
-                                  & " AS trip_date,requested_by,CONVERT(VARCHAR(12), hdr_create_date, 107) AS hdr_create_date,approved_by FROM v_trip_ticket_schedule_form WHERE " _
+                                  & " AS trip_date,requested_by,CONVERT(VARCHAR(12), hdr_create_date, 107) AS hdr_create_date,approved_by FROM v_ais_trip_ticket_schedule_form WHERE " _
                                    & "hdr_id='" & hdr_id & "' AND dtl_stats <> 2 ORDER BY need_date DESC"
             End Select
 
