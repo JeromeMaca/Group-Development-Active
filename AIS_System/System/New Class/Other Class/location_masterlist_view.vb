@@ -582,11 +582,94 @@ Public Class location_masterlist_view
         End Try
     End Sub
 
+    Shared Sub dp_load_code(loc_id As String, f As Frm_masterlist_location_addexisting)
+        Try
+            f.dp_lot_code.Items.Clear()
+            sql = ""
+            sql = "SELECT code FROM tbl_location WHERE location_id='" & loc_id & "' ORDER BY code ASC"
+
+            Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+                sqlCnn.Open()
+                Using sqlCmd = New SqlCommand(sql, sqlCnn)
+                    Dim sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+                    While (sqlReader.Read())
+                        Dim desc = sqlReader.Item("code")
+                        f.dp_lot_code.Items.Add(desc)
+                    End While
+                End Using
+                sqlCnn.Close()
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
+    Shared Sub Get_current_area(code_id As String, f As Frm_masterlist_location_addexisting)
+        Try
+            sql = ""
+            sql = "SELECT area FROM tbl_location WHERE id='" & code_id & "' ORDER BY code ASC"
+
+            Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+                sqlCnn.Open()
+                Using sqlCmd = New SqlCommand(sql, sqlCnn)
+                    Dim sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
+                    While (sqlReader.Read())
+                        f.txt_current_area.Text = sqlReader.Item("area")
+                    End While
+                End Using
+                sqlCnn.Close()
+            End Using
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
 #End Region
 
 #Region "COMBO BOX SELECTED ITEM"
 
+    Shared Sub loc_select_dp_desc(loc_desc)
+        Try
+            sql = ""
+            sql = "SELECT id FROM tbl_location_list WHERE location='" + loc_desc + "'"
+            Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+                sqlCnn.Open()
+                Using sqlCmd = New SqlCommand(sql, sqlCnn)
+                    Dim sqlReader As SqlDataReader = sqlCmd.ExecuteReader
 
+                    sqlReader.Read()
+                    slct_id_locationdesc = sqlReader.Item("id")
+                End Using
+            End Using
+        Catch ex As Exception
+            If ex.Message.ToString = "Invalid attempt to read when no data is present." Then
+                Exit Sub
+            Else
+                MsgBox(ex.Message)
+            End If
+        End Try
+    End Sub
+
+    Shared Sub code_select_dp_desc(code_desc)
+        Try
+            sql = ""
+            sql = "SELECT id FROM tbl_location WHERE code='" + code_desc + "'"
+            Using sqlCnn = New SqlConnection(My.Settings.Conn_string)
+                sqlCnn.Open()
+                Using sqlCmd = New SqlCommand(sql, sqlCnn)
+                    Dim sqlReader As SqlDataReader = sqlCmd.ExecuteReader
+
+                    sqlReader.Read()
+                    slct_id_code = sqlReader.Item("id")
+                End Using
+            End Using
+        Catch ex As Exception
+            If ex.Message.ToString = "Invalid attempt to read when no data is present." Then
+                Exit Sub
+            Else
+                MsgBox(ex.Message)
+            End If
+        End Try
+    End Sub
 #End Region
 
 #End Region

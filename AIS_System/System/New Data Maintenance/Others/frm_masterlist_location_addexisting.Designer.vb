@@ -23,48 +23,48 @@ Partial Class Frm_masterlist_location_addexisting
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.gb_menu = New Telerik.WinControls.UI.RadGroupBox()
+        Me.dp_lot_code = New Telerik.WinControls.UI.RadDropDownList()
         Me.txt_current_area = New Telerik.WinControls.UI.RadTextBox()
         Me.RadLabel5 = New Telerik.WinControls.UI.RadLabel()
         Me.RadLabel2 = New Telerik.WinControls.UI.RadLabel()
         Me.RadLabel1 = New Telerik.WinControls.UI.RadLabel()
+        Me.dp_loc_desc = New Telerik.WinControls.UI.RadDropDownList()
         Me.btn_cancel = New Telerik.WinControls.UI.RadButton()
         Me.btn_save = New Telerik.WinControls.UI.RadButton()
-        Me.dp_loc_desc = New Telerik.WinControls.UI.RadDropDownList()
-        Me.dp_lot_code = New Telerik.WinControls.UI.RadDropDownList()
         Me.RadGroupBox1 = New Telerik.WinControls.UI.RadGroupBox()
         Me.RadGroupBox2 = New Telerik.WinControls.UI.RadGroupBox()
+        Me.btn_edit_save = New Telerik.WinControls.UI.RadButton()
+        Me.sp_area = New Telerik.WinControls.UI.RadSpinEditor()
+        Me.txt_new_code = New Telerik.WinControls.UI.RadTextBox()
+        Me.RadLabel7 = New Telerik.WinControls.UI.RadLabel()
+        Me.txt_existing_code = New Telerik.WinControls.UI.RadTextBox()
+        Me.txt_new_area = New Telerik.WinControls.UI.RadTextBox()
         Me.RadLabel3 = New Telerik.WinControls.UI.RadLabel()
         Me.RadLabel4 = New Telerik.WinControls.UI.RadLabel()
         Me.RadLabel6 = New Telerik.WinControls.UI.RadLabel()
-        Me.txt_new_area = New Telerik.WinControls.UI.RadTextBox()
-        Me.txt_existing_code = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadLabel7 = New Telerik.WinControls.UI.RadLabel()
-        Me.txt_new_code = New Telerik.WinControls.UI.RadTextBox()
-        Me.sp_area = New Telerik.WinControls.UI.RadSpinEditor()
-        Me.RadButton1 = New Telerik.WinControls.UI.RadButton()
         CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gb_menu.SuspendLayout()
+        CType(Me.dp_lot_code, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txt_current_area, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dp_loc_desc, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_cancel, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_save, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.dp_loc_desc, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.dp_lot_code, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox1.SuspendLayout()
         CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.RadGroupBox2.SuspendLayout()
+        CType(Me.btn_edit_save, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.sp_area, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_new_code, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_existing_code, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txt_new_area, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txt_new_area, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txt_existing_code, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txt_new_code, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.sp_area, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadButton1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -85,11 +85,23 @@ Partial Class Frm_masterlist_location_addexisting
         Me.gb_menu.Size = New System.Drawing.Size(319, 131)
         Me.gb_menu.TabIndex = 5
         '
+        'dp_lot_code
+        '
+        Me.dp_lot_code.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
+        Me.dp_lot_code.Location = New System.Drawing.Point(69, 59)
+        Me.dp_lot_code.Name = "dp_lot_code"
+        '
+        '
+        '
+        Me.dp_lot_code.RootElement.StretchVertically = True
+        Me.dp_lot_code.Size = New System.Drawing.Size(233, 20)
+        Me.dp_lot_code.TabIndex = 55
+        '
         'txt_current_area
         '
         Me.txt_current_area.Location = New System.Drawing.Point(136, 87)
         Me.txt_current_area.Name = "txt_current_area"
-        Me.txt_current_area.NullText = "<Required>"
+        Me.txt_current_area.NullText = "<System Generated>"
         Me.txt_current_area.Size = New System.Drawing.Size(166, 20)
         Me.txt_current_area.TabIndex = 54
         '
@@ -120,6 +132,18 @@ Partial Class Frm_masterlist_location_addexisting
         Me.RadLabel1.TabIndex = 16
         Me.RadLabel1.Text = "Lot Code:"
         '
+        'dp_loc_desc
+        '
+        Me.dp_loc_desc.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
+        Me.dp_loc_desc.Location = New System.Drawing.Point(12, 32)
+        Me.dp_loc_desc.Name = "dp_loc_desc"
+        '
+        '
+        '
+        Me.dp_loc_desc.RootElement.StretchVertically = True
+        Me.dp_loc_desc.Size = New System.Drawing.Size(290, 20)
+        Me.dp_loc_desc.TabIndex = 23
+        '
         'btn_cancel
         '
         Me.btn_cancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -140,30 +164,6 @@ Partial Class Frm_masterlist_location_addexisting
         Me.btn_save.TabIndex = 0
         Me.btn_save.Text = "Save"
         '
-        'dp_loc_desc
-        '
-        Me.dp_loc_desc.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.dp_loc_desc.Location = New System.Drawing.Point(12, 32)
-        Me.dp_loc_desc.Name = "dp_loc_desc"
-        '
-        '
-        '
-        Me.dp_loc_desc.RootElement.StretchVertically = True
-        Me.dp_loc_desc.Size = New System.Drawing.Size(290, 20)
-        Me.dp_loc_desc.TabIndex = 23
-        '
-        'dp_lot_code
-        '
-        Me.dp_lot_code.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.dp_lot_code.Location = New System.Drawing.Point(69, 59)
-        Me.dp_lot_code.Name = "dp_lot_code"
-        '
-        '
-        '
-        Me.dp_lot_code.RootElement.StretchVertically = True
-        Me.dp_lot_code.Size = New System.Drawing.Size(233, 20)
-        Me.dp_lot_code.TabIndex = 55
-        '
         'RadGroupBox1
         '
         Me.RadGroupBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping
@@ -183,7 +183,7 @@ Partial Class Frm_masterlist_location_addexisting
         Me.RadGroupBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadGroupBox2.Controls.Add(Me.RadButton1)
+        Me.RadGroupBox2.Controls.Add(Me.btn_edit_save)
         Me.RadGroupBox2.Controls.Add(Me.sp_area)
         Me.RadGroupBox2.Controls.Add(Me.txt_new_code)
         Me.RadGroupBox2.Controls.Add(Me.RadLabel7)
@@ -197,6 +197,68 @@ Partial Class Frm_masterlist_location_addexisting
         Me.RadGroupBox2.Name = "RadGroupBox2"
         Me.RadGroupBox2.Size = New System.Drawing.Size(320, 131)
         Me.RadGroupBox2.TabIndex = 7
+        '
+        'btn_edit_save
+        '
+        Me.btn_edit_save.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btn_edit_save.Enabled = False
+        Me.btn_edit_save.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.btn_edit_save.Location = New System.Drawing.Point(268, 12)
+        Me.btn_edit_save.Name = "btn_edit_save"
+        Me.btn_edit_save.Size = New System.Drawing.Size(41, 25)
+        Me.btn_edit_save.TabIndex = 59
+        Me.btn_edit_save.Text = "Edit"
+        '
+        'sp_area
+        '
+        Me.sp_area.DecimalPlaces = 4
+        Me.sp_area.Location = New System.Drawing.Point(116, 88)
+        Me.sp_area.Maximum = New Decimal(New Integer() {10000000, 0, 0, 0})
+        Me.sp_area.Name = "sp_area"
+        '
+        '
+        '
+        Me.sp_area.RootElement.StretchVertically = True
+        Me.sp_area.Size = New System.Drawing.Size(83, 20)
+        Me.sp_area.TabIndex = 58
+        Me.sp_area.TabStop = False
+        Me.sp_area.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right
+        Me.sp_area.ThousandsSeparator = True
+        '
+        'txt_new_code
+        '
+        Me.txt_new_code.Location = New System.Drawing.Point(116, 64)
+        Me.txt_new_code.Name = "txt_new_code"
+        Me.txt_new_code.NullText = "<Required>"
+        Me.txt_new_code.Size = New System.Drawing.Size(193, 20)
+        Me.txt_new_code.TabIndex = 57
+        '
+        'RadLabel7
+        '
+        Me.RadLabel7.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.RadLabel7.Location = New System.Drawing.Point(49, 40)
+        Me.RadLabel7.Name = "RadLabel7"
+        Me.RadLabel7.Size = New System.Drawing.Size(61, 18)
+        Me.RadLabel7.TabIndex = 56
+        Me.RadLabel7.Text = "New Area:"
+        '
+        'txt_existing_code
+        '
+        Me.txt_existing_code.Location = New System.Drawing.Point(116, 15)
+        Me.txt_existing_code.Name = "txt_existing_code"
+        Me.txt_existing_code.NullText = "<System Generated>"
+        Me.txt_existing_code.ReadOnly = True
+        Me.txt_existing_code.Size = New System.Drawing.Size(155, 20)
+        Me.txt_existing_code.TabIndex = 55
+        '
+        'txt_new_area
+        '
+        Me.txt_new_area.Location = New System.Drawing.Point(116, 41)
+        Me.txt_new_area.Name = "txt_new_area"
+        Me.txt_new_area.NullText = "<System Generated>"
+        Me.txt_new_area.ReadOnly = True
+        Me.txt_new_area.Size = New System.Drawing.Size(124, 20)
+        Me.txt_new_area.TabIndex = 55
         '
         'RadLabel3
         '
@@ -225,67 +287,6 @@ Partial Class Frm_masterlist_location_addexisting
         Me.RadLabel6.TabIndex = 16
         Me.RadLabel6.Text = "New Added Code:"
         '
-        'txt_new_area
-        '
-        Me.txt_new_area.Location = New System.Drawing.Point(116, 41)
-        Me.txt_new_area.Name = "txt_new_area"
-        Me.txt_new_area.NullText = "<Sysnten Generated>"
-        Me.txt_new_area.ReadOnly = True
-        Me.txt_new_area.Size = New System.Drawing.Size(124, 20)
-        Me.txt_new_area.TabIndex = 55
-        '
-        'txt_existing_code
-        '
-        Me.txt_existing_code.Location = New System.Drawing.Point(116, 15)
-        Me.txt_existing_code.Name = "txt_existing_code"
-        Me.txt_existing_code.NullText = "<Sysnten Generated>"
-        Me.txt_existing_code.ReadOnly = True
-        Me.txt_existing_code.Size = New System.Drawing.Size(155, 20)
-        Me.txt_existing_code.TabIndex = 55
-        '
-        'RadLabel7
-        '
-        Me.RadLabel7.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.RadLabel7.Location = New System.Drawing.Point(49, 40)
-        Me.RadLabel7.Name = "RadLabel7"
-        Me.RadLabel7.Size = New System.Drawing.Size(61, 18)
-        Me.RadLabel7.TabIndex = 56
-        Me.RadLabel7.Text = "New Area:"
-        '
-        'txt_new_code
-        '
-        Me.txt_new_code.Location = New System.Drawing.Point(116, 64)
-        Me.txt_new_code.Name = "txt_new_code"
-        Me.txt_new_code.NullText = "<Required>"
-        Me.txt_new_code.Size = New System.Drawing.Size(193, 20)
-        Me.txt_new_code.TabIndex = 57
-        '
-        'sp_area
-        '
-        Me.sp_area.DecimalPlaces = 4
-        Me.sp_area.Location = New System.Drawing.Point(116, 88)
-        Me.sp_area.Maximum = New Decimal(New Integer() {10000000, 0, 0, 0})
-        Me.sp_area.Name = "sp_area"
-        '
-        '
-        '
-        Me.sp_area.RootElement.StretchVertically = True
-        Me.sp_area.Size = New System.Drawing.Size(83, 20)
-        Me.sp_area.TabIndex = 58
-        Me.sp_area.TabStop = False
-        Me.sp_area.TextAlignment = System.Windows.Forms.HorizontalAlignment.Right
-        Me.sp_area.ThousandsSeparator = True
-        '
-        'RadButton1
-        '
-        Me.RadButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadButton1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.RadButton1.Location = New System.Drawing.Point(268, 12)
-        Me.RadButton1.Name = "RadButton1"
-        Me.RadButton1.Size = New System.Drawing.Size(41, 25)
-        Me.RadButton1.TabIndex = 59
-        Me.RadButton1.Text = "Edit"
-        '
         'Frm_masterlist_location_addexisting
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -307,28 +308,28 @@ Partial Class Frm_masterlist_location_addexisting
         CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gb_menu.ResumeLayout(False)
         Me.gb_menu.PerformLayout()
+        CType(Me.dp_lot_code, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txt_current_area, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dp_loc_desc, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_cancel, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_save, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.dp_loc_desc, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.dp_lot_code, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadGroupBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox1.ResumeLayout(False)
         CType(Me.RadGroupBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.RadGroupBox2.ResumeLayout(False)
         Me.RadGroupBox2.PerformLayout()
+        CType(Me.btn_edit_save, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.sp_area, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_new_code, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_existing_code, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txt_new_area, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txt_new_area, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txt_existing_code, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txt_new_code, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.sp_area, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadButton1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -353,6 +354,6 @@ Partial Class Frm_masterlist_location_addexisting
     Friend WithEvents txt_new_area As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents txt_new_code As Telerik.WinControls.UI.RadTextBox
     Friend WithEvents sp_area As Telerik.WinControls.UI.RadSpinEditor
-    Friend WithEvents RadButton1 As Telerik.WinControls.UI.RadButton
+    Friend WithEvents btn_edit_save As Telerik.WinControls.UI.RadButton
 End Class
 

@@ -22,6 +22,7 @@ Module declaration
     Public msgerror As String
     Public gp As String
     Public sortsss As String
+    Public slct_id_code As Integer = 0
 #End Region
 
 #Region "LOCATION INFO MASTERLIST"
