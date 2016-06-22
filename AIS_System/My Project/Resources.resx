@@ -139,25 +139,25 @@
   <data name="accept_database64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\accept-database64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="accept_female_user1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="accept_female_user128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\accept-female-user128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="accept_female_user161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="accept_female_user16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\accept-female-user16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="accept_female_user241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="accept_female_user24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\accept-female-user24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="accept_female_user2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="accept_female_user256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\accept-female-user256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="accept_female_user321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="accept_female_user32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\accept-female-user32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="accept_female_user481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="accept_female_user48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\accept-female-user48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="accept_female_user641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="accept_female_user64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\accept-female-user64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Accept_Male_User128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -181,109 +181,109 @@
   <data name="Accept_Male_User64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Accept-Male-User64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_add1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_add128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-add128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_add161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_add16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-add16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_add241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_add24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-add24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_add2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_add256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-add256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_add321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_add32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-add32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_add481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_add48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-add48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_add641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_add64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-add64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_edit1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_edit128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-edit128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_edit161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_edit16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-edit16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_edit241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_edit24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-edit24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_edit2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_edit256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-edit256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_edit321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_edit32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-edit32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_edit481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_edit48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-edit48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_edit641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_edit64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-edit64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_remove1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_remove128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-remove128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_remove161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_remove16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-remove16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_remove241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_remove24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-remove24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_remove2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_remove256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-remove256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_remove321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_remove32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-remove32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_remove481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_remove48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-remove48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_remove641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_remove64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-remove64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_search1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_search128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-search128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_search161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_search16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-search16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_search241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_search24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-search24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_search2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_search256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-search256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_search321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_search32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-search32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_search481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_search48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-search48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addressbook_search641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="addressbook_search64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\addressbook-search64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_female_user1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_female_user128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\add-female-user128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_female_user161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_female_user16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\add-female-user16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_female_user241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_female_user24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\add-female-user24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_female_user2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_female_user256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\add-female-user256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_female_user321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_female_user32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\add-female-user32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_female_user481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_female_user48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\add-female-user48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add_female_user641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="add_female_user64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\add-female-user64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Add_Male_User128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -349,25 +349,25 @@
   <data name="add_to_favorites64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\add-to-favorites64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AI1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AI128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\AI128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AI161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AI16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\AI16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AI241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AI24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\AI24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AI2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AI256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\AI256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AI321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AI32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\AI32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AI481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AI48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\AI48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AI641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="AI64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\AI64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Autoship128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -391,67 +391,67 @@
   <data name="Autoship64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Autoship64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A_rollaway_bed1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="A_rollaway_bed128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\A-rollaway-bed128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A_rollaway_bed161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="A_rollaway_bed16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\A-rollaway-bed16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A_rollaway_bed241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="A_rollaway_bed24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\A-rollaway-bed24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A_rollaway_bed2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="A_rollaway_bed256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\A-rollaway-bed256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A_rollaway_bed321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="A_rollaway_bed32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\A-rollaway-bed32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A_rollaway_bed481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="A_rollaway_bed48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\A-rollaway-bed48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A_rollaway_bed641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="A_rollaway_bed64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\A-rollaway-bed64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby_cot1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby_cot128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby-cot128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby_cot161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby_cot16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby-cot16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby_cot241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby_cot24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby-cot24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby_cot2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby_cot256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby-cot256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby_cot321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby_cot32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby-cot32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby_cot481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby_cot48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby-cot48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baby_cot641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="baby_cot64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\baby-cot64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="binary_tree128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -475,67 +475,67 @@
   <data name="binary_tree64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\binary-tree64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BMP1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BMP128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\BMP128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BMP161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BMP16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\BMP16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BMP241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BMP24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\BMP24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BMP2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BMP256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\BMP256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BMP321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BMP32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\BMP32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BMP481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BMP48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\BMP48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BMP641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="BMP64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\BMP64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="breakfast128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\breakfast128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="breakfast16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\breakfast16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="breakfast24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\breakfast24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="breakfast256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\breakfast256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="breakfast32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\breakfast32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="breakfast48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\breakfast48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="breakfast64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\breakfast64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="budget128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\budget128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="budget16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\budget16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="budget24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\budget24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="budget256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\budget256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="budget32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\budget32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="budget48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\budget48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="budget641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="budget64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\budget64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="business_info128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -559,88 +559,88 @@
   <data name="business_info64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\business-info64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Camera_Accept1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Camera_Accept128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Camera-Accept128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Camera_Accept161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Camera_Accept16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Camera-Accept16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Camera_Accept241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Camera_Accept24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Camera-Accept24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Camera_Accept2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Camera_Accept256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Camera-Accept256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Camera_Accept321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Camera_Accept32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Camera-Accept32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Camera_Accept481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Camera_Accept48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Camera-Accept48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Camera_Accept641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Camera_Accept64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Camera-Accept64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="clear128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\clear128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="clear16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\clear16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="clear24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\clear24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="clear256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\clear256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="clear32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\clear32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="clear48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\clear48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="clear64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\clear64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="couple1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="couple128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\couple128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="couple161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="couple16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\couple16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="couple241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="couple24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\couple24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="couple2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="couple256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\couple256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="couple321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="couple32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\couple32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="couple481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="couple48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\couple48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="couple641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="couple64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\couple64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create_Ticket1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Create_Ticket128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Create-Ticket128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create_Ticket161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Create_Ticket16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Create-Ticket16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create_Ticket241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Create_Ticket24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Create-Ticket24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create_Ticket2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Create_Ticket256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Create-Ticket256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create_Ticket321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Create_Ticket32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Create-Ticket32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create_Ticket481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Create_Ticket48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Create-Ticket48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Create_Ticket641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Create_Ticket64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Create-Ticket64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Database_Upload128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -664,25 +664,25 @@
   <data name="Database_Upload64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Database-Upload64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Direct_walkway1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Direct_walkway128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Direct-walkway128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Direct_walkway161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Direct_walkway16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Direct-walkway16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Direct_walkway241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Direct_walkway24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Direct-walkway24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Direct_walkway2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Direct_walkway256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Direct-walkway256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Direct_walkway321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Direct_walkway32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Direct-walkway32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Direct_walkway481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Direct_walkway48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Direct-walkway48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Direct_walkway641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Direct_walkway64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Direct-walkway64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="distributor_report128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -706,46 +706,46 @@
   <data name="distributor_report64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\distributor-report64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1_1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download1_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download1-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download1_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download1-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download1_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download1-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1_2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download1_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download1-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download1_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download1-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1_481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download1_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download1-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download1_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download1_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download1-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="download64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\download64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download_database128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -769,25 +769,25 @@
   <data name="download_database64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\download-database64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_female_user1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="edit_female_user128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\edit-female-user128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_female_user161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="edit_female_user16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\edit-female-user16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_female_user241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="edit_female_user24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\edit-female-user24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_female_user2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="edit_female_user256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\edit-female-user256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_female_user321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="edit_female_user32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\edit-female-user32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_female_user481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="edit_female_user48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\edit-female-user48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="edit_female_user641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="edit_female_user64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\edit-female-user64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Edit_Male_User128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -811,151 +811,151 @@
   <data name="Edit_Male_User64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Edit-Male-User64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EPS1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="EPS128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\EPS128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EPS161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="EPS16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\EPS16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EPS241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="EPS24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\EPS24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EPS2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="EPS256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\EPS256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EPS321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="EPS32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\EPS32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EPS481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="EPS48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\EPS48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EPS641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="EPS64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\EPS64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="family1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="family128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\family128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="family161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="family16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\family16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="family241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="family24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\family24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="family2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="family256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\family256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="family321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="family32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\family32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="family481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="family48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\family48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="family641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="family64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\family64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_help1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_help128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-help128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_help161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_help16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-help16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_help241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_help24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-help24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_help2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_help256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-help256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_help321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_help32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-help32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_help481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_help48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-help48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_help641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_help64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-help64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_info1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_info128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-info128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_info161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_info16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-info16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_info241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_info24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-info24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_info2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_info256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-info256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_info321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_info32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-info32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_info481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_info48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-info48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_info641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_info64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-info64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_search1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_search128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-search128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_search161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_search16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-search16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_search241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_search24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-search24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_search2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_search256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-search256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_search321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_search32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-search32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_search481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_search48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-search48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_search641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_search64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-search64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_warning1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_warning128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-warning128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_warning161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_warning16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-warning16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_warning241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_warning24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-warning24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_warning2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_warning256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-warning256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_warning321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_warning32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-warning32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_warning481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_warning48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-warning48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="female_user_warning641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="female_user_warning64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\female-user-warning64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FLA1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="FLA128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\FLA128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FLA161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="FLA16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\FLA16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FLA241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="FLA24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\FLA24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FLA2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="FLA256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\FLA256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FLA321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="FLA32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\FLA32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FLA481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="FLA48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\FLA48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FLA641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="FLA64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\FLA64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gealogy_view128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -979,25 +979,25 @@
   <data name="gealogy_view64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\gealogy-view64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GIF128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\GIF128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GIF16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\GIF16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GIF24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\GIF24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GIF256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\GIF256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GIF32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\GIF32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GIF48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\GIF48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GIF641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="GIF64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\GIF64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Globe128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1063,67 +1063,67 @@
   <data name="Globe_Warning64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Globe-Warning64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\home128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\home16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\home24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\home256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\home32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\home48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\home64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICNS1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICNS128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICNS128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICNS161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICNS16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICNS16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICNS241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICNS24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICNS24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICNS2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICNS256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICNS256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICNS321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICNS32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICNS32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICNS481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICNS48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICNS48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICNS641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICNS64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICNS64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICO1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICO128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICO128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICO161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICO16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICO16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICO241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICO24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICO24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICO2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICO256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICO256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICO321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICO32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICO32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICO481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICO48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICO48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ICO641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ICO64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\ICO64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="inventory_maintenance128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1168,25 +1168,25 @@
   <data name="item_configuration64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\item-configuration64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JPG1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="JPG128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\JPG128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JPG161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="JPG16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\JPG16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JPG241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="JPG24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\JPG24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JPG2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="JPG256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\JPG256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JPG321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="JPG32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\JPG32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JPG481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="JPG48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\JPG48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JPG641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="JPG64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\JPG64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="library128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1273,193 +1273,193 @@
   <data name="Male_User_Warning64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Male-User-Warning64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man1_1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man1_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man1-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man1_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man1_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man1-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man1_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man1_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man1-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man1_2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man1_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man1-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man1_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man1_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man1-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man1_481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man1_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man1-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man1_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man1_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man1-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man_1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man_2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man_481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="man_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\man-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My_Tickets1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="My_Tickets128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\My-Tickets128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My_Tickets161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="My_Tickets16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\My-Tickets16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My_Tickets241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="My_Tickets24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\My-Tickets24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My_Tickets2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="My_Tickets256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\My-Tickets256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My_Tickets321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="My_Tickets32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\My-Tickets32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My_Tickets481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="My_Tickets48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\My-Tickets48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="My_Tickets641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="My_Tickets64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\My-Tickets64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Accept1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Accept128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Accept128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Accept161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Accept16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Accept16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Accept241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Accept24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Accept24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Accept2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Accept256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Accept256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Accept321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Accept32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Accept32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Accept481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Accept48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Accept48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Accept641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Accept64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Accept64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Add1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Add128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Add128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Add161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Add16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Add16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Add241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Add24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Add24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Add2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Add256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Add256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Add321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Add32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Add32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Add481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Add48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Add48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Add641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Add64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Add64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Delete1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Delete128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Delete128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Delete161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Delete16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Delete16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Delete241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Delete24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Delete24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Delete2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Delete256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Delete256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Delete321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Delete32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Delete32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Delete481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Delete48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Delete48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Delete641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Delete64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Delete64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Full1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Full128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Full128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Full161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Full16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Full16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Full241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Full24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Full24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Full2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Full256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Full256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Full321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Full32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Full32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Full481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Full48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Full48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Full641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Full64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Full64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Info1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Info128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Info128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Info161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Info16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Info16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Info241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Info24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Info24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Info2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Info256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Info256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Info321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Info32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Info32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Info481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Info48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Info48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Info641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Info64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Info64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Warning1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Warning128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Warning128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Warning161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Warning16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Warning16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Warning241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Warning24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Warning24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Warning2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Warning256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Warning256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Warning321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Warning32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Warning32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Warning481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Warning48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Warning48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Open_Folder_Warning641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Open_Folder_Warning64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\Open-Folder-Warning64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ordering128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1630,46 +1630,46 @@
   <data name="payment_card64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\payment-card64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PDF1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PDF128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PDF128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PDF161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PDF16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PDF16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PDF241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PDF24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PDF24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PDF2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PDF256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PDF256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PDF321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PDF32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PDF32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PDF481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PDF48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PDF48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PDF641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PDF64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PDF64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PNG128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PNG128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PNG16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PNG16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PNG24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PNG24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PNG256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PNG256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PNG32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PNG32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PNG48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PNG48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PNG641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PNG64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PNG64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Process_Accept128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1777,25 +1777,25 @@
   <data name="product_sales_report64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\product-sales-report64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PSD1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PSD128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PSD128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PSD161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PSD16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PSD16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PSD241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PSD24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PSD24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PSD2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PSD256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PSD256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PSD321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PSD32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PSD32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PSD481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PSD48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PSD48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PSD641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="PSD64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\PSD64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rank_History128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1819,46 +1819,46 @@
   <data name="Rank_History64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Rank-History64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_event1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_event128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-event128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_event161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_event16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-event16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_event241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_event24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-event24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_event2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_event256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-event256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_event321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_event32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-event32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_event481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_event48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-event48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_event641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_event64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-event64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_female_user1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_female_user128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-female-user128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_female_user161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_female_user16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-female-user16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_female_user241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_female_user24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-female-user24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_female_user2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_female_user256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-female-user256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_female_user321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_female_user32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-female-user32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_female_user481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_female_user48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-female-user48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_female_user641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="remove_female_user64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\remove-female-user64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="remove_from_database128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1966,46 +1966,46 @@
   <data name="remove_ticket64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\remove-ticket64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rename1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rename128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\rename128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rename161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rename16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\rename16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rename241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rename24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\rename24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rename2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rename256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\rename256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rename321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rename32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\rename32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rename481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rename48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\rename48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rename641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="rename64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\rename64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="report128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\report128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="report16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\report16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="report24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\report24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="report256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\report256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="report32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\report32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="report48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\report48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="report64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\report64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reports128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -2155,130 +2155,130 @@
   <data name="Select_Language64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Select-Language64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_bag1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_bag128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-bag128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_bag161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_bag16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-bag16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_bag241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_bag24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-bag24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_bag2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_bag256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-bag256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_bag321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_bag32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-bag32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_bag481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_bag48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-bag48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_bag641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_bag64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-bag64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_accept1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_accept128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-accept128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_accept161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_accept16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-accept16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_accept241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_accept24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-accept24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_accept2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_accept256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-accept256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_accept321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_accept32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-accept32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_accept481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_accept48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-accept48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_accept641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_accept64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-accept64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_add1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_add128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-add128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_add161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_add16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-add16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_add241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_add24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-add24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_add2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_add256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-add256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_add321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_add32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-add32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_add481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_add48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-add48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_add641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_add64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-add64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_full1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_full128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-full128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_full161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_full16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-full16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_full241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_full24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-full24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_full2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_full256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-full256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_full321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_full32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-full32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_full481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_full48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-full48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_full641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_full64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-full64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_insert1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_insert128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-insert128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_insert161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_insert16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-insert16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_insert241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_insert24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-insert24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_insert2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_insert256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-insert256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_insert321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_insert32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-insert32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_insert481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_insert48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-insert48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_insert641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_insert64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-insert64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_remove1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_remove128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-remove128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_remove161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_remove16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-remove16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_remove241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_remove24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-remove24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_remove2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_remove256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-remove256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_remove321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_remove32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-remove32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_remove481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_remove48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-remove48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_remove641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="shopping_cart_remove64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\shopping-cart-remove64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign_up128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -2365,25 +2365,25 @@
   <data name="Star_Half_Full64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Star-Half-Full64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SWF1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="SWF128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\SWF128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SWF161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="SWF16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\SWF16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SWF241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="SWF24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\SWF24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SWF2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="SWF256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\SWF256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SWF321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="SWF32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\SWF32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SWF481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="SWF48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\SWF48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SWF641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="SWF64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\SWF64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ticket128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -2449,25 +2449,25 @@
   <data name="tickets64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\tickets64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TIFF1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="TIFF128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\TIFF128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TIFF161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="TIFF16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\TIFF16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TIFF241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="TIFF24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\TIFF24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TIFF2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="TIFF256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\TIFF256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TIFF321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="TIFF32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\TIFF32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TIFF481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="TIFF48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\TIFF48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TIFF641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="TIFF64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\TIFF64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Upline128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -2491,46 +2491,46 @@
   <data name="Upline64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\Upline64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1_1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload1_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload1-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload1_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload1-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload1_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload1-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1_2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload1_256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload1-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload1_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload1-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1_481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload1_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload1-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload1_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload1_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload1-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="upload641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="upload64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\upload64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="web_management128" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -2575,25 +2575,25 @@
   <data name="wheel64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v2\wheel64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woman1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="woman128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\woman128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woman161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="woman16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\woman16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woman241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="woman24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\woman24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woman2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="woman256" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\woman256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woman321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="woman32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\woman32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woman481" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="woman48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\woman48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="woman641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="woman64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICONS v1\woman64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zoom_in128" type="System.Resources.ResXFileRef, System.Windows.Forms">
