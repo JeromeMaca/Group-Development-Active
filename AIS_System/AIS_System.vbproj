@@ -318,6 +318,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\New Module\declaration.vb" />
+    <Compile Include="System\New Module\Variable_Declaration.vb" />
     <Compile Include="System\New User Account Contorl\frm_user_control_maintenace.Designer.vb">
       <DependentUpon>frm_user_control_maintenace.vb</DependentUpon>
     </Compile>
