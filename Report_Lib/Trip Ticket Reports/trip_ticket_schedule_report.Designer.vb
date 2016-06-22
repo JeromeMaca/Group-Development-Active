@@ -1,5 +1,5 @@
 Partial Class trip_ticket_schedule_report
-    
+
     'NOTE: The following procedure is required by the telerik Reporting Designer
     'It can be modified using the telerik Reporting Designer.  
     'Do not modify it using the code editor.
@@ -13,6 +13,9 @@ Partial Class trip_ticket_schedule_report
         Dim TableGroup7 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
         Dim TableGroup8 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
         Dim TableGroup9 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
+        Dim TableGroup10 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
+        Dim TableGroup11 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
+        Dim TableGroup12 As Telerik.Reporting.TableGroup = New Telerik.Reporting.TableGroup()
         Dim Group1 As Telerik.Reporting.Group = New Telerik.Reporting.Group()
         Dim StyleRule1 As Telerik.Reporting.Drawing.StyleRule = New Telerik.Reporting.Drawing.StyleRule()
         Dim StyleRule2 As Telerik.Reporting.Drawing.StyleRule = New Telerik.Reporting.Drawing.StyleRule()
@@ -47,29 +50,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox42 = New Telerik.Reporting.TextBox()
         Me.TextBox16 = New Telerik.Reporting.TextBox()
         Me.TextBox19 = New Telerik.Reporting.TextBox()
-        Me.pageHeader = New Telerik.Reporting.PageHeaderSection()
-        Me.pageFooter = New Telerik.Reporting.PageFooterSection()
-        Me.currentTimeTextBox = New Telerik.Reporting.TextBox()
-        Me.pageInfoTextBox = New Telerik.Reporting.TextBox()
-        Me.reportHeader = New Telerik.Reporting.ReportHeaderSection()
-        Me.titleTextBox = New Telerik.Reporting.TextBox()
-        Me.reportFooter = New Telerik.Reporting.ReportFooterSection()
-        Me.detail = New Telerik.Reporting.DetailSection()
-        Me.Panel6 = New Telerik.Reporting.Panel()
-        Me.TextBox20 = New Telerik.Reporting.TextBox()
-        Me.TextBox26 = New Telerik.Reporting.TextBox()
-        Me.TextBox17 = New Telerik.Reporting.TextBox()
-        Me.TextBox18 = New Telerik.Reporting.TextBox()
-        Me.TextBox21 = New Telerik.Reporting.TextBox()
-        Me.TextBox22 = New Telerik.Reporting.TextBox()
-        Me.TextBox23 = New Telerik.Reporting.TextBox()
-        Me.TextBox24 = New Telerik.Reporting.TextBox()
         Me.TextBox25 = New Telerik.Reporting.TextBox()
-        Me.Panel8 = New Telerik.Reporting.Panel()
-        Me.Panel7 = New Telerik.Reporting.Panel()
-        Me.TextBox27 = New Telerik.Reporting.TextBox()
-        Me.TextBox28 = New Telerik.Reporting.TextBox()
-        Me.Panel9 = New Telerik.Reporting.Panel()
         Me.Panel10 = New Telerik.Reporting.Panel()
         Me.TextBox29 = New Telerik.Reporting.TextBox()
         Me.TextBox30 = New Telerik.Reporting.TextBox()
@@ -81,6 +62,34 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox39 = New Telerik.Reporting.TextBox()
         Me.TextBox40 = New Telerik.Reporting.TextBox()
         Me.TextBox41 = New Telerik.Reporting.TextBox()
+        Me.pageHeader = New Telerik.Reporting.PageHeaderSection()
+        Me.pageFooter = New Telerik.Reporting.PageFooterSection()
+        Me.currentTimeTextBox = New Telerik.Reporting.TextBox()
+        Me.pageInfoTextBox = New Telerik.Reporting.TextBox()
+        Me.reportHeader = New Telerik.Reporting.ReportHeaderSection()
+        Me.titleTextBox = New Telerik.Reporting.TextBox()
+        Me.reportFooter = New Telerik.Reporting.ReportFooterSection()
+        Me.Panel8 = New Telerik.Reporting.Panel()
+        Me.Panel7 = New Telerik.Reporting.Panel()
+        Me.TextBox27 = New Telerik.Reporting.TextBox()
+        Me.TextBox28 = New Telerik.Reporting.TextBox()
+        Me.Panel9 = New Telerik.Reporting.Panel()
+        Me.detail = New Telerik.Reporting.DetailSection()
+        Me.TextBox17 = New Telerik.Reporting.TextBox()
+        Me.TextBox18 = New Telerik.Reporting.TextBox()
+        Me.TextBox21 = New Telerik.Reporting.TextBox()
+        Me.TextBox23 = New Telerik.Reporting.TextBox()
+        Me.TextBox24 = New Telerik.Reporting.TextBox()
+        Me.TextBox22 = New Telerik.Reporting.TextBox()
+        Me.Panel6 = New Telerik.Reporting.Panel()
+        Me.TextBox20 = New Telerik.Reporting.TextBox()
+        Me.TextBox26 = New Telerik.Reporting.TextBox()
+        Me.TextBox43 = New Telerik.Reporting.TextBox()
+        Me.TextBox44 = New Telerik.Reporting.TextBox()
+        Me.TextBox45 = New Telerik.Reporting.TextBox()
+        Me.TextBox46 = New Telerik.Reporting.TextBox()
+        Me.TextBox47 = New Telerik.Reporting.TextBox()
+        Me.TextBox48 = New Telerik.Reporting.TextBox()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'labelsGroupFooterSection
@@ -128,7 +137,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox3.Format = "{0:000000}"
         Me.TextBox3.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(1.4000787734985352R), Telerik.Reporting.Drawing.Unit.Inch(0.89999991655349731R))
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.5999214649200439R), Telerik.Reporting.Drawing.Unit.Inch(0.19999997317790985R))
+        Me.TextBox3.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.599921464920044R), Telerik.Reporting.Drawing.Unit.Inch(0.19999997317790985R))
         Me.TextBox3.Style.Font.Name = "Times New Roman"
         Me.TextBox3.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(12.0R)
         Me.TextBox3.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
@@ -159,7 +168,7 @@ Partial Class trip_ticket_schedule_report
         '
         'Panel1
         '
-        Me.Panel1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.0R), Telerik.Reporting.Drawing.Unit.Inch(0.7000001072883606R))
+        Me.Panel1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(0.7000001072883606R))
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4791660308837891R), Telerik.Reporting.Drawing.Unit.Inch(0.0520833320915699R))
         Me.Panel1.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
@@ -168,7 +177,7 @@ Partial Class trip_ticket_schedule_report
         '
         'Panel2
         '
-        Me.Panel2.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.0R), Telerik.Reporting.Drawing.Unit.Inch(1.2000001668930054R))
+        Me.Panel2.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(1.2000001668930054R))
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4999995231628418R), Telerik.Reporting.Drawing.Unit.Inch(0.0520833320915699R))
         Me.Panel2.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
@@ -184,10 +193,11 @@ Partial Class trip_ticket_schedule_report
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R), Telerik.Reporting.Drawing.Unit.Inch(0.10000006109476089R))
+        Me.TextBox6.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.30000004172325134R), Telerik.Reporting.Drawing.Unit.Inch(0.1000000610947609R))
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.4000003337860107R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox6.Style.Font.Bold = True
+        Me.TextBox6.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox6.Value = "Equipment Pool Check Point"
         '
         'TextBox7
@@ -196,6 +206,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.1062500476837158R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox7.Style.Font.Bold = False
+        Me.TextBox7.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox7.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
         Me.TextBox7.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox7.Value = "Check Out Time: _____________"
@@ -206,6 +217,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.1062502861022949R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox8.Style.Font.Bold = False
+        Me.TextBox8.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox8.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox8.Value = "Check In Time: ______________"
         '
@@ -214,6 +226,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox9.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(4.2000002861022949R), Telerik.Reporting.Drawing.Unit.Inch(0.50015813112258911R))
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.1000003814697266R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox9.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox9.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox9.Value = "Departure Time: _____________"
         '
@@ -222,15 +235,17 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox10.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(4.2000002861022949R), Telerik.Reporting.Drawing.Unit.Inch(0.30007919669151306R))
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.1000003814697266R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox10.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox10.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox10.Value = "Arrival Time: _______________"
         '
         'TextBox11
         '
-        Me.TextBox11.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.8979167938232422R), Telerik.Reporting.Drawing.Unit.Inch(0.10000006109476089R))
+        Me.TextBox11.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.8979167938232422R), Telerik.Reporting.Drawing.Unit.Inch(0.1000000610947609R))
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.7000001668930054R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox11.Style.Font.Bold = True
+        Me.TextBox11.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox11.Value = "Job Site"
         '
         'TextBox12
@@ -240,6 +255,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox12.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.647916853427887R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox12.Style.Font.Bold = False
         Me.TextBox12.Style.Font.Name = "Arial"
+        Me.TextBox12.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox12.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox12.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox12.Value = "[am] [pm]"
@@ -251,6 +267,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox13.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.647916853427887R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox13.Style.Font.Bold = False
         Me.TextBox13.Style.Font.Name = "Arial"
+        Me.TextBox13.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox13.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox13.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox13.Value = "[am] [pm]"
@@ -262,6 +279,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox14.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.599999725818634R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox14.Style.Font.Bold = False
         Me.TextBox14.Style.Font.Name = "Arial"
+        Me.TextBox14.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox14.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox14.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox14.Value = "[am] [pm]"
@@ -273,6 +291,7 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox15.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.599999725818634R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
         Me.TextBox15.Style.Font.Bold = False
         Me.TextBox15.Style.Font.Name = "Arial"
+        Me.TextBox15.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(10.0R)
         Me.TextBox15.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.TextBox15.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox15.Value = "[am] [pm]"
@@ -290,50 +309,62 @@ Partial Class trip_ticket_schedule_report
         'Panel5
         '
         Me.Panel5.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.List1})
-        Me.Panel5.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.099999986588954926R), Telerik.Reporting.Drawing.Unit.Inch(3.5R))
+        Me.Panel5.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(3.5R))
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.3000006675720215R), Telerik.Reporting.Drawing.Unit.Inch(0.69999974966049194R))
+        Me.Panel5.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.6166315078735352R), Telerik.Reporting.Drawing.Unit.Inch(0.69999974966049194R))
         '
         'List1
         '
-        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.5624997615814209R)))
-        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(1.4895846843719482R)))
-        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.98958504199981689R)))
-        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.937498927116394R)))
-        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(2.2500028610229492R)))
-        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.94791734218597412R)))
-        Me.List1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.30208325386047363R)))
-        Me.List1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.28124994039535522R)))
-        Me.List1.Body.SetCellContent(1, 2, Me.TextBox33)
-        Me.List1.Body.SetCellContent(1, 3, Me.TextBox37)
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.26041603088378906R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.65625149011611938R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.59375059604644775R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(1.2083338499069214R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.89583331346511841R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.98958462476730347R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.93749916553497314R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(1.3437530994415283R)))
+        Me.List1.Body.Columns.Add(New Telerik.Reporting.TableBodyColumn(Telerik.Reporting.Drawing.Unit.Inch(0.54166668653488159R)))
+        Me.List1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.30208331346511841R)))
+        Me.List1.Body.Rows.Add(New Telerik.Reporting.TableBodyRow(Telerik.Reporting.Drawing.Unit.Inch(0.28124997019767761R)))
+        Me.List1.Body.SetCellContent(1, 5, Me.TextBox33)
+        Me.List1.Body.SetCellContent(1, 6, Me.TextBox37)
         Me.List1.Body.SetCellContent(0, 1, Me.TextBox31, 2, 1)
-        Me.List1.Body.SetCellContent(0, 2, Me.TextBox42, 1, 2)
-        Me.List1.Body.SetCellContent(0, 4, Me.TextBox16, 2, 1)
-        Me.List1.Body.SetCellContent(0, 5, Me.TextBox19, 2, 1)
+        Me.List1.Body.SetCellContent(0, 5, Me.TextBox42, 1, 2)
+        Me.List1.Body.SetCellContent(0, 7, Me.TextBox16, 2, 1)
+        Me.List1.Body.SetCellContent(0, 8, Me.TextBox19, 2, 1)
         Me.List1.Body.SetCellContent(0, 0, Me.TextBox25, 2, 1)
+        Me.List1.Body.SetCellContent(0, 2, Me.TextBox43, 2, 1)
+        Me.List1.Body.SetCellContent(0, 3, Me.TextBox45, 2, 1)
+        Me.List1.Body.SetCellContent(0, 4, Me.TextBox47, 2, 1)
         TableGroup1.Name = "group2"
         TableGroup2.Name = "group7"
-        TableGroup3.Name = "ColumnGroup"
-        TableGroup4.Name = "group11"
-        TableGroup5.Name = "group"
-        TableGroup6.Name = "group1"
+        TableGroup3.Name = "group3"
+        TableGroup4.Name = "group4"
+        TableGroup5.Name = "group5"
+        TableGroup6.Name = "ColumnGroup"
+        TableGroup7.Name = "group11"
+        TableGroup8.Name = "group"
+        TableGroup9.Name = "group1"
         Me.List1.ColumnGroups.Add(TableGroup1)
         Me.List1.ColumnGroups.Add(TableGroup2)
         Me.List1.ColumnGroups.Add(TableGroup3)
         Me.List1.ColumnGroups.Add(TableGroup4)
         Me.List1.ColumnGroups.Add(TableGroup5)
         Me.List1.ColumnGroups.Add(TableGroup6)
-        Me.List1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox33, Me.TextBox37, Me.TextBox31, Me.TextBox42, Me.TextBox16, Me.TextBox19, Me.TextBox25})
+        Me.List1.ColumnGroups.Add(TableGroup7)
+        Me.List1.ColumnGroups.Add(TableGroup8)
+        Me.List1.ColumnGroups.Add(TableGroup9)
+        Me.List1.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox33, Me.TextBox37, Me.TextBox31, Me.TextBox42, Me.TextBox16, Me.TextBox19, Me.TextBox25, Me.TextBox43, Me.TextBox45, Me.TextBox47})
         Me.List1.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.099999986588954926R), Telerik.Reporting.Drawing.Unit.Inch(0.099999748170375824R))
         Me.List1.Name = "List1"
-        TableGroup8.Name = "group8"
-        TableGroup9.Name = "group9"
-        TableGroup7.ChildGroups.Add(TableGroup8)
-        TableGroup7.ChildGroups.Add(TableGroup9)
-        TableGroup7.Groupings.Add(New Telerik.Reporting.Grouping(Nothing))
-        TableGroup7.Name = "DetailGroup"
-        Me.List1.RowGroups.Add(TableGroup7)
-        Me.List1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.177088737487793R), Telerik.Reporting.Drawing.Unit.Inch(0.58333319425582886R))
+        TableGroup11.Name = "group8"
+        TableGroup12.Name = "group9"
+        TableGroup10.ChildGroups.Add(TableGroup11)
+        TableGroup10.ChildGroups.Add(TableGroup12)
+        TableGroup10.Groupings.Add(New Telerik.Reporting.Grouping(Nothing))
+        TableGroup10.Name = "DetailGroup"
+        Me.List1.RowGroups.Add(TableGroup10)
+        Me.List1.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.427088737487793R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
         Me.List1.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.List1.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
         Me.List1.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
@@ -371,7 +402,7 @@ Partial Class trip_ticket_schedule_report
         'TextBox31
         '
         Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4895840883255005R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
+        Me.TextBox31.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.65625095367431641R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
         Me.TextBox31.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox31.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox31.Style.Color = System.Drawing.Color.Black
@@ -400,7 +431,7 @@ Partial Class trip_ticket_schedule_report
         'TextBox16
         '
         Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.25000262260437R), Telerik.Reporting.Drawing.Unit.Inch(0.58333319425582886R))
+        Me.TextBox16.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3437527418136597R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
         Me.TextBox16.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox16.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox16.Style.Font.Bold = True
@@ -414,7 +445,7 @@ Partial Class trip_ticket_schedule_report
         'TextBox19
         '
         Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.9479174017906189R), Telerik.Reporting.Drawing.Unit.Inch(0.58333319425582886R))
+        Me.TextBox19.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.54166668653488159R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
         Me.TextBox19.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.TextBox19.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
         Me.TextBox19.Style.Font.Bold = True
@@ -424,6 +455,130 @@ Partial Class trip_ticket_schedule_report
         Me.TextBox19.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.TextBox19.StyleName = ""
         Me.TextBox19.Value = "AREA DONE"
+        '
+        'TextBox25
+        '
+        Me.TextBox25.Name = "TextBox25"
+        Me.TextBox25.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.26041603088378906R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
+        Me.TextBox25.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TextBox25.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox25.Style.Font.Bold = True
+        Me.TextBox25.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
+        Me.TextBox25.Style.LineColor = System.Drawing.Color.DarkRed
+        Me.TextBox25.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox25.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox25.StyleName = ""
+        Me.TextBox25.Value = "#"
+        '
+        'Panel10
+        '
+        Me.Panel10.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(2.3895833492279053R))
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4999995231628418R), Telerik.Reporting.Drawing.Unit.Inch(0.0520833320915699R))
+        Me.Panel10.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.None
+        Me.Panel10.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.Panel10.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.None
+        Me.Panel10.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
+        '
+        'TextBox29
+        '
+        Me.TextBox29.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.37916675209999084R), Telerik.Reporting.Drawing.Unit.Inch(1.4000000953674316R))
+        Me.TextBox29.Name = "TextBox29"
+        Me.TextBox29.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.99999994039535522R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox29.Style.Font.Bold = True
+        Me.TextBox29.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox29.Value = "Equipments:"
+        '
+        'TextBox30
+        '
+        Me.TextBox30.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.37916675209999084R), Telerik.Reporting.Drawing.Unit.Inch(1.8000001907348633R))
+        Me.TextBox30.Name = "TextBox30"
+        Me.TextBox30.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.9999997615814209R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox30.Style.Font.Bold = True
+        Me.TextBox30.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox30.Value = "Implements:"
+        '
+        'TextBox32
+        '
+        Me.TextBox32.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(1.5999212265014648R))
+        Me.TextBox32.Name = "TextBox32"
+        Me.TextBox32.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9000002145767212R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox32.Style.Font.Bold = False
+        Me.TextBox32.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox32.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
+        Me.TextBox32.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox32.Value = "=Fields.equip_type"
+        '
+        'TextBox34
+        '
+        Me.TextBox34.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(2.0000791549682617R))
+        Me.TextBox34.Name = "TextBox34"
+        Me.TextBox34.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9000000953674316R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox34.Style.Font.Bold = False
+        Me.TextBox34.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox34.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
+        Me.TextBox34.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox34.Value = "=Fields.imple_code"
+        '
+        'TextBox35
+        '
+        Me.TextBox35.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.0R), Telerik.Reporting.Drawing.Unit.Inch(1.5979167222976685R))
+        Me.TextBox35.Name = "TextBox35"
+        Me.TextBox35.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9000000953674316R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox35.Style.Font.Bold = False
+        Me.TextBox35.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox35.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
+        Me.TextBox35.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox35.Value = "=Fields.driver"
+        '
+        'TextBox36
+        '
+        Me.TextBox36.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.8415877819061279R), Telerik.Reporting.Drawing.Unit.Inch(1.39783775806427R))
+        Me.TextBox36.Name = "TextBox36"
+        Me.TextBox36.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3520834445953369R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox36.Style.Font.Bold = True
+        Me.TextBox36.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox36.Value = "Operator / Driver:"
+        '
+        'TextBox38
+        '
+        Me.TextBox38.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.8415877819061279R), Telerik.Reporting.Drawing.Unit.Inch(1.8000001907348633R))
+        Me.TextBox38.Name = "TextBox38"
+        Me.TextBox38.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3520835638046265R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox38.Style.Font.Bold = True
+        Me.TextBox38.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox38.Value = "Purpose:"
+        '
+        'TextBox39
+        '
+        Me.TextBox39.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.0R), Telerik.Reporting.Drawing.Unit.Inch(2.0000791549682617R))
+        Me.TextBox39.Name = "TextBox39"
+        Me.TextBox39.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.9312541484832764R), Telerik.Reporting.Drawing.Unit.Inch(0.38942527770996094R))
+        Me.TextBox39.Style.Font.Bold = False
+        Me.TextBox39.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox39.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
+        Me.TextBox39.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Top
+        Me.TextBox39.Value = "=Fields.purpose"
+        '
+        'TextBox40
+        '
+        Me.TextBox40.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.6229915618896484R), Telerik.Reporting.Drawing.Unit.Inch(1.6061711311340332R))
+        Me.TextBox40.Name = "TextBox40"
+        Me.TextBox40.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.7540974617004395R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox40.Style.Font.Bold = False
+        Me.TextBox40.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox40.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
+        Me.TextBox40.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox40.Value = "=Fields.location"
+        '
+        'TextBox41
+        '
+        Me.TextBox41.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5000786781311035R), Telerik.Reporting.Drawing.Unit.Inch(1.39783775806427R))
+        Me.TextBox41.Name = "TextBox41"
+        Me.TextBox41.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3520835638046265R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
+        Me.TextBox41.Style.Font.Bold = True
+        Me.TextBox41.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(12.0R)
+        Me.TextBox41.Value = "Destination:"
         '
         'pageHeader
         '
@@ -439,7 +594,7 @@ Partial Class trip_ticket_schedule_report
         'currentTimeTextBox
         '
         Me.currentTimeTextBox.Format = "{0:f}"
-        Me.currentTimeTextBox.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.02083333395421505R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
+        Me.currentTimeTextBox.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.02083333395421505R), Telerik.Reporting.Drawing.Unit.Inch(0R))
         Me.currentTimeTextBox.Name = "currentTimeTextBox"
         Me.currentTimeTextBox.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.4479167461395264R), Telerik.Reporting.Drawing.Unit.Inch(0.40000000596046448R))
         Me.currentTimeTextBox.Style.Font.Bold = True
@@ -449,7 +604,7 @@ Partial Class trip_ticket_schedule_report
         '
         'pageInfoTextBox
         '
-        Me.pageInfoTextBox.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.4895832538604736R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
+        Me.pageInfoTextBox.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.4895832538604736R), Telerik.Reporting.Drawing.Unit.Inch(0R))
         Me.pageInfoTextBox.Name = "pageInfoTextBox"
         Me.pageInfoTextBox.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.9895827770233154R), Telerik.Reporting.Drawing.Unit.Inch(0.40000000596046448R))
         Me.pageInfoTextBox.Style.Font.Bold = True
@@ -466,7 +621,7 @@ Partial Class trip_ticket_schedule_report
         '
         'titleTextBox
         '
-        Me.titleTextBox.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.0R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
+        Me.titleTextBox.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(0R))
         Me.titleTextBox.Name = "titleTextBox"
         Me.titleTextBox.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4999995231628418R), Telerik.Reporting.Drawing.Unit.Inch(0.4479166567325592R))
         Me.titleTextBox.Style.Font.Bold = True
@@ -483,108 +638,9 @@ Partial Class trip_ticket_schedule_report
         Me.reportFooter.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.Panel8, Me.Panel7, Me.TextBox27, Me.TextBox28, Me.Panel9})
         Me.reportFooter.Name = "reportFooter"
         '
-        'detail
-        '
-        Me.detail.Height = Telerik.Reporting.Drawing.Unit.Inch(0.3999999463558197R)
-        Me.detail.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox17, Me.TextBox18, Me.TextBox21, Me.TextBox23, Me.TextBox24, Me.TextBox22})
-        Me.detail.Name = "detail"
-        '
-        'Panel6
-        '
-        Me.Panel6.DocumentMapText = ""
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.0520839691162109R), Telerik.Reporting.Drawing.Unit.Inch(0.30208325386047363R))
-        Me.Panel6.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.Panel6.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.Panel6.StyleName = ""
-        '
-        'TextBox20
-        '
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.0R), Telerik.Reporting.Drawing.Unit.Inch(0.5R))
-        '
-        'TextBox26
-        '
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.0R), Telerik.Reporting.Drawing.Unit.Inch(0.5R))
-        '
-        'TextBox17
-        '
-        Me.TextBox17.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.76249963045120239R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.4895844459533691R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
-        Me.TextBox17.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.TextBox17.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.TextBox17.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox17.Value = "=Fields.lot_no"
-        '
-        'TextBox18
-        '
-        Me.TextBox18.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.2520840167999268R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.98958510160446167R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
-        Me.TextBox18.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.TextBox18.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.TextBox18.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox18.Value = ""
-        '
-        'TextBox21
-        '
-        Me.TextBox21.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.2417480945587158R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.9374200701713562R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
-        Me.TextBox21.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.TextBox21.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.TextBox21.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox21.Value = ""
-        '
-        'TextBox22
-        '
-        Me.TextBox22.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.19999997317790985R), Telerik.Reporting.Drawing.Unit.Inch(0.000039418537198798731R))
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.56249970197677612R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
-        Me.TextBox22.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.TextBox22.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.TextBox22.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox22.Value = "= RowNumber()"
-        '
-        'TextBox23
-        '
-        Me.TextBox23.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(4.17924690246582R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.2499234676361084R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
-        Me.TextBox23.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.TextBox23.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.TextBox23.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox23.Value = "= Fields.work_operation"
-        '
-        'TextBox24
-        '
-        Me.TextBox24.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(6.4292492866516113R), Telerik.Reporting.Drawing.Unit.Inch(0.0R))
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.958254337310791R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
-        Me.TextBox24.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.TextBox24.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.TextBox24.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox24.Value = ""
-        '
-        'TextBox25
-        '
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.5624997615814209R), Telerik.Reporting.Drawing.Unit.Inch(0.58333319425582886R))
-        Me.TextBox25.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TextBox25.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.TextBox25.Style.Font.Bold = True
-        Me.TextBox25.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
-        Me.TextBox25.Style.LineColor = System.Drawing.Color.DarkRed
-        Me.TextBox25.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
-        Me.TextBox25.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox25.StyleName = ""
-        Me.TextBox25.Value = "#"
-        '
         'Panel8
         '
-        Me.Panel8.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.0R), Telerik.Reporting.Drawing.Unit.Inch(1.0479170083999634R))
+        Me.Panel8.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(1.0479170083999634R))
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4999995231628418R), Telerik.Reporting.Drawing.Unit.Inch(0.0520833320915699R))
         Me.Panel8.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.None
@@ -594,7 +650,7 @@ Partial Class trip_ticket_schedule_report
         '
         'Panel7
         '
-        Me.Panel7.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.0R), Telerik.Reporting.Drawing.Unit.Inch(0.1979166716337204R))
+        Me.Panel7.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(0.1979166716337204R))
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4999995231628418R), Telerik.Reporting.Drawing.Unit.Inch(0.0520833320915699R))
         Me.Panel7.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
@@ -617,7 +673,7 @@ Partial Class trip_ticket_schedule_report
         '
         'TextBox28
         '
-        Me.TextBox28.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.4000003337860107R), Telerik.Reporting.Drawing.Unit.Inch(1.2479171752929687R))
+        Me.TextBox28.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.4000003337860107R), Telerik.Reporting.Drawing.Unit.Inch(1.2479171752929688R))
         Me.TextBox28.Name = "TextBox28"
         Me.TextBox28.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(2.7000000476837158R), Telerik.Reporting.Drawing.Unit.Inch(0.19367091357707977R))
         Me.TextBox28.Style.Font.Bold = True
@@ -627,7 +683,7 @@ Partial Class trip_ticket_schedule_report
         '
         'Panel9
         '
-        Me.Panel9.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.0R), Telerik.Reporting.Drawing.Unit.Inch(1.14791738986969R))
+        Me.Panel9.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(1.14791738986969R))
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4999995231628418R), Telerik.Reporting.Drawing.Unit.Inch(0.0520833320915699R))
         Me.Panel9.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.Solid
@@ -635,105 +691,180 @@ Partial Class trip_ticket_schedule_report
         Me.Panel9.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.None
         Me.Panel9.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
         '
-        'Panel10
+        'detail
         '
-        Me.Panel10.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.0R), Telerik.Reporting.Drawing.Unit.Inch(2.3895833492279053R))
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(7.4999995231628418R), Telerik.Reporting.Drawing.Unit.Inch(0.0520833320915699R))
-        Me.Panel10.Style.BorderStyle.Bottom = Telerik.Reporting.Drawing.BorderType.None
-        Me.Panel10.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
-        Me.Panel10.Style.BorderStyle.Left = Telerik.Reporting.Drawing.BorderType.None
-        Me.Panel10.Style.BorderStyle.Right = Telerik.Reporting.Drawing.BorderType.None
+        Me.detail.Height = Telerik.Reporting.Drawing.Unit.Inch(0.3999999463558197R)
+        Me.detail.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.TextBox17, Me.TextBox18, Me.TextBox21, Me.TextBox23, Me.TextBox24, Me.TextBox22, Me.TextBox44, Me.TextBox46, Me.TextBox48})
+        Me.detail.Name = "detail"
         '
-        'TextBox29
+        'TextBox17
         '
-        Me.TextBox29.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.37916675209999084R), Telerik.Reporting.Drawing.Unit.Inch(1.4000000953674316R))
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.99999994039535522R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox29.Style.Font.Bold = True
-        Me.TextBox29.Value = "Equipments:"
+        Me.TextBox17.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.36041602492332458R), Telerik.Reporting.Drawing.Unit.Inch(0R))
+        Me.TextBox17.Name = "TextBox17"
+        Me.TextBox17.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.65625095367431641R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox17.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox17.Style.Font.Bold = True
+        Me.TextBox17.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox17.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox17.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox17.Value = "=Fields.lot_no"
         '
-        'TextBox30
+        'TextBox18
         '
-        Me.TextBox30.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.37916675209999084R), Telerik.Reporting.Drawing.Unit.Inch(1.8000001907348633R))
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.9999997615814209R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox30.Style.Font.Bold = True
-        Me.TextBox30.Value = "Implements:"
+        Me.TextBox18.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.7145853042602539R), Telerik.Reporting.Drawing.Unit.Inch(0R))
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.98958480358123779R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox18.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox18.Style.Font.Bold = True
+        Me.TextBox18.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox18.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox18.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox18.Value = ""
         '
-        'TextBox32
+        'TextBox21
         '
-        Me.TextBox32.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(1.5999212265014648R))
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9000002145767212R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox32.Style.Font.Bold = False
-        Me.TextBox32.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
-        Me.TextBox32.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox32.Value = "=Fields.equip_type"
+        Me.TextBox21.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(4.704169750213623R), Telerik.Reporting.Drawing.Unit.Inch(0R))
+        Me.TextBox21.Name = "TextBox21"
+        Me.TextBox21.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.93749922513961792R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox21.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox21.Style.Font.Bold = True
+        Me.TextBox21.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox21.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox21.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox21.Value = ""
         '
-        'TextBox34
+        'TextBox23
         '
-        Me.TextBox34.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(2.0000791549682617R))
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9000000953674316R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox34.Style.Font.Bold = False
-        Me.TextBox34.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
-        Me.TextBox34.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox34.Value = "=Fields.imple_code"
+        Me.TextBox23.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.641669750213623R), Telerik.Reporting.Drawing.Unit.Inch(0R))
+        Me.TextBox23.Name = "TextBox23"
+        Me.TextBox23.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3436743021011353R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox23.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox23.Style.Font.Bold = True
+        Me.TextBox23.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox23.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox23.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox23.Value = "= Fields.work_operation"
         '
-        'TextBox35
+        'TextBox24
         '
-        Me.TextBox35.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.0R), Telerik.Reporting.Drawing.Unit.Inch(1.5979167222976685R))
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.9000000953674316R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox35.Style.Font.Bold = False
-        Me.TextBox35.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
-        Me.TextBox35.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox35.Value = "=Fields.driver"
+        Me.TextBox24.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(6.9854226112365723R), Telerik.Reporting.Drawing.Unit.Inch(0R))
+        Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.53124791383743286R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox24.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox24.Style.Font.Bold = True
+        Me.TextBox24.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox24.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox24.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox24.Value = ""
         '
-        'TextBox36
+        'TextBox22
         '
-        Me.TextBox36.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.8415877819061279R), Telerik.Reporting.Drawing.Unit.Inch(1.39783775806427R))
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3520834445953369R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox36.Style.Font.Bold = True
-        Me.TextBox36.Value = "Operator / Driver:"
+        Me.TextBox22.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(0.099999986588954926R), Telerik.Reporting.Drawing.Unit.Inch(0.000039418537198798731R))
+        Me.TextBox22.Name = "TextBox22"
+        Me.TextBox22.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.26041606068611145R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox22.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox22.Style.Font.Bold = True
+        Me.TextBox22.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox22.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox22.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox22.Value = "= RowNumber()"
         '
-        'TextBox38
+        'Panel6
         '
-        Me.TextBox38.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.8415877819061279R), Telerik.Reporting.Drawing.Unit.Inch(1.8000001907348633R))
-        Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3520835638046265R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox38.Style.Font.Bold = True
-        Me.TextBox38.Value = "Purpose:"
+        Me.Panel6.DocumentMapText = ""
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.0520839691162109R), Telerik.Reporting.Drawing.Unit.Inch(0.30208325386047363R))
+        Me.Panel6.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.Panel6.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.Panel6.StyleName = ""
         '
-        'TextBox39
+        'TextBox20
         '
-        Me.TextBox39.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(3.0R), Telerik.Reporting.Drawing.Unit.Inch(2.0000791549682617R))
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(3.9312541484832764R), Telerik.Reporting.Drawing.Unit.Inch(0.38942527770996094R))
-        Me.TextBox39.Style.Font.Bold = False
-        Me.TextBox39.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
-        Me.TextBox39.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Top
-        Me.TextBox39.Value = "=Fields.purpose"
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.0R), Telerik.Reporting.Drawing.Unit.Inch(0.5R))
         '
-        'TextBox40
+        'TextBox26
         '
-        Me.TextBox40.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.6229915618896484R), Telerik.Reporting.Drawing.Unit.Inch(1.6061711311340332R))
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.7540974617004395R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox40.Style.Font.Bold = False
-        Me.TextBox40.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Left
-        Me.TextBox40.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
-        Me.TextBox40.Value = "=Fields.location"
+        Me.TextBox26.Name = "TextBox26"
+        Me.TextBox26.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.0R), Telerik.Reporting.Drawing.Unit.Inch(0.5R))
         '
-        'TextBox41
+        'TextBox43
         '
-        Me.TextBox41.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(5.5000786781311035R), Telerik.Reporting.Drawing.Unit.Inch(1.39783775806427R))
-        Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.3520835638046265R), Telerik.Reporting.Drawing.Unit.Inch(0.20000012218952179R))
-        Me.TextBox41.Style.Font.Bold = True
-        Me.TextBox41.Value = "Destination:"
+        Me.TextBox43.Name = "TextBox43"
+        Me.TextBox43.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.5937502384185791R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
+        Me.TextBox43.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TextBox43.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox43.Style.Font.Bold = True
+        Me.TextBox43.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
+        Me.TextBox43.Style.LineColor = System.Drawing.Color.DarkRed
+        Me.TextBox43.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox43.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox43.StyleName = ""
+        Me.TextBox43.Value = "Current Area"
+        '
+        'TextBox44
+        '
+        Me.TextBox44.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(1.0166670083999634R), Telerik.Reporting.Drawing.Unit.Inch(0.000039736431062920019R))
+        Me.TextBox44.Name = "TextBox44"
+        Me.TextBox44.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.59375035762786865R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox44.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox44.Style.Font.Bold = True
+        Me.TextBox44.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox44.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox44.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox44.Value = "=Fields.current_area + "" HC "" "
+        '
+        'TextBox45
+        '
+        Me.TextBox45.Name = "TextBox45"
+        Me.TextBox45.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.2083338499069214R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
+        Me.TextBox45.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TextBox45.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox45.Style.Font.Bold = True
+        Me.TextBox45.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
+        Me.TextBox45.Style.LineColor = System.Drawing.Color.DarkRed
+        Me.TextBox45.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox45.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox45.StyleName = ""
+        Me.TextBox45.Value = "Planters Name"
+        '
+        'TextBox46
+        '
+        Me.TextBox46.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(1.610417366027832R), Telerik.Reporting.Drawing.Unit.Inch(0.000039736431062920019R))
+        Me.TextBox46.Name = "TextBox46"
+        Me.TextBox46.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(1.2083344459533691R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox46.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox46.Style.Font.Bold = True
+        Me.TextBox46.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox46.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox46.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox46.Value = "=Fields.lot_owner_name "
+        '
+        'TextBox47
+        '
+        Me.TextBox47.Name = "TextBox47"
+        Me.TextBox47.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.89583331346511841R), Telerik.Reporting.Drawing.Unit.Inch(0.58333325386047363R))
+        Me.TextBox47.Style.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TextBox47.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox47.Style.Font.Bold = True
+        Me.TextBox47.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
+        Me.TextBox47.Style.LineColor = System.Drawing.Color.DarkRed
+        Me.TextBox47.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox47.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox47.StyleName = ""
+        Me.TextBox47.Value = "Variety"
+        '
+        'TextBox48
+        '
+        Me.TextBox48.Location = New Telerik.Reporting.Drawing.PointU(Telerik.Reporting.Drawing.Unit.Inch(2.8187520503997803R), Telerik.Reporting.Drawing.Unit.Inch(0R))
+        Me.TextBox48.Name = "TextBox48"
+        Me.TextBox48.Size = New Telerik.Reporting.Drawing.SizeU(Telerik.Reporting.Drawing.Unit.Inch(0.89583355188369751R), Telerik.Reporting.Drawing.Unit.Inch(0.30000019073486328R))
+        Me.TextBox48.Style.BorderStyle.Default = Telerik.Reporting.Drawing.BorderType.Solid
+        Me.TextBox48.Style.Font.Bold = True
+        Me.TextBox48.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
+        Me.TextBox48.Style.TextAlign = Telerik.Reporting.Drawing.HorizontalAlign.Center
+        Me.TextBox48.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
+        Me.TextBox48.Value = "=Fields.variety"
         '
         'trip_ticket_schedule_report
         '
@@ -745,9 +876,10 @@ Partial Class trip_ticket_schedule_report
         Me.Items.AddRange(New Telerik.Reporting.ReportItemBase() {Me.labelsGroupHeaderSection, Me.labelsGroupFooterSection, Me.pageHeader, Me.pageFooter, Me.reportHeader, Me.reportFooter, Me.detail})
         Me.Name = "trip_ticket_schedule_report"
         Me.PageSettings.Landscape = False
-        Me.PageSettings.Margins = New Telerik.Reporting.Drawing.MarginsU(Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(0.5R))
+        Me.PageSettings.Margins = New Telerik.Reporting.Drawing.MarginsU(Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(0R), Telerik.Reporting.Drawing.Unit.Inch(0.5R), Telerik.Reporting.Drawing.Unit.Inch(0.5R))
         Me.PageSettings.PaperKind = System.Drawing.Printing.PaperKind.Letter
         Me.Style.BackgroundColor = System.Drawing.Color.White
+        Me.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Pixel(9.0R)
         StyleRule1.Selectors.AddRange(New Telerik.Reporting.Drawing.ISelector() {New Telerik.Reporting.Drawing.StyleSelector("Title")})
         StyleRule1.Style.Color = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(77, Byte), Integer))
         StyleRule1.Style.Font.Name = "Calibri"
@@ -769,7 +901,7 @@ Partial Class trip_ticket_schedule_report
         StyleRule4.Style.Font.Size = Telerik.Reporting.Drawing.Unit.Point(8.0R)
         StyleRule4.Style.VerticalAlign = Telerik.Reporting.Drawing.VerticalAlign.Middle
         Me.StyleSheet.AddRange(New Telerik.Reporting.Drawing.StyleRule() {StyleRule1, StyleRule2, StyleRule3, StyleRule4})
-        Me.Width = Telerik.Reporting.Drawing.Unit.Inch(7.5000786781311035R)
+        Me.Width = Telerik.Reporting.Drawing.Unit.Inch(7.6166706085205078R)
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -836,4 +968,10 @@ Partial Class trip_ticket_schedule_report
     Friend WithEvents TextBox39 As Telerik.Reporting.TextBox
     Friend WithEvents TextBox40 As Telerik.Reporting.TextBox
     Friend WithEvents TextBox41 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox43 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox44 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox45 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox46 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox47 As Telerik.Reporting.TextBox
+    Friend WithEvents TextBox48 As Telerik.Reporting.TextBox
 End Class
