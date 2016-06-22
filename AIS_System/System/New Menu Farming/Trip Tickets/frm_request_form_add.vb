@@ -8,6 +8,7 @@ Public Class Frm_request_form_add
     Dim sysmod As New System_mod
     Dim tim As DateTime
 
+
 #Region "LISTVIEW COLUMN"
     Sub trip_ticket_request_form_column()
         Me.lv_queued.Columns.Clear()
@@ -97,12 +98,32 @@ Public Class Frm_request_form_add
         request_form_view.request_slct_dp_work_operation(Me.dp_workoperations.Text)
     End Sub
     Private Sub btn_add_request_Click(sender As Object, e As EventArgs) Handles btn_add_request.Click
-        sysmod.Add_requestform(Me.dt_ST_date.Value, dp_lot_id, order_no, req_cat_id, user_id, Me.tp_ST_neededtime.Value, Replace(Trim(Me.txt_ST_purpose.Text), "'", "`"))
-        request_form_view.requested_form_listview()
-        Me.dp_location.Enabled = False
-        Me.dp_location_lot.SelectedItem = Nothing
-        Me.dp_workoperations.SelectedItem = Nothing
-        Me.txt_planter.Text = ""
+        If Me.dp_location.SelectedIndex <> -1 And Me.dp_location_lot.SelectedIndex <> -1 And Me.txt_planter.Text <> "" And Me.dp_workoperations.SelectedIndex <> -1 Then
+            If Validation_trip_ticket_class.validate_adding(Me.dp_location_lot.SelectedText, dp_workoperations.SelectedText, user_id) = 1 Then
+                MsgBox("ALREADY EXIST", vbInformation + vbOKOnly, "Warning")
+                Exit Sub
+            End If
+            Dim purpose As String
+            If Replace(Trim(Me.txt_ST_purpose.Text), "'", "`") <> "" Then
+                purpose = Replace(Trim(Me.txt_ST_purpose.Text), "'", "`")
+            Else
+                purpose = "---NO PURPOSE WRITTEN---"
+            End If
+
+            sysmod.Add_requestform(Me.dt_ST_date.Value, dp_lot_id, order_no, req_cat_id, user_id, Me.tp_ST_neededtime.Value, purpose)
+            request_form_view.requested_form_listview()
+            Me.dt_ST_date.Enabled = False
+            Me.tp_ST_neededtime.Enabled = False
+            Me.dp_location.Enabled = False
+            Me.dp_location_lot.SelectedItem = Nothing
+            Me.dp_workoperations.SelectedItem = Nothing
+            Me.txt_planter.Text = ""
+            Me.txt_ST_purpose.Text = ""
+
+        Else
+            MsgBox("Please fill-up all required fields to proceed.", vbInformation + vbOKOnly, "Warning")
+        End If
+
     End Sub
 
     Private Sub lv_queued_CellFormatting(sender As Object, e As ListViewCellFormattingEventArgs) Handles lv_queued.CellFormatting
@@ -116,7 +137,7 @@ Public Class Frm_request_form_add
             e.CellElement.TextAlignment = ContentAlignment.MiddleCenter
         End If
 
-       If (TypeOf e.Cellelement Is DetailListViewCellElement) Then
+        If (TypeOf e.Cellelement Is DetailListViewCellElement) Then
             e.CellElement.DrawFill = False
             e.CellElement.DrawBorder = False
         Else
@@ -143,9 +164,12 @@ Public Class Frm_request_form_add
 
     Private Sub btn_new_request_Click(sender As Object, e As EventArgs) Handles btn_new_request.Click
         request_form_view.request_order_idcode()
+        Me.dt_ST_date.Enabled = True
+        Me.tp_ST_neededtime.Enabled = True
         Me.dp_location.Enabled = True
         Me.dp_location.SelectedItem = Nothing
         Me.txt_planter.Text = ""
+        Me.txt_ST_purpose.Text = ""
     End Sub
 
     Private Sub lv_queued_SelectedItemChanged(sender As Object, e As EventArgs) Handles lv_queued.SelectedItemChanged
@@ -163,9 +187,12 @@ Public Class Frm_request_form_add
 
     Private Sub btn_cancel_add_Click(sender As Object, e As EventArgs) Handles btn_cancel_add.Click
         request_form_view.request_order_idcode()
+        Me.dt_ST_date.Enabled = True
+        Me.tp_ST_neededtime.Enabled = True
         Me.dp_location.Enabled = True
         Me.dp_location.SelectedItem = Nothing
         Me.txt_planter.Text = ""
+        Me.txt_ST_purpose.Text = ""
     End Sub
 
     Private Sub btn_save_request_Click(sender As Object, e As EventArgs) Handles btn_save_request.Click

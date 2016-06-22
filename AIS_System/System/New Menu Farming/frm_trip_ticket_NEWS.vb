@@ -41,12 +41,12 @@ Public Class Frm_trip_ticket_NEWS
             .Columns("count").Width = 60
             .Columns("req_no").Width = 120
             .Columns("req_no").Visible = False
-            .Columns("date_req").Width = 100
-            .Columns("date_needed").Width = 100
-            .Columns("time_needed").Width = 100
-            .Columns("location").Width = 120
-            .Columns("lot_no").Width = 100
-            .Columns("operation").Width = 170
+            .Columns("date_req").Width = 110
+            .Columns("date_needed").Width = 110
+            .Columns("time_needed").Width = 110
+            .Columns("location").Width = 150
+            .Columns("lot_no").Width = 120
+            .Columns("operation").Width = 200
             .Columns("purpose").Width = 300
             .Columns("req_by").Width = 150
 

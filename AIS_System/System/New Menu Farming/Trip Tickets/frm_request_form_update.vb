@@ -1,6 +1,6 @@
 ﻿Imports Telerik.WinControls.UI
 Imports Telerik.WinControls
-Imports AIS_System.site_mod
+Imports AIS_System.System_mod
 Imports System.Data.SqlClient
 
 Public Class Frm_request_form_update

@@ -218,35 +218,10 @@
     <Compile Include="System\New Class\Other Class\other_masterlist_view.vb" />
     <Compile Include="System\New Class\security_mod.vb" />
     <Compile Include="System\New Class\System_mod.vb" />
-    <Compile Include="Classes\Load Data List\Farming_Operation.vb" />
-    <Compile Include="Classes\site_mod.vb" />
-    <Compile Include="Forms\Data Maintenance\frm_equipment.Designer.vb">
-      <DependentUpon>frm_equipment.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_equipment.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_implement.Designer.vb">
-      <DependentUpon>frm_implement.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_implement.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_locations.Designer.vb">
-      <DependentUpon>frm_locations.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_locations.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_planters.Designer.vb">
-      <DependentUpon>frm_planters.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_planters.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="System\New Class\Trip_ticket\accomplished_form_view.vb" />
     <Compile Include="System\New Class\Trip_ticket\request_form_view.vb" />
     <Compile Include="System\New Class\Trip_ticket\schedule_form_view.vb" />
+    <Compile Include="System\New Class\Trip_ticket\Validation_trip_ticket_class.vb" />
     <Compile Include="System\New Class\User Account\User_Accounts_view.vb" />
     <Compile Include="System\New Class\User Account\user_maintenance_view.vb" />
     <Compile Include="System\New Class\Window Form\winform_class.vb" />
@@ -266,12 +241,6 @@
       <DependentUpon>frm_master_list_location.vb</DependentUpon>
     </Compile>
     <Compile Include="System\New Data Maintenance\frm_master_list_location.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_master_list_operation.Designer.vb">
-      <DependentUpon>frm_master_list_operation.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Data Maintenance\frm_master_list_operation.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\New Data Maintenance\frm_master_list_other.Designer.vb">
@@ -349,6 +318,7 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\New Module\declaration.vb" />
+    <Compile Include="System\New Module\Variable_Declaration.vb" />
     <Compile Include="System\New User Account Contorl\frm_user_control_maintenace.Designer.vb">
       <DependentUpon>frm_user_control_maintenace.vb</DependentUpon>
     </Compile>
@@ -361,18 +331,6 @@
     <Compile Include="System\New User Account Contorl\frm_user_control_permission.vb">
       <SubType>Form</SubType>
     </Compile>
-    <EmbeddedResource Include="Forms\Data Maintenance\frm_equipment.resx">
-      <DependentUpon>frm_equipment.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Data Maintenance\frm_implement.resx">
-      <DependentUpon>frm_implement.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Data Maintenance\frm_locations.resx">
-      <DependentUpon>frm_locations.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Data Maintenance\frm_planters.resx">
-      <DependentUpon>frm_planters.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="System\All Reports\Trip_ticket_module\frm_trip_ticket_schedule_report.resx">
       <DependentUpon>frm_trip_ticket_schedule_report.vb</DependentUpon>
     </EmbeddedResource>
@@ -384,9 +342,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="System\New Data Maintenance\frm_master_list_location.resx">
       <DependentUpon>frm_master_list_location.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Data Maintenance\frm_master_list_operation.resx">
-      <DependentUpon>frm_master_list_operation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\New Data Maintenance\frm_master_list_other.resx">
       <DependentUpon>frm_master_list_other.vb</DependentUpon>
@@ -401,30 +356,6 @@
       <DependentUpon>Frm_main.vb</DependentUpon>
     </Compile>
     <Compile Include="System\Frm_main.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_canepoint.Designer.vb">
-      <DependentUpon>frm_canepoint.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_canepoint.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_jobsticket.Designer.vb">
-      <DependentUpon>frm_jobsticket.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_jobsticket.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_ris.Designer.vb">
-      <DependentUpon>frm_ris.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_ris.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_triptickets.Designer.vb">
-      <DependentUpon>frm_triptickets.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Menu Farming\frm_triptickets.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="System\New Menu Farming\frm_job_ticket_NEW.Designer.vb">
@@ -451,7 +382,6 @@
     <Compile Include="System\New Menu Farming\Trip Tickets\frm_request_form_update.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Modules\Variable_Declaration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -495,18 +425,6 @@
   <ItemGroup>
     <EmbeddedResource Include="System\Frm_main.resx">
       <DependentUpon>Frm_main.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menu Farming\frm_canepoint.resx">
-      <DependentUpon>frm_canepoint.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menu Farming\frm_jobsticket.resx">
-      <DependentUpon>frm_jobsticket.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menu Farming\frm_ris.resx">
-      <DependentUpon>frm_ris.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menu Farming\frm_triptickets.resx">
-      <DependentUpon>frm_triptickets.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="System\New Data Maintenance\frm_master_list_work_operation.resx">
       <DependentUpon>frm_master_list_work_operation.vb</DependentUpon>

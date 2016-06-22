@@ -23,85 +23,83 @@ Partial Class Frm_trip_ticket_NEWS
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim RadListDataItem235 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem236 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem237 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem238 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem239 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem240 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem241 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem242 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem243 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem244 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem245 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem246 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem247 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_trip_ticket_NEWS))
-        Dim RadListDataItem248 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem249 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem250 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem251 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem252 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem253 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem254 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem255 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem256 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem257 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem258 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem259 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem260 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem261 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem262 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem263 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem264 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem265 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem266 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem267 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem268 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem269 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem270 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem271 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem272 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem273 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem274 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem275 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem276 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem277 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem278 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem279 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem280 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem281 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem282 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem283 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem284 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem285 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem286 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem287 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem288 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem289 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem290 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem291 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem292 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem293 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem294 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem295 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem296 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem297 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem298 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem299 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem300 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem301 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem302 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem303 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem304 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem305 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem306 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem307 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem308 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem309 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem310 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem311 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem312 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem15 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem16 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem17 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem18 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem19 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem20 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem21 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem22 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem23 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem24 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem25 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem26 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem27 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem28 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem29 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem30 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem31 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem32 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem33 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem34 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem35 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem36 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem37 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem38 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem39 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem40 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem41 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem42 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem43 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem44 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem45 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem46 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem47 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem48 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem49 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem50 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem51 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem52 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem53 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem54 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem55 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem56 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem57 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem58 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem59 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem60 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem61 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem62 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem63 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem64 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem65 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem66 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem67 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem68 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem69 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem70 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem71 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem72 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem73 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem74 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem75 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem76 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Me.pv_tab = New Telerik.WinControls.UI.RadPageView()
         Me.pvp_1 = New Telerik.WinControls.UI.RadPageViewPage()
         Me.pvp1_tab = New Telerik.WinControls.UI.RadPageView()
@@ -413,7 +411,7 @@ Partial Class Frm_trip_ticket_NEWS
         Me.RadCommandBar1.Location = New System.Drawing.Point(5, 3)
         Me.RadCommandBar1.Name = "RadCommandBar1"
         Me.RadCommandBar1.Rows.AddRange(New Telerik.WinControls.UI.CommandBarRowElement() {Me.CommandBarRowElement1})
-        Me.RadCommandBar1.Size = New System.Drawing.Size(1233, 30)
+        Me.RadCommandBar1.Size = New System.Drawing.Size(1233, 55)
         Me.RadCommandBar1.TabIndex = 32
         Me.RadCommandBar1.Text = "RadCommandBar1"
         '
@@ -496,30 +494,24 @@ Partial Class Frm_trip_ticket_NEWS
         Me.combar_dp_group.DisplayName = "CommandBarDropDownList1"
         Me.combar_dp_group.DropDownAnimationEnabled = True
         Me.combar_dp_group.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem235.Text = "LOCATION"
-        RadListDataItem235.TextWrap = True
-        RadListDataItem236.Text = "SOIL TYPE"
-        RadListDataItem236.TextWrap = True
-        RadListDataItem237.Text = "DATE PLANTED"
-        RadListDataItem237.TextWrap = True
-        RadListDataItem238.Text = "OWNERSHIP"
-        RadListDataItem238.TextWrap = True
-        RadListDataItem239.Text = "OWNER NAME"
-        RadListDataItem239.TextWrap = True
-        RadListDataItem240.Text = "ASSOCIATION"
-        RadListDataItem240.TextWrap = True
-        RadListDataItem241.Text = "VARIETY"
-        RadListDataItem241.TextWrap = True
-        RadListDataItem242.Text = "W/ WATER SOURCE"
-        RadListDataItem242.TextWrap = True
-        Me.combar_dp_group.Items.Add(RadListDataItem235)
-        Me.combar_dp_group.Items.Add(RadListDataItem236)
-        Me.combar_dp_group.Items.Add(RadListDataItem237)
-        Me.combar_dp_group.Items.Add(RadListDataItem238)
-        Me.combar_dp_group.Items.Add(RadListDataItem239)
-        Me.combar_dp_group.Items.Add(RadListDataItem240)
-        Me.combar_dp_group.Items.Add(RadListDataItem241)
-        Me.combar_dp_group.Items.Add(RadListDataItem242)
+        RadListDataItem1.Text = "Request Code"
+        RadListDataItem1.TextWrap = True
+        RadListDataItem2.Text = "Date Requested"
+        RadListDataItem2.TextWrap = True
+        RadListDataItem3.Text = "Date Needed"
+        RadListDataItem3.TextWrap = True
+        RadListDataItem4.Text = "Location"
+        RadListDataItem4.TextWrap = True
+        RadListDataItem5.Text = "Lot Number"
+        RadListDataItem5.TextWrap = True
+        RadListDataItem6.Text = "Work Operation"
+        RadListDataItem6.TextWrap = True
+        Me.combar_dp_group.Items.Add(RadListDataItem1)
+        Me.combar_dp_group.Items.Add(RadListDataItem2)
+        Me.combar_dp_group.Items.Add(RadListDataItem3)
+        Me.combar_dp_group.Items.Add(RadListDataItem4)
+        Me.combar_dp_group.Items.Add(RadListDataItem5)
+        Me.combar_dp_group.Items.Add(RadListDataItem6)
         Me.combar_dp_group.MaxDropDownItems = 0
         Me.combar_dp_group.MinSize = New System.Drawing.Size(150, 22)
         Me.combar_dp_group.Name = "combar_dp_group"
@@ -567,21 +559,21 @@ Partial Class Frm_trip_ticket_NEWS
         Me.combar_dp_sortby.DisplayName = "CommandBarDropDownList2"
         Me.combar_dp_sortby.DropDownAnimationEnabled = True
         Me.combar_dp_sortby.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem243.Text = "LOCATION"
-        RadListDataItem243.TextWrap = True
-        RadListDataItem244.Text = "CODE"
-        RadListDataItem244.TextWrap = True
-        RadListDataItem245.Text = "AREA"
-        RadListDataItem245.TextWrap = True
-        RadListDataItem246.Text = "DATE PLANTED"
-        RadListDataItem246.TextWrap = True
-        RadListDataItem247.Text = "OWNER NAME"
-        RadListDataItem247.TextWrap = True
-        Me.combar_dp_sortby.Items.Add(RadListDataItem243)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem244)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem245)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem246)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem247)
+        RadListDataItem7.Text = "LOCATION"
+        RadListDataItem7.TextWrap = True
+        RadListDataItem8.Text = "CODE"
+        RadListDataItem8.TextWrap = True
+        RadListDataItem9.Text = "AREA"
+        RadListDataItem9.TextWrap = True
+        RadListDataItem10.Text = "DATE PLANTED"
+        RadListDataItem10.TextWrap = True
+        RadListDataItem11.Text = "OWNER NAME"
+        RadListDataItem11.TextWrap = True
+        Me.combar_dp_sortby.Items.Add(RadListDataItem7)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem8)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem9)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem10)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem11)
         Me.combar_dp_sortby.MaxDropDownItems = 0
         Me.combar_dp_sortby.MinSize = New System.Drawing.Size(150, 22)
         Me.combar_dp_sortby.Name = "combar_dp_sortby"
@@ -768,30 +760,30 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList5.DisplayName = "CommandBarDropDownList1"
         Me.CommandBarDropDownList5.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList5.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem248.Text = "LOCATION"
-        RadListDataItem248.TextWrap = True
-        RadListDataItem249.Text = "SOIL TYPE"
-        RadListDataItem249.TextWrap = True
-        RadListDataItem250.Text = "DATE PLANTED"
-        RadListDataItem250.TextWrap = True
-        RadListDataItem251.Text = "OWNERSHIP"
-        RadListDataItem251.TextWrap = True
-        RadListDataItem252.Text = "OWNER NAME"
-        RadListDataItem252.TextWrap = True
-        RadListDataItem253.Text = "ASSOCIATION"
-        RadListDataItem253.TextWrap = True
-        RadListDataItem254.Text = "VARIETY"
-        RadListDataItem254.TextWrap = True
-        RadListDataItem255.Text = "W/ WATER SOURCE"
-        RadListDataItem255.TextWrap = True
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem248)
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem249)
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem250)
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem251)
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem252)
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem253)
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem254)
-        Me.CommandBarDropDownList5.Items.Add(RadListDataItem255)
+        RadListDataItem12.Text = "LOCATION"
+        RadListDataItem12.TextWrap = True
+        RadListDataItem13.Text = "SOIL TYPE"
+        RadListDataItem13.TextWrap = True
+        RadListDataItem14.Text = "DATE PLANTED"
+        RadListDataItem14.TextWrap = True
+        RadListDataItem15.Text = "OWNERSHIP"
+        RadListDataItem15.TextWrap = True
+        RadListDataItem16.Text = "OWNER NAME"
+        RadListDataItem16.TextWrap = True
+        RadListDataItem17.Text = "ASSOCIATION"
+        RadListDataItem17.TextWrap = True
+        RadListDataItem18.Text = "VARIETY"
+        RadListDataItem18.TextWrap = True
+        RadListDataItem19.Text = "W/ WATER SOURCE"
+        RadListDataItem19.TextWrap = True
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem12)
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem13)
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem14)
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem15)
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem16)
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem17)
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem18)
+        Me.CommandBarDropDownList5.Items.Add(RadListDataItem19)
         Me.CommandBarDropDownList5.MaxDropDownItems = 0
         Me.CommandBarDropDownList5.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList5.Name = "CommandBarDropDownList5"
@@ -839,21 +831,21 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList6.DisplayName = "CommandBarDropDownList2"
         Me.CommandBarDropDownList6.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList6.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem256.Text = "LOCATION"
-        RadListDataItem256.TextWrap = True
-        RadListDataItem257.Text = "CODE"
-        RadListDataItem257.TextWrap = True
-        RadListDataItem258.Text = "AREA"
-        RadListDataItem258.TextWrap = True
-        RadListDataItem259.Text = "DATE PLANTED"
-        RadListDataItem259.TextWrap = True
-        RadListDataItem260.Text = "OWNER NAME"
-        RadListDataItem260.TextWrap = True
-        Me.CommandBarDropDownList6.Items.Add(RadListDataItem256)
-        Me.CommandBarDropDownList6.Items.Add(RadListDataItem257)
-        Me.CommandBarDropDownList6.Items.Add(RadListDataItem258)
-        Me.CommandBarDropDownList6.Items.Add(RadListDataItem259)
-        Me.CommandBarDropDownList6.Items.Add(RadListDataItem260)
+        RadListDataItem20.Text = "LOCATION"
+        RadListDataItem20.TextWrap = True
+        RadListDataItem21.Text = "CODE"
+        RadListDataItem21.TextWrap = True
+        RadListDataItem22.Text = "AREA"
+        RadListDataItem22.TextWrap = True
+        RadListDataItem23.Text = "DATE PLANTED"
+        RadListDataItem23.TextWrap = True
+        RadListDataItem24.Text = "OWNER NAME"
+        RadListDataItem24.TextWrap = True
+        Me.CommandBarDropDownList6.Items.Add(RadListDataItem20)
+        Me.CommandBarDropDownList6.Items.Add(RadListDataItem21)
+        Me.CommandBarDropDownList6.Items.Add(RadListDataItem22)
+        Me.CommandBarDropDownList6.Items.Add(RadListDataItem23)
+        Me.CommandBarDropDownList6.Items.Add(RadListDataItem24)
         Me.CommandBarDropDownList6.MaxDropDownItems = 0
         Me.CommandBarDropDownList6.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList6.Name = "CommandBarDropDownList6"
@@ -1049,30 +1041,30 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList1.DisplayName = "CommandBarDropDownList1"
         Me.CommandBarDropDownList1.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList1.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem261.Text = "LOCATION"
-        RadListDataItem261.TextWrap = True
-        RadListDataItem262.Text = "SOIL TYPE"
-        RadListDataItem262.TextWrap = True
-        RadListDataItem263.Text = "DATE PLANTED"
-        RadListDataItem263.TextWrap = True
-        RadListDataItem264.Text = "OWNERSHIP"
-        RadListDataItem264.TextWrap = True
-        RadListDataItem265.Text = "OWNER NAME"
-        RadListDataItem265.TextWrap = True
-        RadListDataItem266.Text = "ASSOCIATION"
-        RadListDataItem266.TextWrap = True
-        RadListDataItem267.Text = "VARIETY"
-        RadListDataItem267.TextWrap = True
-        RadListDataItem268.Text = "W/ WATER SOURCE"
-        RadListDataItem268.TextWrap = True
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem261)
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem262)
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem263)
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem264)
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem265)
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem266)
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem267)
-        Me.CommandBarDropDownList1.Items.Add(RadListDataItem268)
+        RadListDataItem25.Text = "LOCATION"
+        RadListDataItem25.TextWrap = True
+        RadListDataItem26.Text = "SOIL TYPE"
+        RadListDataItem26.TextWrap = True
+        RadListDataItem27.Text = "DATE PLANTED"
+        RadListDataItem27.TextWrap = True
+        RadListDataItem28.Text = "OWNERSHIP"
+        RadListDataItem28.TextWrap = True
+        RadListDataItem29.Text = "OWNER NAME"
+        RadListDataItem29.TextWrap = True
+        RadListDataItem30.Text = "ASSOCIATION"
+        RadListDataItem30.TextWrap = True
+        RadListDataItem31.Text = "VARIETY"
+        RadListDataItem31.TextWrap = True
+        RadListDataItem32.Text = "W/ WATER SOURCE"
+        RadListDataItem32.TextWrap = True
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem25)
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem26)
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem27)
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem28)
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem29)
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem30)
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem31)
+        Me.CommandBarDropDownList1.Items.Add(RadListDataItem32)
         Me.CommandBarDropDownList1.MaxDropDownItems = 0
         Me.CommandBarDropDownList1.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList1.Name = "CommandBarDropDownList1"
@@ -1120,21 +1112,21 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList2.DisplayName = "CommandBarDropDownList2"
         Me.CommandBarDropDownList2.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList2.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem269.Text = "LOCATION"
-        RadListDataItem269.TextWrap = True
-        RadListDataItem270.Text = "CODE"
-        RadListDataItem270.TextWrap = True
-        RadListDataItem271.Text = "AREA"
-        RadListDataItem271.TextWrap = True
-        RadListDataItem272.Text = "DATE PLANTED"
-        RadListDataItem272.TextWrap = True
-        RadListDataItem273.Text = "OWNER NAME"
-        RadListDataItem273.TextWrap = True
-        Me.CommandBarDropDownList2.Items.Add(RadListDataItem269)
-        Me.CommandBarDropDownList2.Items.Add(RadListDataItem270)
-        Me.CommandBarDropDownList2.Items.Add(RadListDataItem271)
-        Me.CommandBarDropDownList2.Items.Add(RadListDataItem272)
-        Me.CommandBarDropDownList2.Items.Add(RadListDataItem273)
+        RadListDataItem33.Text = "LOCATION"
+        RadListDataItem33.TextWrap = True
+        RadListDataItem34.Text = "CODE"
+        RadListDataItem34.TextWrap = True
+        RadListDataItem35.Text = "AREA"
+        RadListDataItem35.TextWrap = True
+        RadListDataItem36.Text = "DATE PLANTED"
+        RadListDataItem36.TextWrap = True
+        RadListDataItem37.Text = "OWNER NAME"
+        RadListDataItem37.TextWrap = True
+        Me.CommandBarDropDownList2.Items.Add(RadListDataItem33)
+        Me.CommandBarDropDownList2.Items.Add(RadListDataItem34)
+        Me.CommandBarDropDownList2.Items.Add(RadListDataItem35)
+        Me.CommandBarDropDownList2.Items.Add(RadListDataItem36)
+        Me.CommandBarDropDownList2.Items.Add(RadListDataItem37)
         Me.CommandBarDropDownList2.MaxDropDownItems = 0
         Me.CommandBarDropDownList2.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList2.Name = "CommandBarDropDownList2"
@@ -1321,30 +1313,30 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList7.DisplayName = "CommandBarDropDownList1"
         Me.CommandBarDropDownList7.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList7.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem274.Text = "LOCATION"
-        RadListDataItem274.TextWrap = True
-        RadListDataItem275.Text = "SOIL TYPE"
-        RadListDataItem275.TextWrap = True
-        RadListDataItem276.Text = "DATE PLANTED"
-        RadListDataItem276.TextWrap = True
-        RadListDataItem277.Text = "OWNERSHIP"
-        RadListDataItem277.TextWrap = True
-        RadListDataItem278.Text = "OWNER NAME"
-        RadListDataItem278.TextWrap = True
-        RadListDataItem279.Text = "ASSOCIATION"
-        RadListDataItem279.TextWrap = True
-        RadListDataItem280.Text = "VARIETY"
-        RadListDataItem280.TextWrap = True
-        RadListDataItem281.Text = "W/ WATER SOURCE"
-        RadListDataItem281.TextWrap = True
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem274)
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem275)
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem276)
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem277)
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem278)
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem279)
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem280)
-        Me.CommandBarDropDownList7.Items.Add(RadListDataItem281)
+        RadListDataItem38.Text = "LOCATION"
+        RadListDataItem38.TextWrap = True
+        RadListDataItem39.Text = "SOIL TYPE"
+        RadListDataItem39.TextWrap = True
+        RadListDataItem40.Text = "DATE PLANTED"
+        RadListDataItem40.TextWrap = True
+        RadListDataItem41.Text = "OWNERSHIP"
+        RadListDataItem41.TextWrap = True
+        RadListDataItem42.Text = "OWNER NAME"
+        RadListDataItem42.TextWrap = True
+        RadListDataItem43.Text = "ASSOCIATION"
+        RadListDataItem43.TextWrap = True
+        RadListDataItem44.Text = "VARIETY"
+        RadListDataItem44.TextWrap = True
+        RadListDataItem45.Text = "W/ WATER SOURCE"
+        RadListDataItem45.TextWrap = True
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem38)
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem39)
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem40)
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem41)
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem42)
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem43)
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem44)
+        Me.CommandBarDropDownList7.Items.Add(RadListDataItem45)
         Me.CommandBarDropDownList7.MaxDropDownItems = 0
         Me.CommandBarDropDownList7.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList7.Name = "CommandBarDropDownList7"
@@ -1392,21 +1384,21 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList8.DisplayName = "CommandBarDropDownList2"
         Me.CommandBarDropDownList8.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList8.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem282.Text = "LOCATION"
-        RadListDataItem282.TextWrap = True
-        RadListDataItem283.Text = "CODE"
-        RadListDataItem283.TextWrap = True
-        RadListDataItem284.Text = "AREA"
-        RadListDataItem284.TextWrap = True
-        RadListDataItem285.Text = "DATE PLANTED"
-        RadListDataItem285.TextWrap = True
-        RadListDataItem286.Text = "OWNER NAME"
-        RadListDataItem286.TextWrap = True
-        Me.CommandBarDropDownList8.Items.Add(RadListDataItem282)
-        Me.CommandBarDropDownList8.Items.Add(RadListDataItem283)
-        Me.CommandBarDropDownList8.Items.Add(RadListDataItem284)
-        Me.CommandBarDropDownList8.Items.Add(RadListDataItem285)
-        Me.CommandBarDropDownList8.Items.Add(RadListDataItem286)
+        RadListDataItem46.Text = "LOCATION"
+        RadListDataItem46.TextWrap = True
+        RadListDataItem47.Text = "CODE"
+        RadListDataItem47.TextWrap = True
+        RadListDataItem48.Text = "AREA"
+        RadListDataItem48.TextWrap = True
+        RadListDataItem49.Text = "DATE PLANTED"
+        RadListDataItem49.TextWrap = True
+        RadListDataItem50.Text = "OWNER NAME"
+        RadListDataItem50.TextWrap = True
+        Me.CommandBarDropDownList8.Items.Add(RadListDataItem46)
+        Me.CommandBarDropDownList8.Items.Add(RadListDataItem47)
+        Me.CommandBarDropDownList8.Items.Add(RadListDataItem48)
+        Me.CommandBarDropDownList8.Items.Add(RadListDataItem49)
+        Me.CommandBarDropDownList8.Items.Add(RadListDataItem50)
         Me.CommandBarDropDownList8.MaxDropDownItems = 0
         Me.CommandBarDropDownList8.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList8.Name = "CommandBarDropDownList8"
@@ -1602,30 +1594,30 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList3.DisplayName = "CommandBarDropDownList1"
         Me.CommandBarDropDownList3.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList3.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem287.Text = "LOCATION"
-        RadListDataItem287.TextWrap = True
-        RadListDataItem288.Text = "SOIL TYPE"
-        RadListDataItem288.TextWrap = True
-        RadListDataItem289.Text = "DATE PLANTED"
-        RadListDataItem289.TextWrap = True
-        RadListDataItem290.Text = "OWNERSHIP"
-        RadListDataItem290.TextWrap = True
-        RadListDataItem291.Text = "OWNER NAME"
-        RadListDataItem291.TextWrap = True
-        RadListDataItem292.Text = "ASSOCIATION"
-        RadListDataItem292.TextWrap = True
-        RadListDataItem293.Text = "VARIETY"
-        RadListDataItem293.TextWrap = True
-        RadListDataItem294.Text = "W/ WATER SOURCE"
-        RadListDataItem294.TextWrap = True
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem287)
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem288)
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem289)
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem290)
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem291)
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem292)
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem293)
-        Me.CommandBarDropDownList3.Items.Add(RadListDataItem294)
+        RadListDataItem51.Text = "LOCATION"
+        RadListDataItem51.TextWrap = True
+        RadListDataItem52.Text = "SOIL TYPE"
+        RadListDataItem52.TextWrap = True
+        RadListDataItem53.Text = "DATE PLANTED"
+        RadListDataItem53.TextWrap = True
+        RadListDataItem54.Text = "OWNERSHIP"
+        RadListDataItem54.TextWrap = True
+        RadListDataItem55.Text = "OWNER NAME"
+        RadListDataItem55.TextWrap = True
+        RadListDataItem56.Text = "ASSOCIATION"
+        RadListDataItem56.TextWrap = True
+        RadListDataItem57.Text = "VARIETY"
+        RadListDataItem57.TextWrap = True
+        RadListDataItem58.Text = "W/ WATER SOURCE"
+        RadListDataItem58.TextWrap = True
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem51)
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem52)
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem53)
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem54)
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem55)
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem56)
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem57)
+        Me.CommandBarDropDownList3.Items.Add(RadListDataItem58)
         Me.CommandBarDropDownList3.MaxDropDownItems = 0
         Me.CommandBarDropDownList3.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList3.Name = "CommandBarDropDownList3"
@@ -1673,21 +1665,21 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList4.DisplayName = "CommandBarDropDownList2"
         Me.CommandBarDropDownList4.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList4.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem295.Text = "LOCATION"
-        RadListDataItem295.TextWrap = True
-        RadListDataItem296.Text = "CODE"
-        RadListDataItem296.TextWrap = True
-        RadListDataItem297.Text = "AREA"
-        RadListDataItem297.TextWrap = True
-        RadListDataItem298.Text = "DATE PLANTED"
-        RadListDataItem298.TextWrap = True
-        RadListDataItem299.Text = "OWNER NAME"
-        RadListDataItem299.TextWrap = True
-        Me.CommandBarDropDownList4.Items.Add(RadListDataItem295)
-        Me.CommandBarDropDownList4.Items.Add(RadListDataItem296)
-        Me.CommandBarDropDownList4.Items.Add(RadListDataItem297)
-        Me.CommandBarDropDownList4.Items.Add(RadListDataItem298)
-        Me.CommandBarDropDownList4.Items.Add(RadListDataItem299)
+        RadListDataItem59.Text = "LOCATION"
+        RadListDataItem59.TextWrap = True
+        RadListDataItem60.Text = "CODE"
+        RadListDataItem60.TextWrap = True
+        RadListDataItem61.Text = "AREA"
+        RadListDataItem61.TextWrap = True
+        RadListDataItem62.Text = "DATE PLANTED"
+        RadListDataItem62.TextWrap = True
+        RadListDataItem63.Text = "OWNER NAME"
+        RadListDataItem63.TextWrap = True
+        Me.CommandBarDropDownList4.Items.Add(RadListDataItem59)
+        Me.CommandBarDropDownList4.Items.Add(RadListDataItem60)
+        Me.CommandBarDropDownList4.Items.Add(RadListDataItem61)
+        Me.CommandBarDropDownList4.Items.Add(RadListDataItem62)
+        Me.CommandBarDropDownList4.Items.Add(RadListDataItem63)
         Me.CommandBarDropDownList4.MaxDropDownItems = 0
         Me.CommandBarDropDownList4.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList4.Name = "CommandBarDropDownList4"
@@ -1874,30 +1866,30 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList9.DisplayName = "CommandBarDropDownList1"
         Me.CommandBarDropDownList9.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList9.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem300.Text = "LOCATION"
-        RadListDataItem300.TextWrap = True
-        RadListDataItem301.Text = "SOIL TYPE"
-        RadListDataItem301.TextWrap = True
-        RadListDataItem302.Text = "DATE PLANTED"
-        RadListDataItem302.TextWrap = True
-        RadListDataItem303.Text = "OWNERSHIP"
-        RadListDataItem303.TextWrap = True
-        RadListDataItem304.Text = "OWNER NAME"
-        RadListDataItem304.TextWrap = True
-        RadListDataItem305.Text = "ASSOCIATION"
-        RadListDataItem305.TextWrap = True
-        RadListDataItem306.Text = "VARIETY"
-        RadListDataItem306.TextWrap = True
-        RadListDataItem307.Text = "W/ WATER SOURCE"
-        RadListDataItem307.TextWrap = True
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem300)
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem301)
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem302)
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem303)
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem304)
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem305)
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem306)
-        Me.CommandBarDropDownList9.Items.Add(RadListDataItem307)
+        RadListDataItem64.Text = "LOCATION"
+        RadListDataItem64.TextWrap = True
+        RadListDataItem65.Text = "SOIL TYPE"
+        RadListDataItem65.TextWrap = True
+        RadListDataItem66.Text = "DATE PLANTED"
+        RadListDataItem66.TextWrap = True
+        RadListDataItem67.Text = "OWNERSHIP"
+        RadListDataItem67.TextWrap = True
+        RadListDataItem68.Text = "OWNER NAME"
+        RadListDataItem68.TextWrap = True
+        RadListDataItem69.Text = "ASSOCIATION"
+        RadListDataItem69.TextWrap = True
+        RadListDataItem70.Text = "VARIETY"
+        RadListDataItem70.TextWrap = True
+        RadListDataItem71.Text = "W/ WATER SOURCE"
+        RadListDataItem71.TextWrap = True
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem64)
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem65)
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem66)
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem67)
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem68)
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem69)
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem70)
+        Me.CommandBarDropDownList9.Items.Add(RadListDataItem71)
         Me.CommandBarDropDownList9.MaxDropDownItems = 0
         Me.CommandBarDropDownList9.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList9.Name = "CommandBarDropDownList9"
@@ -1945,21 +1937,21 @@ Partial Class Frm_trip_ticket_NEWS
         Me.CommandBarDropDownList10.DisplayName = "CommandBarDropDownList2"
         Me.CommandBarDropDownList10.DropDownAnimationEnabled = True
         Me.CommandBarDropDownList10.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem308.Text = "LOCATION"
-        RadListDataItem308.TextWrap = True
-        RadListDataItem309.Text = "CODE"
-        RadListDataItem309.TextWrap = True
-        RadListDataItem310.Text = "AREA"
-        RadListDataItem310.TextWrap = True
-        RadListDataItem311.Text = "DATE PLANTED"
-        RadListDataItem311.TextWrap = True
-        RadListDataItem312.Text = "OWNER NAME"
-        RadListDataItem312.TextWrap = True
-        Me.CommandBarDropDownList10.Items.Add(RadListDataItem308)
-        Me.CommandBarDropDownList10.Items.Add(RadListDataItem309)
-        Me.CommandBarDropDownList10.Items.Add(RadListDataItem310)
-        Me.CommandBarDropDownList10.Items.Add(RadListDataItem311)
-        Me.CommandBarDropDownList10.Items.Add(RadListDataItem312)
+        RadListDataItem72.Text = "LOCATION"
+        RadListDataItem72.TextWrap = True
+        RadListDataItem73.Text = "CODE"
+        RadListDataItem73.TextWrap = True
+        RadListDataItem74.Text = "AREA"
+        RadListDataItem74.TextWrap = True
+        RadListDataItem75.Text = "DATE PLANTED"
+        RadListDataItem75.TextWrap = True
+        RadListDataItem76.Text = "OWNER NAME"
+        RadListDataItem76.TextWrap = True
+        Me.CommandBarDropDownList10.Items.Add(RadListDataItem72)
+        Me.CommandBarDropDownList10.Items.Add(RadListDataItem73)
+        Me.CommandBarDropDownList10.Items.Add(RadListDataItem74)
+        Me.CommandBarDropDownList10.Items.Add(RadListDataItem75)
+        Me.CommandBarDropDownList10.Items.Add(RadListDataItem76)
         Me.CommandBarDropDownList10.MaxDropDownItems = 0
         Me.CommandBarDropDownList10.MinSize = New System.Drawing.Size(150, 22)
         Me.CommandBarDropDownList10.Name = "CommandBarDropDownList10"

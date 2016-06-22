@@ -23,6 +23,8 @@ Partial Class Frm_request_form_add
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.gb_menu = New Telerik.WinControls.UI.RadGroupBox()
+        Me.txt_ST_purpose = New Telerik.WinControls.UI.RadTextBox()
+        Me.RadLabel13 = New Telerik.WinControls.UI.RadLabel()
         Me.RadLabel11 = New Telerik.WinControls.UI.RadLabel()
         Me.tp_ST_neededtime = New Telerik.WinControls.UI.RadTimePicker()
         Me.btn_cancel_add = New Telerik.WinControls.UI.RadButton()
@@ -46,10 +48,10 @@ Partial Class Frm_request_form_add
         Me.btn_save_request = New Telerik.WinControls.UI.RadButton()
         Me.btn_cancel_all_queued_request = New Telerik.WinControls.UI.RadButton()
         Me.RadLabel5 = New Telerik.WinControls.UI.RadLabel()
-        Me.txt_ST_purpose = New Telerik.WinControls.UI.RadTextBox()
-        Me.RadLabel13 = New Telerik.WinControls.UI.RadLabel()
         CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gb_menu.SuspendLayout()
+        CType(Me.txt_ST_purpose, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadLabel13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tp_ST_neededtime, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_cancel_add, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -73,8 +75,6 @@ Partial Class Frm_request_form_add
         CType(Me.btn_save_request, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_cancel_all_queued_request, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txt_ST_purpose, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadLabel13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -105,6 +105,31 @@ Partial Class Frm_request_form_add
         Me.gb_menu.Name = "gb_menu"
         Me.gb_menu.Size = New System.Drawing.Size(1081, 134)
         Me.gb_menu.TabIndex = 30
+        '
+        'txt_ST_purpose
+        '
+        Me.txt_ST_purpose.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt_ST_purpose.AutoSize = False
+        Me.txt_ST_purpose.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txt_ST_purpose.ForeColor = System.Drawing.Color.Black
+        Me.txt_ST_purpose.Location = New System.Drawing.Point(751, 22)
+        Me.txt_ST_purpose.Multiline = True
+        Me.txt_ST_purpose.Name = "txt_ST_purpose"
+        Me.txt_ST_purpose.NullText = "<Optional>"
+        Me.txt_ST_purpose.ScrollBars = System.Windows.Forms.ScrollBars.Both
+        Me.txt_ST_purpose.Size = New System.Drawing.Size(311, 65)
+        Me.txt_ST_purpose.TabIndex = 102
+        '
+        'RadLabel13
+        '
+        Me.RadLabel13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RadLabel13.Location = New System.Drawing.Point(696, 22)
+        Me.RadLabel13.Name = "RadLabel13"
+        Me.RadLabel13.Size = New System.Drawing.Size(49, 18)
+        Me.RadLabel13.TabIndex = 101
+        Me.RadLabel13.Text = "Purpose:"
         '
         'RadLabel11
         '
@@ -167,6 +192,7 @@ Partial Class Frm_request_form_add
         '
         Me.txt_planter.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txt_planter.BackColor = System.Drawing.Color.FromArgb(CType(CType(191, Byte), Integer), CType(CType(219, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txt_planter.Location = New System.Drawing.Point(426, 20)
         Me.txt_planter.Name = "txt_planter"
         Me.txt_planter.NullText = "<Required>"
@@ -380,29 +406,6 @@ Partial Class Frm_request_form_add
         Me.RadLabel5.TabIndex = 31
         Me.RadLabel5.Text = "Queued Request"
         '
-        'txt_ST_purpose
-        '
-        Me.txt_ST_purpose.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txt_ST_purpose.AutoSize = False
-        Me.txt_ST_purpose.Location = New System.Drawing.Point(751, 22)
-        Me.txt_ST_purpose.Multiline = True
-        Me.txt_ST_purpose.Name = "txt_ST_purpose"
-        Me.txt_ST_purpose.NullText = "<Required>"
-        Me.txt_ST_purpose.ScrollBars = System.Windows.Forms.ScrollBars.Both
-        Me.txt_ST_purpose.Size = New System.Drawing.Size(311, 65)
-        Me.txt_ST_purpose.TabIndex = 102
-        '
-        'RadLabel13
-        '
-        Me.RadLabel13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.RadLabel13.Location = New System.Drawing.Point(696, 22)
-        Me.RadLabel13.Name = "RadLabel13"
-        Me.RadLabel13.Size = New System.Drawing.Size(49, 18)
-        Me.RadLabel13.TabIndex = 101
-        Me.RadLabel13.Text = "Purpose:"
-        '
         'Frm_request_form_add
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -423,6 +426,8 @@ Partial Class Frm_request_form_add
         CType(Me.gb_menu, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gb_menu.ResumeLayout(False)
         Me.gb_menu.PerformLayout()
+        CType(Me.txt_ST_purpose, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadLabel13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tp_ST_neededtime, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_cancel_add, System.ComponentModel.ISupportInitialize).EndInit()
@@ -447,8 +452,6 @@ Partial Class Frm_request_form_add
         CType(Me.btn_save_request, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_cancel_all_queued_request, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RadLabel5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txt_ST_purpose, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadLabel13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

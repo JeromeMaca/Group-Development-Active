@@ -23,36 +23,36 @@ Partial Class Frm_master_list_location
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim RadListDataItem17 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem18 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem19 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem20 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem21 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem22 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem23 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem24 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem25 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem26 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem27 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem28 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem29 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem1 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem2 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem3 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem4 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem5 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem6 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem7 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem8 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem9 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem10 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem11 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem12 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem13 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_master_list_location))
-        Dim ListViewDetailColumn14 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "ID")
-        Dim ListViewDetailColumn15 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "#")
-        Dim ListViewDetailColumn16 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "CODE")
-        Dim ListViewDetailColumn17 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "LOCATION")
-        Dim ListViewDetailColumn18 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "AREA")
-        Dim ListViewDetailColumn19 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 5", "SOIL TYPE")
-        Dim ListViewDetailColumn20 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 6", "DATE PLANTED")
-        Dim ListViewDetailColumn21 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 7", "OWNERSHIP")
-        Dim ListViewDetailColumn22 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 8", "OWNERNAME")
-        Dim ListViewDetailColumn23 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 9", "ASSOCIATION")
-        Dim ListViewDetailColumn24 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 10", "VARIETY")
-        Dim ListViewDetailColumn25 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 11", "W/ WATER")
-        Dim ListViewDetailColumn26 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 12", "FISCAL YEAR")
-        Dim RadListDataItem30 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem31 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
-        Dim RadListDataItem32 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim ListViewDetailColumn1 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "ID")
+        Dim ListViewDetailColumn2 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "#")
+        Dim ListViewDetailColumn3 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "CODE")
+        Dim ListViewDetailColumn4 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "LOCATION")
+        Dim ListViewDetailColumn5 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "AREA")
+        Dim ListViewDetailColumn6 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 5", "SOIL TYPE")
+        Dim ListViewDetailColumn7 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 6", "DATE PLANTED")
+        Dim ListViewDetailColumn8 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 7", "OWNERSHIP")
+        Dim ListViewDetailColumn9 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 8", "OWNERNAME")
+        Dim ListViewDetailColumn10 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 9", "ASSOCIATION")
+        Dim ListViewDetailColumn11 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 10", "VARIETY")
+        Dim ListViewDetailColumn12 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 11", "W/ WATER")
+        Dim ListViewDetailColumn13 As Telerik.WinControls.UI.ListViewDetailColumn = New Telerik.WinControls.UI.ListViewDetailColumn("Column 12", "FISCAL YEAR")
+        Dim RadListDataItem14 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem15 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
+        Dim RadListDataItem16 As Telerik.WinControls.UI.RadListDataItem = New Telerik.WinControls.UI.RadListDataItem()
         Me.gb_data = New Telerik.WinControls.UI.RadGroupBox()
         Me.RadCommandBar1 = New Telerik.WinControls.UI.RadCommandBar()
         Me.CommandBarRowElement1 = New Telerik.WinControls.UI.CommandBarRowElement()
@@ -150,7 +150,7 @@ Partial Class Frm_master_list_location
         Me.RadCommandBar1.Location = New System.Drawing.Point(5, 9)
         Me.RadCommandBar1.Name = "RadCommandBar1"
         Me.RadCommandBar1.Rows.AddRange(New Telerik.WinControls.UI.CommandBarRowElement() {Me.CommandBarRowElement1})
-        Me.RadCommandBar1.Size = New System.Drawing.Size(931, 30)
+        Me.RadCommandBar1.Size = New System.Drawing.Size(931, 55)
         Me.RadCommandBar1.TabIndex = 31
         Me.RadCommandBar1.Text = "RadCommandBar1"
         '
@@ -178,6 +178,7 @@ Partial Class Frm_master_list_location
         Me.CommandBarLabel1.AccessibleDescription = "Search Data Here:"
         Me.CommandBarLabel1.AccessibleName = "Search Data Here:"
         Me.CommandBarLabel1.DisplayName = "CommandBarLabel1"
+        Me.CommandBarLabel1.ImageAlignment = System.Drawing.ContentAlignment.MiddleLeft
         Me.CommandBarLabel1.Name = "CommandBarLabel1"
         Me.CommandBarLabel1.Text = "Search Data Here:"
         Me.CommandBarLabel1.Visibility = Telerik.WinControls.ElementVisibility.Visible
@@ -232,30 +233,30 @@ Partial Class Frm_master_list_location
         Me.combar_dp_group.DisplayName = "CommandBarDropDownList1"
         Me.combar_dp_group.DropDownAnimationEnabled = True
         Me.combar_dp_group.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem17.Text = "LOCATION"
-        RadListDataItem17.TextWrap = True
-        RadListDataItem18.Text = "SOIL TYPE"
-        RadListDataItem18.TextWrap = True
-        RadListDataItem19.Text = "DATE PLANTED"
-        RadListDataItem19.TextWrap = True
-        RadListDataItem20.Text = "OWNERSHIP"
-        RadListDataItem20.TextWrap = True
-        RadListDataItem21.Text = "OWNER NAME"
-        RadListDataItem21.TextWrap = True
-        RadListDataItem22.Text = "ASSOCIATION"
-        RadListDataItem22.TextWrap = True
-        RadListDataItem23.Text = "VARIETY"
-        RadListDataItem23.TextWrap = True
-        RadListDataItem24.Text = "W/ WATER SOURCE"
-        RadListDataItem24.TextWrap = True
-        Me.combar_dp_group.Items.Add(RadListDataItem17)
-        Me.combar_dp_group.Items.Add(RadListDataItem18)
-        Me.combar_dp_group.Items.Add(RadListDataItem19)
-        Me.combar_dp_group.Items.Add(RadListDataItem20)
-        Me.combar_dp_group.Items.Add(RadListDataItem21)
-        Me.combar_dp_group.Items.Add(RadListDataItem22)
-        Me.combar_dp_group.Items.Add(RadListDataItem23)
-        Me.combar_dp_group.Items.Add(RadListDataItem24)
+        RadListDataItem1.Text = "LOCATION"
+        RadListDataItem1.TextWrap = True
+        RadListDataItem2.Text = "SOIL TYPE"
+        RadListDataItem2.TextWrap = True
+        RadListDataItem3.Text = "DATE PLANTED"
+        RadListDataItem3.TextWrap = True
+        RadListDataItem4.Text = "OWNERSHIP"
+        RadListDataItem4.TextWrap = True
+        RadListDataItem5.Text = "OWNER NAME"
+        RadListDataItem5.TextWrap = True
+        RadListDataItem6.Text = "ASSOCIATION"
+        RadListDataItem6.TextWrap = True
+        RadListDataItem7.Text = "VARIETY"
+        RadListDataItem7.TextWrap = True
+        RadListDataItem8.Text = "W/ WATER SOURCE"
+        RadListDataItem8.TextWrap = True
+        Me.combar_dp_group.Items.Add(RadListDataItem1)
+        Me.combar_dp_group.Items.Add(RadListDataItem2)
+        Me.combar_dp_group.Items.Add(RadListDataItem3)
+        Me.combar_dp_group.Items.Add(RadListDataItem4)
+        Me.combar_dp_group.Items.Add(RadListDataItem5)
+        Me.combar_dp_group.Items.Add(RadListDataItem6)
+        Me.combar_dp_group.Items.Add(RadListDataItem7)
+        Me.combar_dp_group.Items.Add(RadListDataItem8)
         Me.combar_dp_group.MaxDropDownItems = 0
         Me.combar_dp_group.MinSize = New System.Drawing.Size(150, 22)
         Me.combar_dp_group.Name = "combar_dp_group"
@@ -303,21 +304,21 @@ Partial Class Frm_master_list_location
         Me.combar_dp_sortby.DisplayName = "CommandBarDropDownList2"
         Me.combar_dp_sortby.DropDownAnimationEnabled = True
         Me.combar_dp_sortby.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem25.Text = "LOCATION"
-        RadListDataItem25.TextWrap = True
-        RadListDataItem26.Text = "CODE"
-        RadListDataItem26.TextWrap = True
-        RadListDataItem27.Text = "AREA"
-        RadListDataItem27.TextWrap = True
-        RadListDataItem28.Text = "DATE PLANTED"
-        RadListDataItem28.TextWrap = True
-        RadListDataItem29.Text = "OWNER NAME"
-        RadListDataItem29.TextWrap = True
-        Me.combar_dp_sortby.Items.Add(RadListDataItem25)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem26)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem27)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem28)
-        Me.combar_dp_sortby.Items.Add(RadListDataItem29)
+        RadListDataItem9.Text = "LOCATION"
+        RadListDataItem9.TextWrap = True
+        RadListDataItem10.Text = "CODE"
+        RadListDataItem10.TextWrap = True
+        RadListDataItem11.Text = "AREA"
+        RadListDataItem11.TextWrap = True
+        RadListDataItem12.Text = "DATE PLANTED"
+        RadListDataItem12.TextWrap = True
+        RadListDataItem13.Text = "OWNER NAME"
+        RadListDataItem13.TextWrap = True
+        Me.combar_dp_sortby.Items.Add(RadListDataItem9)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem10)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem11)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem12)
+        Me.combar_dp_sortby.Items.Add(RadListDataItem13)
         Me.combar_dp_sortby.MaxDropDownItems = 0
         Me.combar_dp_sortby.MinSize = New System.Drawing.Size(150, 22)
         Me.combar_dp_sortby.Name = "combar_dp_sortby"
@@ -388,25 +389,25 @@ Partial Class Frm_master_list_location
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lv_masterlocation.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        ListViewDetailColumn14.HeaderText = "ID"
-        ListViewDetailColumn14.Visible = False
-        ListViewDetailColumn14.Width = 20.0!
-        ListViewDetailColumn15.HeaderText = "#"
-        ListViewDetailColumn15.Width = 60.0!
-        ListViewDetailColumn16.HeaderText = "CODE"
-        ListViewDetailColumn16.Width = 150.0!
-        ListViewDetailColumn17.HeaderText = "LOCATION"
-        ListViewDetailColumn17.Visible = False
-        ListViewDetailColumn18.HeaderText = "AREA"
-        ListViewDetailColumn19.HeaderText = "SOIL TYPE"
-        ListViewDetailColumn20.HeaderText = "DATE PLANTED"
-        ListViewDetailColumn21.HeaderText = "OWNERSHIP"
-        ListViewDetailColumn22.HeaderText = "OWNERNAME"
-        ListViewDetailColumn23.HeaderText = "ASSOCIATION"
-        ListViewDetailColumn24.HeaderText = "VARIETY"
-        ListViewDetailColumn25.HeaderText = "W/ WATER"
-        ListViewDetailColumn26.HeaderText = "FISCAL YEAR"
-        Me.lv_masterlocation.Columns.AddRange(New Telerik.WinControls.UI.ListViewDetailColumn() {ListViewDetailColumn14, ListViewDetailColumn15, ListViewDetailColumn16, ListViewDetailColumn17, ListViewDetailColumn18, ListViewDetailColumn19, ListViewDetailColumn20, ListViewDetailColumn21, ListViewDetailColumn22, ListViewDetailColumn23, ListViewDetailColumn24, ListViewDetailColumn25, ListViewDetailColumn26})
+        ListViewDetailColumn1.HeaderText = "ID"
+        ListViewDetailColumn1.Visible = False
+        ListViewDetailColumn1.Width = 20.0!
+        ListViewDetailColumn2.HeaderText = "#"
+        ListViewDetailColumn2.Width = 60.0!
+        ListViewDetailColumn3.HeaderText = "CODE"
+        ListViewDetailColumn3.Width = 150.0!
+        ListViewDetailColumn4.HeaderText = "LOCATION"
+        ListViewDetailColumn4.Visible = False
+        ListViewDetailColumn5.HeaderText = "AREA"
+        ListViewDetailColumn6.HeaderText = "SOIL TYPE"
+        ListViewDetailColumn7.HeaderText = "DATE PLANTED"
+        ListViewDetailColumn8.HeaderText = "OWNERSHIP"
+        ListViewDetailColumn9.HeaderText = "OWNERNAME"
+        ListViewDetailColumn10.HeaderText = "ASSOCIATION"
+        ListViewDetailColumn11.HeaderText = "VARIETY"
+        ListViewDetailColumn12.HeaderText = "W/ WATER"
+        ListViewDetailColumn13.HeaderText = "FISCAL YEAR"
+        Me.lv_masterlocation.Columns.AddRange(New Telerik.WinControls.UI.ListViewDetailColumn() {ListViewDetailColumn1, ListViewDetailColumn2, ListViewDetailColumn3, ListViewDetailColumn4, ListViewDetailColumn5, ListViewDetailColumn6, ListViewDetailColumn7, ListViewDetailColumn8, ListViewDetailColumn9, ListViewDetailColumn10, ListViewDetailColumn11, ListViewDetailColumn12, ListViewDetailColumn13})
         Me.lv_masterlocation.EnableGrouping = True
         Me.lv_masterlocation.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
         Me.lv_masterlocation.ForeColor = System.Drawing.Color.Black
@@ -438,7 +439,7 @@ Partial Class Frm_master_list_location
         '
         Me.cms_locationMaster.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RefreshToolStripMenuItem, Me.AddToolStripMenuItem, Me.UpdateToolStripMenuItem, Me.DeleteToolStripMenuItem})
         Me.cms_locationMaster.Name = "cms_addcategory"
-        Me.cms_locationMaster.Size = New System.Drawing.Size(167, 114)
+        Me.cms_locationMaster.Size = New System.Drawing.Size(167, 92)
         '
         'RefreshToolStripMenuItem
         '
@@ -605,15 +606,15 @@ Partial Class Frm_master_list_location
         'dp_soiltype
         '
         Me.dp_soiltype.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList
-        RadListDataItem30.Text = "Soil Type 1"
-        RadListDataItem30.TextWrap = True
-        RadListDataItem31.Text = "Soil Type 2"
-        RadListDataItem31.TextWrap = True
-        RadListDataItem32.Text = "Soil Type 3"
-        RadListDataItem32.TextWrap = True
-        Me.dp_soiltype.Items.Add(RadListDataItem30)
-        Me.dp_soiltype.Items.Add(RadListDataItem31)
-        Me.dp_soiltype.Items.Add(RadListDataItem32)
+        RadListDataItem14.Text = "Soil Type 1"
+        RadListDataItem14.TextWrap = True
+        RadListDataItem15.Text = "Soil Type 2"
+        RadListDataItem15.TextWrap = True
+        RadListDataItem16.Text = "Soil Type 3"
+        RadListDataItem16.TextWrap = True
+        Me.dp_soiltype.Items.Add(RadListDataItem14)
+        Me.dp_soiltype.Items.Add(RadListDataItem15)
+        Me.dp_soiltype.Items.Add(RadListDataItem16)
         Me.dp_soiltype.Location = New System.Drawing.Point(386, 66)
         Me.dp_soiltype.Name = "dp_soiltype"
         '
