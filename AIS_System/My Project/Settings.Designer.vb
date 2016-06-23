@@ -129,20 +129,20 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=AIS_Database;Integrated Security=True")>  _
-        Public ReadOnly Property Dataset_Conn_Strings() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=jcso;Integrated Security=True")>  _
+        Public ReadOnly Property Conn_strings_out() As String
             Get
-                Return CType(Me("Dataset_Conn_Strings"),String)
+                Return CType(Me("Conn_strings_out"),String)
             End Get
         End Property
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=jcso;Integrated Security=True")>  _
-        Public ReadOnly Property Conn_strings_out() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local);Initial Catalog=agrikulto;Integrated Security=True")>  _
+        Public ReadOnly Property Dataset_Conn_Strings() As String
             Get
-                Return CType(Me("Conn_strings_out"),String)
+                Return CType(Me("Dataset_Conn_Strings"),String)
             End Get
         End Property
     End Class
