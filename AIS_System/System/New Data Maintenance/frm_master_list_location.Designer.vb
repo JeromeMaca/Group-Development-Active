@@ -665,7 +665,7 @@ Partial Class Frm_master_list_location
         Me.RadMenuComboItem1.ComboBoxElement.MaxValue = Nothing
         Me.RadMenuComboItem1.ComboBoxElement.MinValue = Nothing
         Me.RadMenuComboItem1.ComboBoxElement.NullValue = Nothing
-        Me.RadMenuComboItem1.ComboBoxElement.Owner = Nothing
+        'Me.RadMenuComboItem1.ComboBoxElement.Owner = Nothing
         Me.RadMenuComboItem1.ComboBoxElement.OwnerOffset = 0
         Me.RadMenuComboItem1.ComboBoxElement.ShowImageInEditorArea = True
         Me.RadMenuComboItem1.ComboBoxElement.SortStyle = Telerik.WinControls.Enumerations.SortStyle.None
@@ -729,7 +729,7 @@ Partial Class Frm_master_list_location
         Me.RadMenuComboItem2.ComboBoxElement.MaxValue = Nothing
         Me.RadMenuComboItem2.ComboBoxElement.MinValue = Nothing
         Me.RadMenuComboItem2.ComboBoxElement.NullValue = Nothing
-        Me.RadMenuComboItem2.ComboBoxElement.Owner = Nothing
+        'Me.RadMenuComboItem2.ComboBoxElement.Owner = Nothing
         Me.RadMenuComboItem2.ComboBoxElement.OwnerOffset = 0
         Me.RadMenuComboItem2.ComboBoxElement.ShowImageInEditorArea = True
         Me.RadMenuComboItem2.ComboBoxElement.SortStyle = Telerik.WinControls.Enumerations.SortStyle.None

@@ -89,6 +89,35 @@ Public Class frm_login
         End With
     End Sub
 
+    Private Sub office2010blue_Click(sender As Object, e As EventArgs) Handles office2010blue.Click
+        Me.ThemeName = "Office2010Blue"
+        ThemeResolutionService.ApplicationThemeName = Me.ThemeName
+
+        With My.Settings
+            .global_themes = Me.ThemeName
+            .Save()
+        End With
+    End Sub
+
+    Private Sub office2010silver_Click(sender As Object, e As EventArgs) Handles office2010silver.Click
+        Me.ThemeName = "Office2010Silver"
+        ThemeResolutionService.ApplicationThemeName = Me.ThemeName
+
+        With My.Settings
+            .global_themes = Me.ThemeName
+            .Save()
+        End With
+    End Sub
+
+    Private Sub office2010black_Click(sender As Object, e As EventArgs) Handles office2010black.Click
+        Me.ThemeName = "Office2010Black"
+        ThemeResolutionService.ApplicationThemeName = Me.ThemeName
+
+        With My.Settings
+            .global_themes = Me.ThemeName
+            .Save()
+        End With
+    End Sub
     Private Sub frm_login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ThemeResolutionService.ApplicationThemeName = My.Settings.global_themes
 
@@ -146,4 +175,5 @@ Public Class frm_login
             Me.btn_login.PerformClick()
         End If
     End Sub
+
 End Class

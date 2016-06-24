@@ -47,6 +47,12 @@ Partial Class frm_login
         Me.win8 = New Telerik.WinControls.UI.RadMenuItem()
         Me.btn_database = New Telerik.WinControls.UI.RadButton()
         Me.RadMenuItem1 = New Telerik.WinControls.UI.RadDropDownMenu()
+        Me.Office2010BlackTheme1 = New Telerik.WinControls.Themes.Office2010BlackTheme()
+        Me.Office2010BlueTheme1 = New Telerik.WinControls.Themes.Office2010BlueTheme()
+        Me.Office2010SilverTheme1 = New Telerik.WinControls.Themes.Office2010SilverTheme()
+        Me.office2010black = New Telerik.WinControls.UI.RadMenuItem()
+        Me.office2010blue = New Telerik.WinControls.UI.RadMenuItem()
+        Me.office2010silver = New Telerik.WinControls.UI.RadMenuItem()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txt_username, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RadLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -118,7 +124,7 @@ Partial Class frm_login
         'sbtn_themes
         '
         Me.sbtn_themes.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.sbtn_themes.Items.AddRange(New Telerik.WinControls.RadItem() {Me.defaultT, Me.MetroT, Me.MetroBT, Me.LightT, Me.DarkT, Me.LightT2, Me.win7, Me.win8})
+        Me.sbtn_themes.Items.AddRange(New Telerik.WinControls.RadItem() {Me.defaultT, Me.MetroT, Me.MetroBT, Me.office2010blue, Me.office2010silver, Me.office2010black, Me.LightT, Me.DarkT, Me.LightT2, Me.win7, Me.win8})
         Me.sbtn_themes.Location = New System.Drawing.Point(282, 124)
         Me.sbtn_themes.Name = "sbtn_themes"
         Me.sbtn_themes.Size = New System.Drawing.Size(110, 24)
@@ -131,7 +137,6 @@ Partial Class frm_login
         Me.defaultT.AccessibleName = "Default Theme"
         Me.defaultT.Name = "defaultT"
         Me.defaultT.Text = "Default Theme"
-        Me.defaultT.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'MetroT
         '
@@ -139,7 +144,6 @@ Partial Class frm_login
         Me.MetroT.AccessibleName = "Metro Theme"
         Me.MetroT.Name = "MetroT"
         Me.MetroT.Text = "Metro Theme"
-        Me.MetroT.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'MetroBT
         '
@@ -147,7 +151,6 @@ Partial Class frm_login
         Me.MetroBT.AccessibleName = "Metro Blue Theme"
         Me.MetroBT.Name = "MetroBT"
         Me.MetroBT.Text = "Metro Blue Theme"
-        Me.MetroBT.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'LightT
         '
@@ -155,7 +158,6 @@ Partial Class frm_login
         Me.LightT.AccessibleName = "2012 Light Theme"
         Me.LightT.Name = "LightT"
         Me.LightT.Text = "2012 Light Theme"
-        Me.LightT.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'DarkT
         '
@@ -163,7 +165,6 @@ Partial Class frm_login
         Me.DarkT.AccessibleName = "2012 Dark Theme"
         Me.DarkT.Name = "DarkT"
         Me.DarkT.Text = "2012 Dark Theme"
-        Me.DarkT.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'LightT2
         '
@@ -171,7 +172,6 @@ Partial Class frm_login
         Me.LightT2.AccessibleName = "2013 Light Theme"
         Me.LightT2.Name = "LightT2"
         Me.LightT2.Text = "2013 Light Theme"
-        Me.LightT2.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'win7
         '
@@ -179,7 +179,6 @@ Partial Class frm_login
         Me.win7.AccessibleName = "Window 7 Theme"
         Me.win7.Name = "win7"
         Me.win7.Text = "Window 7 Theme"
-        Me.win7.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'win8
         '
@@ -187,7 +186,6 @@ Partial Class frm_login
         Me.win8.AccessibleName = "Window 8 Theme"
         Me.win8.Name = "win8"
         Me.win8.Text = "Window 8 Theme"
-        Me.win8.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'btn_database
         '
@@ -224,6 +222,27 @@ Partial Class frm_login
         Me.RadMenuItem1.TabIndex = 0
         Me.RadMenuItem1.VerticalAlignmentCorrectionMode = Telerik.WinControls.UI.AlignmentCorrectionMode.SnapToOuterEdges
         Me.RadMenuItem1.Visible = False
+        '
+        'office2010black
+        '
+        Me.office2010black.AccessibleDescription = "Office 2010 Black"
+        Me.office2010black.AccessibleName = "Office 2010 Black"
+        Me.office2010black.Name = "office2010black"
+        Me.office2010black.Text = "Office 2010 Black"
+        '
+        'office2010blue
+        '
+        Me.office2010blue.AccessibleDescription = "Office 2010 Blue"
+        Me.office2010blue.AccessibleName = "Office 2010 Blue"
+        Me.office2010blue.Name = "office2010blue"
+        Me.office2010blue.Text = "Office 2010 Blue"
+        '
+        'office2010silver
+        '
+        Me.office2010silver.AccessibleDescription = "Office 2010 Silver"
+        Me.office2010silver.AccessibleName = "Office 2010 Silver"
+        Me.office2010silver.Name = "office2010silver"
+        Me.office2010silver.Text = "Office 2010 Silver"
         '
         'frm_login
         '
@@ -286,4 +305,10 @@ Partial Class frm_login
     Friend WithEvents win7 As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents win8 As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents defaultT As Telerik.WinControls.UI.RadMenuItem
+    Friend WithEvents Office2010BlackTheme1 As Telerik.WinControls.Themes.Office2010BlackTheme
+    Friend WithEvents Office2010BlueTheme1 As Telerik.WinControls.Themes.Office2010BlueTheme
+    Friend WithEvents Office2010SilverTheme1 As Telerik.WinControls.Themes.Office2010SilverTheme
+    Friend WithEvents office2010black As Telerik.WinControls.UI.RadMenuItem
+    Friend WithEvents office2010blue As Telerik.WinControls.UI.RadMenuItem
+    Friend WithEvents office2010silver As Telerik.WinControls.UI.RadMenuItem
 End Class

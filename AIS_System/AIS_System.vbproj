@@ -165,6 +165,7 @@
       <HintPath>..\lib\RCWF\2015.2.728.40\Telerik.WinControls.Themes.Office2010Silver.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2013Dark, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
     <Reference Include="Telerik.WinControls.Themes.Office2013Light, Version=2015.2.728.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
       <HintPath>..\lib\RCWF\2015.2.728.40\Telerik.WinControls.Themes.Office2013Light.dll</HintPath>
       <Private>True</Private>
@@ -353,6 +354,7 @@
     <Compile Include="System\New User Account Contorl\frm_user_control_permission.vb">
       <SubType>Form</SubType>
     </Compile>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="System\All Reports\Trip_ticket_module\frm_trip_ticket_schedule_report.resx">
       <DependentUpon>frm_trip_ticket_schedule_report.vb</DependentUpon>
     </EmbeddedResource>
