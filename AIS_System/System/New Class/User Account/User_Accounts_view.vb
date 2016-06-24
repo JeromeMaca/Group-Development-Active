@@ -1,12 +1,4 @@
 ﻿Imports System.Data.SqlClient
-Imports Telerik.WinControls.UI
-Imports Telerik.WinControls
-Imports Telerik.Data
-Imports Telerik.WinControls.Data
-Imports System.ComponentModel
-Imports AIS_System.System_mod
-Imports System.Text
-Imports System.Security.Cryptography
 
 Public Class User_Accounts_view
     Dim sysmod As New System_mod

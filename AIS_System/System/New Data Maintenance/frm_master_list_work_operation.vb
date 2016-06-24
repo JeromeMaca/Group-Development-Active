@@ -1,10 +1,7 @@
 ﻿Imports Telerik.WinControls.UI
 Imports Telerik.WinControls
 Imports AIS_System.System_mod
-Imports System.Data.SqlClient
 Imports Telerik.WinControls.Data
-Imports System.ComponentModel
-Imports Telerik.WinControls.Enumerations
 Public Class Frm_master_list_work_operation
     Dim sysmod As New System_mod
     Dim cur_group As String
@@ -56,7 +53,19 @@ Public Class Frm_master_list_work_operation
 
         work_operation_column()
         Me.combar_dp_group.SelectedIndex = 0
+
+        progrss_max = operation_masterlist_view.progress_status()
+
         operation_masterlist_view.work_operation_listview()
+
+    End Sub
+
+    Public Sub waitingtime()
+        If RadWaitingBar1.IsWaiting Then
+            RadWaitingBar1.StopWaiting()
+        Else
+            RadWaitingBar1.StartWaiting()
+        End If
     End Sub
 
     Private Sub add_Click(sender As Object, e As EventArgs) Handles add.Click

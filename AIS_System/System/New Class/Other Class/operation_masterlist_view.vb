@@ -1,11 +1,10 @@
 ﻿Imports System.Data.SqlClient
 Imports Telerik.WinControls.UI
-Imports Telerik.WinControls
-Imports Telerik.Data
-Imports Telerik.WinControls.Data
-Imports System.ComponentModel
-Public Class operation_masterlist_view
 
+Public Class operation_masterlist_view
+    Shared sysmod As New System_mod
+
+    Shared f As New Frm_master_list_work_operation
     'LOAD DROP DOWN
 #Region "LOAD DROP DOWN"
     Shared Sub dp_owner_load()
@@ -58,6 +57,7 @@ Public Class operation_masterlist_view
 
 #Region "WORK OPERATION LISTVIEW "
     Shared Sub work_operation_listview()
+        Dim cttt As Integer = 0
         Try
             sql = ""
             sql = "SELECT  ROW_NUMBER() over (PARTITION BY cat_desc ORDER BY cat_desc,operation) as #,id,cat_desc,operation,unit_measure,replace(convert(nvarchar,convert(Money, rate_cost),1),'.0000','') as rate_cost FROM v_ais_work_operation"
@@ -71,7 +71,13 @@ Public Class operation_masterlist_view
 
                 Using sqlReader As SqlDataReader = sqlCmd.ExecuteReader()
 
+
+
                     While (sqlReader.Read())
+                        cttt += 1
+                        MsgBox(cttt)
+                        Frm_master_list_work_operation.waitingtime()
+
                         Dim list As New ListViewDataItem
                         list.SubItems.Add(sqlReader(1).ToString())
                         list.SubItems.Add(sqlReader(0).ToString())
@@ -199,5 +205,16 @@ Public Class operation_masterlist_view
         End Try
 
     End Sub
+#End Region
+
+    'Progress Data
+#Region "PROGRESS STATUS"
+    Shared Function progress_status()
+        sysmod.strQuery = "SELECT COUNT(*) FROM v_ais_work_operation"
+        sysmod.useDB(sysmod.strQuery)
+        sysmod.resultNum = sysmod.sqlCmd.ExecuteScalar
+
+        Return sysmod.resultNum
+    End Function
 #End Region
 End Class

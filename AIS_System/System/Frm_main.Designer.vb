@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Frm_main
     Inherits Telerik.WinControls.UI.RadForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Frm_main
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.menufile = New Telerik.WinControls.UI.RadMenuItem()
@@ -51,6 +51,7 @@ Partial Class Frm_main
         Me.txt_fullname = New Telerik.WinControls.UI.RadLabelElement()
         Me.CommandBarSeparator3 = New Telerik.WinControls.UI.CommandBarSeparator()
         Me.RadLabelElement1 = New Telerik.WinControls.UI.RadLabelElement()
+        Me.CommandBarSeparator5 = New Telerik.WinControls.UI.CommandBarSeparator()
         Me.CommandBarSeparator2 = New Telerik.WinControls.UI.CommandBarSeparator()
         Me.txt_fiscal = New Telerik.WinControls.UI.RadLabelElement()
         Me.CommandBarSeparator1 = New Telerik.WinControls.UI.CommandBarSeparator()
@@ -85,7 +86,6 @@ Partial Class Frm_main
         Me.menufile.Items.AddRange(New Telerik.WinControls.RadItem() {Me.subhome, Me.sublogout, Me.subseperator, Me.subexit})
         Me.menufile.Name = "menufile"
         Me.menufile.Text = "File"
-        Me.menufile.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subhome
         '
@@ -93,7 +93,6 @@ Partial Class Frm_main
         Me.subhome.AccessibleName = "Home"
         Me.subhome.Name = "subhome"
         Me.subhome.Text = "Home"
-        Me.subhome.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'sublogout
         '
@@ -101,13 +100,12 @@ Partial Class Frm_main
         Me.sublogout.AccessibleName = "Logout"
         Me.sublogout.Name = "sublogout"
         Me.sublogout.Text = "Logout"
-        Me.sublogout.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subseperator
         '
         Me.subseperator.Name = "subseperator"
         Me.subseperator.Text = ""
-        Me.subseperator.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        Me.subseperator.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
         'subexit
         '
@@ -115,7 +113,6 @@ Partial Class Frm_main
         Me.subexit.AccessibleName = "Exit"
         Me.subexit.Name = "subexit"
         Me.subexit.Text = "Exit"
-        Me.subexit.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menufarming
         '
@@ -125,7 +122,6 @@ Partial Class Frm_main
         Me.menufarming.Items.AddRange(New Telerik.WinControls.RadItem() {Me.subtripticket, Me.subjobticket, Me.subrequisition, Me.subcanepoint})
         Me.menufarming.Name = "menufarming"
         Me.menufarming.Text = "Farming Operation"
-        Me.menufarming.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subtripticket
         '
@@ -133,7 +129,6 @@ Partial Class Frm_main
         Me.subtripticket.AccessibleName = "Trip Ticket Schedule"
         Me.subtripticket.Name = "subtripticket"
         Me.subtripticket.Text = "Trip Ticket Schedule"
-        Me.subtripticket.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subjobticket
         '
@@ -141,7 +136,6 @@ Partial Class Frm_main
         Me.subjobticket.AccessibleName = "Job Ticket Operation"
         Me.subjobticket.Name = "subjobticket"
         Me.subjobticket.Text = "Job Ticket Operation"
-        Me.subjobticket.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subrequisition
         '
@@ -149,7 +143,6 @@ Partial Class Frm_main
         Me.subrequisition.AccessibleName = "Requisition/Issuance Slip"
         Me.subrequisition.Name = "subrequisition"
         Me.subrequisition.Text = "Requisition And Issuance Slip"
-        Me.subrequisition.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subcanepoint
         '
@@ -157,7 +150,6 @@ Partial Class Frm_main
         Me.subcanepoint.AccessibleName = "Cane Point Receipt"
         Me.subcanepoint.Name = "subcanepoint"
         Me.subcanepoint.Text = "Cane Point Receipt"
-        Me.subcanepoint.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menuuserc
         '
@@ -167,7 +159,6 @@ Partial Class Frm_main
         Me.menuuserc.Items.AddRange(New Telerik.WinControls.RadItem() {Me.subuseraccount, Me.subseperator1, Me.subusersetting})
         Me.menuuserc.Name = "menuuserc"
         Me.menuuserc.Text = "User Control"
-        Me.menuuserc.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subuseraccount
         '
@@ -175,13 +166,12 @@ Partial Class Frm_main
         Me.subuseraccount.AccessibleName = "User Account"
         Me.subuseraccount.Name = "subuseraccount"
         Me.subuseraccount.Text = "User Accounts And Permissions"
-        Me.subuseraccount.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subseperator1
         '
         Me.subseperator1.Name = "subseperator1"
         Me.subseperator1.Text = ""
-        Me.subseperator1.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        Me.subseperator1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
         'subusersetting
         '
@@ -189,7 +179,6 @@ Partial Class Frm_main
         Me.subusersetting.AccessibleName = "User Setting"
         Me.subusersetting.Name = "subusersetting"
         Me.subusersetting.Text = "My User Setting"
-        Me.subusersetting.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menumaint
         '
@@ -198,7 +187,6 @@ Partial Class Frm_main
         Me.menumaint.Items.AddRange(New Telerik.WinControls.RadItem() {Me.suboperation, Me.sublocations, Me.subequipment, Me.subimplementation, Me.subotheritem})
         Me.menumaint.Name = "menumaint"
         Me.menumaint.Text = "Data Maintenance"
-        Me.menumaint.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'suboperation
         '
@@ -206,7 +194,6 @@ Partial Class Frm_main
         Me.suboperation.AccessibleName = "Operations"
         Me.suboperation.Name = "suboperation"
         Me.suboperation.Text = "Work Operation Masterlist"
-        Me.suboperation.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'sublocations
         '
@@ -214,7 +201,6 @@ Partial Class Frm_main
         Me.sublocations.AccessibleName = "Locations"
         Me.sublocations.Name = "sublocations"
         Me.sublocations.Text = "Location Masterlist"
-        Me.sublocations.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subequipment
         '
@@ -222,7 +208,6 @@ Partial Class Frm_main
         Me.subequipment.AccessibleName = "Equipments"
         Me.subequipment.Name = "subequipment"
         Me.subequipment.Text = "Equipment Masterlist"
-        Me.subequipment.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subimplementation
         '
@@ -230,7 +215,6 @@ Partial Class Frm_main
         Me.subimplementation.AccessibleName = "Implementations"
         Me.subimplementation.Name = "subimplementation"
         Me.subimplementation.Text = "Implement Masterlist"
-        Me.subimplementation.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'subotheritem
         '
@@ -238,7 +222,6 @@ Partial Class Frm_main
         Me.subotheritem.AccessibleName = "Other Item Master List"
         Me.subotheritem.Name = "subotheritem"
         Me.subotheritem.Text = "Other Item Masterlist"
-        Me.subotheritem.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menureport
         '
@@ -246,7 +229,6 @@ Partial Class Frm_main
         Me.menureport.AccessibleName = "Print Report"
         Me.menureport.Name = "menureport"
         Me.menureport.Text = "Print Report"
-        Me.menureport.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menuabout
         '
@@ -254,14 +236,13 @@ Partial Class Frm_main
         Me.menuabout.AccessibleName = "About"
         Me.menuabout.Name = "menuabout"
         Me.menuabout.Text = "About"
-        Me.menuabout.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'rs_main
         '
-        Me.rs_main.Items.AddRange(New Telerik.WinControls.RadItem() {Me.RadLabelElement2, Me.CommandBarSeparator4, Me.txt_fullname, Me.CommandBarSeparator3, Me.RadLabelElement1, Me.CommandBarSeparator2, Me.txt_fiscal, Me.CommandBarSeparator1, Me.txt_actualtime})
-        Me.rs_main.Location = New System.Drawing.Point(0, 539)
+        Me.rs_main.Items.AddRange(New Telerik.WinControls.RadItem() {Me.RadLabelElement2, Me.CommandBarSeparator4, Me.txt_fullname, Me.CommandBarSeparator3, Me.RadLabelElement1, Me.CommandBarSeparator5, Me.CommandBarSeparator2, Me.txt_fiscal, Me.CommandBarSeparator1, Me.txt_actualtime})
+        Me.rs_main.Location = New System.Drawing.Point(0, 537)
         Me.rs_main.Name = "rs_main"
-        Me.rs_main.Size = New System.Drawing.Size(1178, 24)
+        Me.rs_main.Size = New System.Drawing.Size(1178, 26)
         Me.rs_main.TabIndex = 1
         Me.rs_main.Text = "RadStatusStrip1"
         '
@@ -274,7 +255,6 @@ Partial Class Frm_main
         Me.rs_main.SetSpring(Me.RadLabelElement2, False)
         Me.RadLabelElement2.Text = "User Fullname"
         Me.RadLabelElement2.TextWrap = True
-        Me.RadLabelElement2.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'CommandBarSeparator4
         '
@@ -282,7 +262,6 @@ Partial Class Frm_main
         Me.CommandBarSeparator4.AccessibleName = "CommandBarSeparator4"
         Me.CommandBarSeparator4.Name = "CommandBarSeparator4"
         Me.rs_main.SetSpring(Me.CommandBarSeparator4, False)
-        Me.CommandBarSeparator4.Visibility = Telerik.WinControls.ElementVisibility.Visible
         Me.CommandBarSeparator4.VisibleInOverflowMenu = False
         '
         'txt_fullname
@@ -294,7 +273,6 @@ Partial Class Frm_main
         Me.rs_main.SetSpring(Me.txt_fullname, False)
         Me.txt_fullname.Text = ""
         Me.txt_fullname.TextWrap = True
-        Me.txt_fullname.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'CommandBarSeparator3
         '
@@ -302,7 +280,6 @@ Partial Class Frm_main
         Me.CommandBarSeparator3.AccessibleName = "CommandBarSeparator3"
         Me.CommandBarSeparator3.Name = "CommandBarSeparator3"
         Me.rs_main.SetSpring(Me.CommandBarSeparator3, False)
-        Me.CommandBarSeparator3.Visibility = Telerik.WinControls.ElementVisibility.Visible
         Me.CommandBarSeparator3.VisibleInOverflowMenu = False
         '
         'RadLabelElement1
@@ -311,7 +288,14 @@ Partial Class Frm_main
         Me.rs_main.SetSpring(Me.RadLabelElement1, True)
         Me.RadLabelElement1.Text = ""
         Me.RadLabelElement1.TextWrap = True
-        Me.RadLabelElement1.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        '
+        'CommandBarSeparator5
+        '
+        Me.CommandBarSeparator5.AccessibleDescription = "CommandBarSeparator5"
+        Me.CommandBarSeparator5.AccessibleName = "CommandBarSeparator5"
+        Me.CommandBarSeparator5.Name = "CommandBarSeparator5"
+        Me.rs_main.SetSpring(Me.CommandBarSeparator5, False)
+        Me.CommandBarSeparator5.VisibleInOverflowMenu = False
         '
         'CommandBarSeparator2
         '
@@ -319,7 +303,6 @@ Partial Class Frm_main
         Me.CommandBarSeparator2.AccessibleName = "CommandBarSeparator2"
         Me.CommandBarSeparator2.Name = "CommandBarSeparator2"
         Me.rs_main.SetSpring(Me.CommandBarSeparator2, False)
-        Me.CommandBarSeparator2.Visibility = Telerik.WinControls.ElementVisibility.Visible
         Me.CommandBarSeparator2.VisibleInOverflowMenu = False
         '
         'txt_fiscal
@@ -331,7 +314,6 @@ Partial Class Frm_main
         Me.rs_main.SetSpring(Me.txt_fiscal, False)
         Me.txt_fiscal.Text = "fiscal"
         Me.txt_fiscal.TextWrap = True
-        Me.txt_fiscal.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'CommandBarSeparator1
         '
@@ -339,7 +321,6 @@ Partial Class Frm_main
         Me.CommandBarSeparator1.AccessibleName = "CommandBarSeparator1"
         Me.CommandBarSeparator1.Name = "CommandBarSeparator1"
         Me.rs_main.SetSpring(Me.CommandBarSeparator1, False)
-        Me.CommandBarSeparator1.Visibility = Telerik.WinControls.ElementVisibility.Visible
         Me.CommandBarSeparator1.VisibleInOverflowMenu = False
         '
         'txt_actualtime
@@ -354,7 +335,6 @@ Partial Class Frm_main
         Me.txt_actualtime.Text = "Time"
         Me.txt_actualtime.TextAlignment = System.Drawing.ContentAlignment.MiddleRight
         Me.txt_actualtime.TextWrap = True
-        Me.txt_actualtime.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'raddock
         '
@@ -368,8 +348,8 @@ Partial Class Frm_main
         '
         '
         '
-        Me.raddock.RootElement.MinSize = New System.Drawing.Size(25, 25)
-        Me.raddock.Size = New System.Drawing.Size(1178, 519)
+        Me.raddock.RootElement.MinSize = New System.Drawing.Size(0, 0)
+        Me.raddock.Size = New System.Drawing.Size(1178, 517)
         Me.raddock.TabIndex = 2
         Me.raddock.TabStop = False
         Me.raddock.Text = "radDock1"
@@ -381,7 +361,7 @@ Partial Class Frm_main
         '
         '
         '
-        Me.docCon.RootElement.MinSize = New System.Drawing.Size(25, 25)
+        Me.docCon.RootElement.MinSize = New System.Drawing.Size(0, 0)
         Me.docCon.SizeInfo.SizeMode = Telerik.WinControls.UI.Docking.SplitPanelSizeMode.Fill
         '
         'menumonitoring
@@ -391,7 +371,6 @@ Partial Class Frm_main
         Me.menumonitoring.Items.AddRange(New Telerik.WinControls.RadItem() {Me.menuitemlotstatus, Me.RadMenuSeparatorItem1, Me.menuitemtripticket, Me.menuitemcanepoint, Me.RadMenuSeparatorItem2, Me.menuiteminventory, Me.menuequipment, Me.menuimplement})
         Me.menumonitoring.Name = "menumonitoring"
         Me.menumonitoring.Text = "Operation Monitoring"
-        Me.menumonitoring.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menuitemlotstatus
         '
@@ -399,7 +378,6 @@ Partial Class Frm_main
         Me.menuitemlotstatus.AccessibleName = "Location Lot Status"
         Me.menuitemlotstatus.Name = "menuitemlotstatus"
         Me.menuitemlotstatus.Text = "Location Lot Status"
-        Me.menuitemlotstatus.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'RadMenuSeparatorItem1
         '
@@ -407,7 +385,7 @@ Partial Class Frm_main
         Me.RadMenuSeparatorItem1.AccessibleName = "RadMenuSeparatorItem1"
         Me.RadMenuSeparatorItem1.Name = "RadMenuSeparatorItem1"
         Me.RadMenuSeparatorItem1.Text = "RadMenuSeparatorItem1"
-        Me.RadMenuSeparatorItem1.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        Me.RadMenuSeparatorItem1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
         'menuitemtripticket
         '
@@ -415,7 +393,6 @@ Partial Class Frm_main
         Me.menuitemtripticket.AccessibleName = "Trip Ticket"
         Me.menuitemtripticket.Name = "menuitemtripticket"
         Me.menuitemtripticket.Text = "Trip Ticket"
-        Me.menuitemtripticket.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menuitemcanepoint
         '
@@ -423,7 +400,6 @@ Partial Class Frm_main
         Me.menuitemcanepoint.AccessibleName = "Cane Point"
         Me.menuitemcanepoint.Name = "menuitemcanepoint"
         Me.menuitemcanepoint.Text = "Cane Point"
-        Me.menuitemcanepoint.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'RadMenuSeparatorItem2
         '
@@ -431,7 +407,7 @@ Partial Class Frm_main
         Me.RadMenuSeparatorItem2.AccessibleName = "RadMenuSeparatorItem2"
         Me.RadMenuSeparatorItem2.Name = "RadMenuSeparatorItem2"
         Me.RadMenuSeparatorItem2.Text = "RadMenuSeparatorItem2"
-        Me.RadMenuSeparatorItem2.Visibility = Telerik.WinControls.ElementVisibility.Visible
+        Me.RadMenuSeparatorItem2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
         'menuiteminventory
         '
@@ -439,7 +415,6 @@ Partial Class Frm_main
         Me.menuiteminventory.AccessibleName = "Farming Inventory"
         Me.menuiteminventory.Name = "menuiteminventory"
         Me.menuiteminventory.Text = "Farming Inventory"
-        Me.menuiteminventory.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menuequipment
         '
@@ -447,7 +422,6 @@ Partial Class Frm_main
         Me.menuequipment.AccessibleName = "Equipment"
         Me.menuequipment.Name = "menuequipment"
         Me.menuequipment.Text = "Equipment"
-        Me.menuequipment.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'menuimplement
         '
@@ -455,7 +429,6 @@ Partial Class Frm_main
         Me.menuimplement.AccessibleName = "Implement"
         Me.menuimplement.Name = "menuimplement"
         Me.menuimplement.Text = "Implement"
-        Me.menuimplement.Visibility = Telerik.WinControls.ElementVisibility.Visible
         '
         'CustomShape1
         '
@@ -550,5 +523,6 @@ Partial Class Frm_main
     Friend WithEvents menuequipment As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents menuimplement As Telerik.WinControls.UI.RadMenuItem
     Friend WithEvents RadMenu1 As Telerik.WinControls.UI.RadMenu
+    Friend WithEvents CommandBarSeparator5 As Telerik.WinControls.UI.CommandBarSeparator
 End Class
 

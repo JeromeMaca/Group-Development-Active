@@ -9,4 +9,9 @@ Module Variable_Declaration
     Public sql As String
     Public sqlReader As SqlDataReader
 
+    Public progrss_max As Double = 0
+    Public progrss_min As Double = 0
+
+    Public curr_progress As Double = 0
+
 End Module
